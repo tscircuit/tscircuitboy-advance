@@ -8,6 +8,10 @@ Imported from [abse/gameboy-advance v0.0.39](https://tscircuit.com/abse/gameboy-
 
 USB-C replacement, regulator and decoupling revision. The 3.5-inch BuyDisplay ER-TFT035IPS-6 display with capacitive touch is retained, with four-AA default and optional three-AA assembly.
 
+## Native firmware
+
+The [game console firmware](firmware/game-console/README.md) provides an SD-card game selector and Doom. A separate [LCD test](firmware/lcd-test/README.md) is included. Both are native C/C++; no MicroPython is required.
+
 ## Build
 
 Run `npm ci && npm run build`. This fully authored board uses unmodified tscircuit 0.0.2827 / core 0.0.2130 with the documented `routeRemaining={false}` setting. Obsolete automatic rerouting phases are removed so the native router does not replace the supplied copper. Native rendering, copper-pour generation, DRC, length checks, original electrical partition checks, all 17 project physical checks, and PCB-style checks remain enabled. No dependency patch is applied.

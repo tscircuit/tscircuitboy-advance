@@ -1,0 +1,37 @@
+{
+  "version": "0.3",
+  "firmware_sha256": "b7823c4ef394b996dd9c539265b6ac998e722d5c7d30746cebee066614ced08c",
+  "flash_readback_verified": true,
+  "pixel_format": "RGB666, no dithering",
+  "display_transport": "PIO, 32-bit DMA, two queued snapshots",
+  "lcd_pixel_clock_hz": 50000000,
+  "lcd_command_clock_hz": 18750000,
+  "cpu_clock_hz": 150000000,
+  "psram_bytes": 8388608,
+  "sd_mount_result": 0,
+  "wad_crc32": "162b696a",
+  "wad_readback_verified": true,
+  "webcam_observations": [
+    "RGB565 blank at 18.75 MHz; switching to RGB666 restores image at same clock. This supersedes earlier RGB565 qualifications.",
+    "RGB666 SPI 75 MHz corrupts pixels, including fast-slew/8mA GPIO trial.",
+    "RGB666 PIO 50 MHz displays full-screen and smaller-viewport gameplay without the observed corruption."
+  ],
+  "fullscreen_large_changes_fps": [
+    13.77,
+    16.15,
+    17.16
+  ],
+  "small_viewport_continuous_turning_fps": [
+    33.47,
+    33.27,
+    33.14
+  ],
+  "dirty_region_tests": 120,
+  "state_timing_test_passed": true,
+  "limits": [
+    "50 MHz exceeds nominal panel serial clock specification; empirical qualification on this board only.",
+    "No TE synchronization or guarantee against scanout tearing.",
+    "Webcam snapshots establish image correctness, not precise optical frame-rate measurement; fps comes from completed display transfers.",
+    "Audio not implemented."
+  ]
+}

@@ -1,0 +1,1 @@
+Use native compiled C/C++ firmware for this hardware. The user explicitly requests no MicroPython for future programs. Keep the working LCD test in the sibling lcd-test directory as a separate recoverable program. Do not format the SD card or overwrite unrelated game data.
