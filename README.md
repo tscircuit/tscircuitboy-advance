@@ -1,3 +1,7 @@
+## Browser playtesting
+
+[Build and run the WebAssembly play lab](web/README.md): shared Doom engine, local WAD loading, handheld controls, and a portable C game starter for web and RP2350.
+
 # tscircuit-boy-advance
 
 RP2350 handheld gaming board, PCB sources, enclosure references, and assembly documentation.

@@ -1,0 +1,25 @@
+name: Web play lab
+on:
+  push:
+    paths: ['web/**', 'games/**', 'firmware/game-console/**', '.github/workflows/web-play-lab.yml']
+  pull_request:
+    paths: ['web/**', 'games/**', 'firmware/game-console/**', '.github/workflows/web-play-lab.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mymindstorm/setup-emsdk@v14
+        with:
+          version: '4.0.23'
+      - run: python3 web/build.py
+      - run: node web/smoke-test.cjs
+      - name: Include corresponding source
+        run: git archive --format=tar.gz -o web/dist/source.tar.gz HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web-play-lab
+          path: web/dist

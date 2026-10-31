@@ -103,3 +103,14 @@ target_compile_definitions(gba_console PRIVATE CMAP256 DOOMGENERIC_RESX=320 DOOM
 target_link_libraries(gba_console m)
 
 pico_add_linker_script_override_path(gba_console ${CMAKE_CURRENT_SOURCE_DIR}/linker FILES sections_stack.incl section_end.incl section_heap.incl)
+
+option(BUILD_GAME_EXAMPLE "Build the shared browser/Pico example game" OFF)
+if(BUILD_GAME_EXAMPLE)
+  set(GAME_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../../games)
+  add_executable(star_test board.c ${GAME_ROOT}/platform/pico_main.c ${GAME_ROOT}/star-test/game.c)
+  target_include_directories(star_test PRIVATE . ${GAME_ROOT}/platform)
+  target_link_libraries(star_test pico_stdlib hardware_spi hardware_pio hardware_pwm hardware_dma)
+  pico_enable_stdio_usb(star_test 1)
+  pico_enable_stdio_uart(star_test 0)
+  pico_add_extra_outputs(star_test)
+endif()
