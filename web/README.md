@@ -116,3 +116,19 @@ license and provenance in `firmware/game-console`. When distributing the WASM
 build, supply the corresponding source and license as well. The build copies
 license/provenance into `dist`; distribute a matching source archive alongside
 it. The portable starter and browser host added here are GPL-2.0-or-later too.
+
+## Vercel deployment
+
+Production: https://tscircuitboy-advance.vercel.app
+
+The `tscircuitboy-advance` project in the **tscircuit** Vercel team is connected
+to `tscircuit/tscircuitboy-advance`. Pushes to `main` deploy production; other
+branches and pull requests get Vercel previews. No deployment token needs to
+be stored in this repository or GitHub Actions.
+
+The repository-root `vercel.json` selects `web/dist` and runs
+`web/vercel-build.sh`. That script installs pinned Emscripten 4.0.23, builds the
+shared C sources, runs the WASM smoke test, and includes `source.tar.gz` with
+the published assets. PCB dependencies are not installed for the web deployment.
+The existing GitHub Actions workflow independently checks and packages the web
+build. Vercel deploys only after its own build and smoke test succeed.
