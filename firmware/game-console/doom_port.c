@@ -25,24 +25,28 @@ static unsigned frames;
 static int last_submitted_tic = -1;
 enum { FRAME_FREE, FRAME_QUEUED, FRAME_DISPLAYING, FRAME_WRITING };
 struct queued_frame {
-    uint8_t pixels[320 * 200] __attribute__((aligned(4)));
+    uint8_t pixels[320 * 107] __attribute__((aligned(4)));
     uint32_t palette[256];
     struct dirty_region regions[MAX_DIRTY_REGIONS];
     unsigned region_count;
     uint32_t sequence;
     volatile uint32_t state;
 };
-static struct queued_frame queue[2];
+static struct queued_frame queue[3];
 static int last_submitted_slot = -1;
 static uint32_t next_sequence;
 static bool display_started;
 static volatile uint32_t display_frames, display_us_total;
 static uint32_t last_submit_us;
 static bool force_redraw = true;
+static int adaptive_scan = 1;
+static bool field_valid[3];
+static unsigned producer_field;
+
 static void display_core(void) {
     for (;;) {
         int slot = -1;
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 3; i++)
             if (__atomic_load_n(&queue[i].state, __ATOMIC_ACQUIRE) == FRAME_QUEUED)
                 if (slot < 0 || (int32_t)(queue[i].sequence - queue[slot].sequence) < 0)
                     slot = i;
@@ -53,9 +57,11 @@ static void display_core(void) {
         struct queued_frame *f = &queue[slot];
         __atomic_store_n(&f->state, FRAME_DISPLAYING, __ATOMIC_RELEASE);
         uint32_t start = time_us_32();
-        for (unsigned i = 0; i < f->region_count; i++) {
-            struct dirty_region r = f->regions[i];
-            lcd_frame_region(f->pixels, f->palette, r.x0, r.y0, r.x1, r.y1);
+        for(unsigned i=0;i<f->region_count;i++) {
+            struct dirty_region r=f->regions[i];
+            unsigned w=lcd_large?480:320;
+            unsigned x0=((r.x0*w+319)/320)&~3u,x1=(((r.x1*w+319)/320)+3)&~3u;
+            lcd_indexed_scanline(f->pixels+(r.y0/3)*320,f->palette,r.y0,x0,x1);
         }
         display_us_total += time_us_32() - start;
         if (f->region_count)
@@ -68,11 +74,13 @@ static void display_drain(void) {
     if (!display_started)
         return;
     while (__atomic_load_n(&queue[0].state, __ATOMIC_ACQUIRE) != FRAME_FREE ||
-           __atomic_load_n(&queue[1].state, __ATOMIC_ACQUIRE) != FRAME_FREE)
+           __atomic_load_n(&queue[1].state, __ATOMIC_ACQUIRE) != FRAME_FREE ||
+           __atomic_load_n(&queue[2].state, __ATOMIC_ACQUIRE) != FRAME_FREE)
         tight_loop_contents();
 }
 static void show_colors(void) {
     display_drain();
+    field_valid[0]=field_valid[1]=field_valid[2]=false;
     lcd_calibration();
     printf("COLORS rgb=RED,GREEN,BLUE cmy=YELLOW,CYAN,MAGENTA spi_hz=%lu\n",
            (unsigned long)lcd_get_clock());
@@ -106,31 +114,29 @@ void DG_DrawFrame(void) {
             rgb[i] = (colors[i].r << 16) | (colors[i].g << 8) | colors[i].b;
         palette_changed = false;
     }
-    int slot = -1;
-    if (!lcd_fast_mode || gametic != last_submitted_tic || force_redraw)
-        for (int i = 0; i < 2; i++)
-            if (__atomic_load_n(&queue[i].state, __ATOMIC_ACQUIRE) == FRAME_FREE) {
-                slot = i;
-                break;
-            }
-    if (slot >= 0) {
-        struct queued_frame *f = &queue[slot];
-        __atomic_store_n(&f->state, FRAME_WRITING, __ATOMIC_RELEASE);
-        uint32_t start = time_us_32();
-        struct queued_frame *previous =
-            &queue[last_submitted_slot < 0 ? slot : last_submitted_slot];
-        bool full =
-            force_redraw || last_submitted_slot < 0 || memcmp(previous->palette, rgb, sizeof(rgb));
-        f->region_count = find_dirty_regions(previous->pixels, DG_ScreenBuffer, full, f->regions);
-        memcpy(f->pixels, DG_ScreenBuffer, sizeof(f->pixels));
-        memcpy(f->palette, rgb, sizeof(f->palette));
-        f->sequence = next_sequence++;
-        force_redraw = false;
-        last_submitted_tic = gametic;
-        last_submitted_slot = slot;
-        last_submit_us = time_us_32() - start;
-        __atomic_store_n(&f->state, FRAME_QUEUED, __ATOMIC_RELEASE);
-        __sev();
+    int slot=-1;
+    if((gametic!=last_submitted_tic || force_redraw) &&
+       __atomic_load_n(&queue[producer_field].state,__ATOMIC_ACQUIRE)==FRAME_FREE)slot=producer_field;
+    if(slot>=0) {
+        struct queued_frame *f=&queue[slot];
+        __atomic_store_n(&f->state,FRAME_WRITING,__ATOMIC_RELEASE);
+        uint32_t start=time_us_32();
+        bool full=force_redraw || !field_valid[slot] || memcmp(f->palette,rgb,sizeof(rgb));
+        unsigned height=lcd_large?320:240;
+        f->region_count=0;
+        for(unsigned y=slot;y<height;y+=3) {
+            uint8_t *old=f->pixels+(y/3)*320,*src=DG_ScreenBuffer+(y*200/height)*320;
+            unsigned lo=0,hi=320;
+            if(!full){while(lo<hi&&old[lo]==src[lo])lo++;while(hi>lo&&old[hi-1]==src[hi-1])hi--;}
+            if(lo<hi)f->regions[f->region_count++]=(struct dirty_region){lo,y,hi,y+1};
+            memcpy(old,src,320);
+        }
+        memcpy(f->palette,rgb,sizeof(rgb));
+        field_valid[slot]=true;producer_field=(producer_field+1)%3;
+        f->sequence=next_sequence++;
+        force_redraw=false;last_submitted_tic=gametic;last_submitted_slot=slot;
+        last_submit_us=time_us_32()-start;
+        __atomic_store_n(&f->state,FRAME_QUEUED,__ATOMIC_RELEASE);__sev();
     }
     frames++;
     static uint32_t last, last_frames, last_display;
@@ -257,10 +263,14 @@ static void console_poll(void) {
                 lcd_apply_game_mode();
                 force_redraw = true;
                 printf("MODE %d\n", lcd_fast_mode);
+            } else if (!strncmp(line, "scan ", 5)) {
+                display_drain(); adaptive_scan=1;
+                field_valid[0]=field_valid[1]=field_valid[2]=false; force_redraw=true;
             } else if (!strncmp(line, "size ", 5)) {
                 display_drain();
                 lcd_large = atoi(line + 5) != 0;
                 lcd_rect(0,0,480,320,0,0,0);
+                field_valid[0]=field_valid[1]=field_valid[2]=false;
                 force_redraw = true;
             } else if (!strcmp(line, "assets")) {
                 extern void verify_asset_caches(void);

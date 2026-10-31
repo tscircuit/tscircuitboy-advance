@@ -1,9 +1,9 @@
 {
   "version": "0.3",
-  "firmware_sha256": "b7823c4ef394b996dd9c539265b6ac998e722d5c7d30746cebee066614ced08c",
+  "firmware_sha256": "65336fb139b717c232beb5362a3ba39d849a77f152cc57b07dc42b162df31060",
   "flash_readback_verified": true,
   "pixel_format": "RGB666, no dithering",
-  "display_transport": "PIO, 32-bit DMA, two queued snapshots",
+  "display_transport": "PIO RGB666; three compact SRAM field histories and per-row changed spans",
   "lcd_pixel_clock_hz": 50000000,
   "lcd_command_clock_hz": 18750000,
   "cpu_clock_hz": 150000000,
@@ -33,5 +33,18 @@
     "No TE synchronization or guarantee against scanout tearing.",
     "Webcam snapshots establish image correctness, not precise optical frame-rate measurement; fps comes from completed display transfers.",
     "Audio not implemented."
-  ]
+  ],
+  "experimental": true,
+  "update_semantics": "Nonempty scanline fields; each physical row belongs to one of three fields, not full-frame fps",
+  "full_screen_field_updates_per_second": [
+    24.18,
+    34.09,
+    32.54,
+    29.3,
+    34.99,
+    34.93
+  ],
+  "field_history_test_cases_passed": 40,
+  "physical_user_evaluation": "Pending",
+  "webcam_latest": "Full-screen image visible at 50 MHz; motion softening/combing expected. 60 MHz two-field trial showed noise."
 }

@@ -19,3 +19,7 @@ void lcd_read_diagnostics(void);
 extern int lcd_fast_mode;
 void lcd_apply_game_mode(void);
 void lcd_apply_ui_mode(void);
+
+void lcd_scanline(const uint8_t *, const uint32_t *, unsigned, unsigned, unsigned);
+
+void lcd_indexed_scanline(const uint8_t *,const uint32_t *,unsigned,unsigned,unsigned);

@@ -207,8 +207,8 @@ void lcd_apply_ui_mode(void) {
         spi_set_baudrate(spi0, 20000000);
 }
 int lcd_large = 1;
-void __not_in_flash_func(lcd_frame_region)(const uint8_t *pixels, const uint32_t *palette,
-                                           unsigned sx0, unsigned sy0, unsigned sx1, unsigned sy1) {
+static void __not_in_flash_func(lcd_pixels_region)(const uint8_t *pixels, const uint32_t *palette,
+                                                   unsigned dx0, unsigned dy0, unsigned dx1, unsigned dy1, bool single_row) {
     static int channel = -1;
     static uint8_t rows[2][480 * 3] __attribute__((aligned(4)));
     static int sm = -1;
@@ -225,8 +225,6 @@ void __not_in_flash_func(lcd_frame_region)(const uint8_t *pixels, const uint32_t
         channel = dma_claim_unused_channel(true);
     const int full = lcd_large;
     int width = full ? 480 : 320, height = full ? 320 : 240;
-    unsigned dx0 = (sx0 * width + 319) / 320, dx1 = (sx1 * width + 319) / 320;
-    unsigned dy0 = (sy0 * height + 199) / 200, dy1 = (sy1 * height + 199) / 200;
     unsigned region_width = dx1 - dx0;
     int x0 = (480 - width) / 2 + dx0, y0 = (320 - height) / 2 + dy0;
     CMD(0x2a, x0 >> 8, x0, (x0 + region_width - 1) >> 8, x0 + region_width - 1);
@@ -258,7 +256,7 @@ void __not_in_flash_func(lcd_frame_region)(const uint8_t *pixels, const uint32_t
     channel_config_set_dreq(&config, pio_get_dreq(pio, sm, true));
     for (unsigned y = dy0; y < dy1; y++) {
         uint8_t *row = rows[y & 1];
-        const uint8_t *in = pixels + (y * 200 / height) * 320;
+        const uint8_t *in = pixels + (single_row ? 0 : (y * 200 / height) * 320);
         for (unsigned x = 0; x < region_width; x++) {
             uint32_t p = palette[in[(x + dx0) * 320 / width]];
             row[x * 3] = (p >> 16) & 252;
@@ -277,6 +275,16 @@ void __not_in_flash_func(lcd_frame_region)(const uint8_t *pixels, const uint32_t
     gpio_set_function(18, GPIO_FUNC_SPI);
     gpio_set_function(19, GPIO_FUNC_SPI);
     gpio_put(CS, 1);
+}
+
+void lcd_frame_region(const uint8_t *pixels, const uint32_t *palette,
+                      unsigned sx0, unsigned sy0, unsigned sx1, unsigned sy1) {
+    unsigned width = lcd_large ? 480 : 320, height = lcd_large ? 320 : 240;
+    lcd_pixels_region(pixels, palette, (sx0*width+319)/320, (sy0*height+199)/200,
+                      (sx1*width+319)/320, (sy1*height+199)/200, false);
+}
+void lcd_scanline(const uint8_t *pixels, const uint32_t *palette, unsigned y, unsigned x0, unsigned x1) {
+    lcd_pixels_region(pixels, palette, x0, y, x1, y+1, false);
 }
 
 void lcd_set_clock(uint32_t hz) {
@@ -322,3 +330,5 @@ void lcd_read_diagnostics(void) {
     }
     spi_set_baudrate(spi0, old);
 }
+
+void lcd_indexed_scanline(const uint8_t *row,const uint32_t *pal,unsigned y,unsigned x0,unsigned x1){lcd_pixels_region(row,pal,x0,y,x1,y+1,true);}

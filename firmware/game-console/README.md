@@ -1,3 +1,17 @@
+# Experimental full-screen RGB666 scanline fields
+
+This branch tests three interleaved sets of physical scanlines at full 480×320 coverage. It is an appearance/performance experiment, not a replacement qualification for the progressive build on main.
+
+Each new Doom game tick updates one set of rows (y modulo 3). Three compact SRAM snapshots retain exactly the rows belonging to each set. Per-row changed spans reduce transfer size; outgoing RGB666 DMA spans are rounded outward to four-byte alignment. CPU remains at 150 MHz and PIO pixel clock remains at 50 MHz. There is no color dithering.
+
+The E1M1 automated run measured 29–35 completed field updates/sec during later movement/firing windows (an earlier mixed stationary/movement window was 24.18). These are **field updates, not complete frames**: an individual row receives new motion roughly 10–12 times/sec at those rates. The telemetry name `display_fps_x100` is inherited and counts these completed nonempty fields in this experimental build. Combing, softened moving edges and staggered palette flashes are possible. The user is evaluating whether the motion tradeoff is acceptable.
+
+The webcam showed full-screen output without the earlier blanking. A separate two-field trial reached roughly 22–26 updates/sec; raising that trial to 60 MHz showed noise and was rejected. The first external-RAM-history prototype slowed rendering and was replaced with these compact SRAM field histories.
+
+`tests/test_adaptive_scan.py` compiles the actual field planner and dispatcher with a simulated LCD: 40 cases exercise full/sparse changes, palette changes, resize, complete convergence after three fields, scanline ownership and DMA alignment. Flash readback verification passed. `performance.log` records the run.
+
+The main branch retains the prior progressive firmware and LCD test. The working device currently has this experiment loaded. Earlier source sections below describe the baseline for setup, controls and hardware; the display implementation and rates above supersede baseline claims.
+
 # GBA game selector and Doom — native RP2350 firmware
 
 Version 0.3 is the native C/C++ firmware for the `abse/gameboy-advance` v0.0.39 board.
@@ -111,4 +125,4 @@ Host tests: `python3 tests/test_dirty_regions.py` (120 coverage cases) and `pyth
 
 The panel uses the ER-TFT035IPS-6 gamma, power, VCOM and frame-rate profile documented in `THIRD_PARTY.md`. The immutable Doom state table lives in flash; a small mutable timing overlay preserves fast/nightmare behavior. Screen-angle entries use bounded 16-bit storage to free SRAM for the second queued frame. Audio is not implemented. The display is not synchronized to TE, so scanout tearing is possible.
 
-Measured E1M1 continuous turning: approximately 33 fps in the 320×240 viewport. Full-screen large changes measured 14–17 fps, with smaller local changes reaching 28–34 fps. X in the game selector switches viewport size; full-screen remains the boot default.
+Baseline progressive build: measured E1M1 continuous turning: approximately 33 fps in the 320×240 viewport. Full-screen large changes measured 14–17 fps, with smaller local changes reaching 28–34 fps. X in the game selector switches viewport size; full-screen remains the boot default.
