@@ -1,0 +1,290 @@
+[
+  {
+    "name": "pcb-screw-0 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-0 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-0 axial engagement",
+    "engagement_mm": 3.9000000000000004,
+    "blind_relief_mm": 2.8,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-1 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-1 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-1 axial engagement",
+    "engagement_mm": 3.9000000000000004,
+    "blind_relief_mm": 2.8,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-2 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-2 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-2 axial engagement",
+    "engagement_mm": 3.9000000000000004,
+    "blind_relief_mm": 2.8,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-3 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-3 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "pcb-screw-3 axial engagement",
+    "engagement_mm": 3.9000000000000004,
+    "blind_relief_mm": 2.8,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-0 vs lcd-retainer-lower",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-0 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-0 axial engagement",
+    "engagement_mm": 2.8999999999999995,
+    "blind_relief_mm": 1.0999999999999996,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-1 vs lcd-retainer-lower",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-1 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-1 axial engagement",
+    "engagement_mm": 2.8999999999999995,
+    "blind_relief_mm": 1.0999999999999996,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-2 vs lcd-retainer-lower",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-2 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-2 axial engagement",
+    "engagement_mm": 2.8999999999999995,
+    "blind_relief_mm": 1.0999999999999996,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-3 vs lcd-retainer-upper",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-3 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-3 axial engagement",
+    "engagement_mm": 2.8999999999999995,
+    "blind_relief_mm": 1.0999999999999996,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-4 vs lcd-retainer-upper",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-4 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "lcd-screw-4 axial engagement",
+    "engagement_mm": 2.8999999999999995,
+    "blind_relief_mm": 1.0999999999999996,
+    "pass_": true
+  },
+  {
+    "name": "speaker-screw-0 vs speaker-retainer",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "speaker-screw-0 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "speaker-screw-0 axial engagement",
+    "engagement_mm": 2.999999999999999,
+    "blind_relief_mm": 0.8999999999999986,
+    "pass_": true
+  },
+  {
+    "name": "speaker-screw-1 vs speaker-retainer",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "speaker-screw-1 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "speaker-screw-1 axial engagement",
+    "engagement_mm": 2.999999999999999,
+    "blind_relief_mm": 0.8999999999999986,
+    "pass_": true
+  },
+  {
+    "name": "keeper-screw-0 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "keeper-screw-0 vs battery-clip-m1",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "keeper-screw-0 axial engagement",
+    "engagement_mm": 3.0,
+    "blind_relief_mm": 0.9000000000000004,
+    "pass_": true
+  },
+  {
+    "name": "keeper-screw-1 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "keeper-screw-1 vs battery-clip-1",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "keeper-screw-1 axial engagement",
+    "engagement_mm": 3.0,
+    "blind_relief_mm": 0.9000000000000004,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-0 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-0 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-0 axial engagement",
+    "engagement_mm": 4.0,
+    "blind_relief_mm": 1.1500000000000004,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-1 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-1 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-1 axial engagement",
+    "engagement_mm": 4.0,
+    "blind_relief_mm": 1.1500000000000004,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-2 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-2 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-2 axial engagement",
+    "engagement_mm": 4.0,
+    "blind_relief_mm": 1.1500000000000004,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-3 vs rear-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-3 vs front-shell",
+    "overlap_mm3": 0.0,
+    "pass_": true
+  },
+  {
+    "name": "case-screw-3 axial engagement",
+    "engagement_mm": 4.0,
+    "blind_relief_mm": 1.1500000000000004,
+    "pass_": true
+  },
+  {
+    "name": "case-insert-0 rear bearing material",
+    "pass_": true
+  },
+  {
+    "name": "case-insert-1 rear bearing material",
+    "pass_": true
+  },
+  {
+    "name": "case-insert-2 rear bearing material",
+    "pass_": true
+  },
+  {
+    "name": "case-insert-3 rear bearing material",
+    "pass_": true
+  }
+]

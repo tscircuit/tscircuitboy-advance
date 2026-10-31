@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "part": "front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "lcd-retainer-upper",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "lcd-retainer-lower",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "button-a",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "button-b",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "button-x",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "button-y",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "lcd-body",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "touch-glass",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact BRep"
+    },
+    {
+      "part": "SW_R",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "part": "SW_X",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "part": "R_LCD_LED",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "conservative supplier-model AABB"
+    }
+  ],
+  "connector_mating_region_excluded": true,
+  "production_flex_and_bend_radius_require_physical_confirmation": true
+}

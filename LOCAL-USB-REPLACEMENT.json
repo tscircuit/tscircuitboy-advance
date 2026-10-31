@@ -1,0 +1,26 @@
+{
+  "localOnly": false,
+  "published": true,
+  "basePublishedVersion": "0.0.19",
+  "replacementPart": "TYPE-C-31-M-12",
+  "jlcpcb": "C165948",
+  "stockAtSelection": 400610,
+  "imported3dAssets": [
+    "OBJ",
+    "STEP"
+  ],
+  "nativeBuildPassed": true,
+  "physicalDrcErrors": 0,
+  "shorts": 0,
+  "splitPhysicalNets": 0,
+  "inheritedAdvisoriesUnchanged": true,
+  "publishedVersion": "0.0.24",
+  "hostedBuildPassed": true,
+  "hostedValidationPending": false,
+  "previousHostedBuildPassedVersion": "0.0.20",
+  "publicationEvidenceDirectory": "/workspace/work/top-edge-controls-v2/publication-024",
+  "hostedGeometryMatchesLocalExactly": true,
+  "checkedUtc": "2026-10-13T22:18:16.148893+00:00",
+  "publishedWebsiteStyleAnalysisFindings": 0,
+  "subsequentLocalControlPlacementRevision": "TOP-EDGE-CONTROLS.json"
+}

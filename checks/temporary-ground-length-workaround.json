@@ -1,0 +1,108 @@
+{
+  "localOnly": true,
+  "source": "active-board/index.circuit.tsx",
+  "override": {
+    "trace": "C_IOVDD5_GND",
+    "maxLengthMm": 650,
+    "reason": "False sum of 68 independent ground branches, previously 619.3774246755587 mm"
+  },
+  "copperGeometryUnchanged": true,
+  "nativeValidation": {
+    "accepted": true,
+    "batteryCellCount": 4,
+    "batteryEnableTopOhm": 390000,
+    "batteryEnableBottomOhm": 100000,
+    "nominalBatteryStartV": 3.9200000000000004,
+    "nominalBatteryStopV": 3.43,
+    "assemblyCellCountSelection": true,
+    "tscircuit": "0.0.2827",
+    "core": "0.0.2130",
+    "routingMode": "authored PCB traces; routeRemaining=false",
+    "flash": "W25Q256JVFIQ",
+    "flashJlcpcb": "C779876",
+    "capacityMB": 32,
+    "reimportedPartTypes": 52,
+    "localConnectorReview": {
+      "speakerPositionMm": [
+        -2,
+        -20
+      ],
+      "shoulderPart": "SKHLLCA010",
+      "shoulderJlcpcb": "C139766",
+      "shoulderSidePush": true,
+      "usbJlcpcb": "C165948",
+      "usbPart": "TYPE-C-31-M-12",
+      "usbCadReferenceOnly": false,
+      "usbCadSource": "JLCPCB/EasyEDA imported OBJ and STEP",
+      "usbStockAtSelection": 400610,
+      "publicationVersion": "0.0.20"
+    },
+    "physicalComponentPorts": 462,
+    "preservedElectricalGroups": 133,
+    "newFlashNcPins": 7,
+    "layers": 4,
+    "physicalDrcErrors": 0,
+    "shorts": 0,
+    "physicalConnectivityGroups": 140,
+    "splitPhysicalNets": 0,
+    "pcbStyleFindings": 0,
+    "retainedLengthFindings": 9,
+    "retainedWidthWarnings": 23,
+    "nativeRoutingPhases": 0,
+    "policy": "Zero physical DRC/shorts; original mapped net partitions and board rules preserved; no narrower traces or new/worse length findings. Additional flash addressing firmware not implemented."
+  },
+  "remainingLengthFindings": [
+    {
+      "name": "XIN_IOVDD4_GND_BRIDGE",
+      "actualMm": 7.068313127796404,
+      "limitMm": 5.5
+    },
+    {
+      "name": "V3V3_AVDD_ADC_BRIDGE",
+      "actualMm": 10.4627,
+      "limitMm": 5.5
+    },
+    {
+      "name": "AMP_CAP_GROUND_BRIDGE",
+      "actualMm": 6.300000000266667,
+      "limitMm": 5.5
+    },
+    {
+      "name": "VBUS_XOUT_OFFPAD_GROUND",
+      "actualMm": 8.344575021217173,
+      "limitMm": 5.5
+    },
+    {
+      "name": "IOVDD6_IOVDD5_BRIDGE",
+      "actualMm": 7.012242218182137,
+      "limitMm": 5.5
+    },
+    {
+      "name": "QSPI_IOVDD6_GND_BRIDGE",
+      "actualMm": 9.484707682716033,
+      "limitMm": 5.5
+    },
+    {
+      "name": "BAT_INPUT_CAP_B",
+      "actualMm": 5.847914361045932,
+      "limitMm": 5.5
+    },
+    {
+      "name": "BAT_OUTPUT_FEEDBACK_LINK",
+      "actualMm": 9.981793124746183,
+      "limitMm": 5.5
+    },
+    {
+      "name": "PSRAM_VSS_GND_BRIDGE",
+      "actualMm": 11.362489203419393,
+      "limitMm": 5.5
+    }
+  ],
+  "prototypeFabricationReady": false,
+  "pending": [
+    "Individual review of nine retained connection-length findings",
+    "Exact display/FPC electrical qualification",
+    "Assembly orientation and mechanical fit review",
+    "Factory CAM/DFM review"
+  ]
+}

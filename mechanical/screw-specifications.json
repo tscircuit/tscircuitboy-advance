@@ -1,0 +1,257 @@
+[
+  {
+    "id": "pcb-screw-0",
+    "size": "M3",
+    "drive": "PH1",
+    "head_face_z": 3.7,
+    "screw_direction": -1,
+    "approach_direction": 1,
+    "xy": [
+      -50,
+      -32
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7045 pan head",
+    "nominal_length_mm": 6
+  },
+  {
+    "id": "pcb-screw-1",
+    "size": "M3",
+    "drive": "PH1",
+    "head_face_z": 3.7,
+    "screw_direction": -1,
+    "approach_direction": 1,
+    "xy": [
+      50,
+      -32
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7045 pan head",
+    "nominal_length_mm": 6
+  },
+  {
+    "id": "pcb-screw-2",
+    "size": "M3",
+    "drive": "PH1",
+    "head_face_z": 3.7,
+    "screw_direction": -1,
+    "approach_direction": 1,
+    "xy": [
+      -60,
+      31
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7045 pan head",
+    "nominal_length_mm": 6
+  },
+  {
+    "id": "pcb-screw-3",
+    "size": "M3",
+    "drive": "PH1",
+    "head_face_z": 3.7,
+    "screw_direction": -1,
+    "approach_direction": 1,
+    "xy": [
+      60,
+      31
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7045 pan head",
+    "nominal_length_mm": 6
+  },
+  {
+    "id": "lcd-screw-0",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": 6.1,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      -43.6,
+      -18
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 4
+  },
+  {
+    "id": "lcd-screw-1",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": 6.1,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      49,
+      -18
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 4
+  },
+  {
+    "id": "lcd-screw-2",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": 6.1,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      -43.6,
+      37.5
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 4
+  },
+  {
+    "id": "lcd-screw-3",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": 6.1,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      62,
+      39.8
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 4
+  },
+  {
+    "id": "lcd-screw-4",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": 6.1,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      69,
+      38.0
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 4
+  },
+  {
+    "id": "speaker-screw-0",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": 5.05,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      -39,
+      -29
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 4
+  },
+  {
+    "id": "speaker-screw-1",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": 5.05,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      -12.5,
+      -39.3
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 4
+  },
+  {
+    "id": "keeper-screw-0",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": -1.6,
+    "screw_direction": -1,
+    "approach_direction": 1,
+    "xy": [
+      -32.5,
+      -3
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 5
+  },
+  {
+    "id": "keeper-screw-1",
+    "size": "M2",
+    "drive": "PH0",
+    "head_face_z": -1.6,
+    "screw_direction": -1,
+    "approach_direction": 1,
+    "xy": [
+      32.5,
+      -3
+    ],
+    "shaft_diameter": 3,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 5
+  },
+  {
+    "id": "case-screw-0",
+    "size": "M2.5",
+    "drive": "PH1",
+    "head_face_z": -9.65,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      -74.5,
+      -29
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 16
+  },
+  {
+    "id": "case-screw-1",
+    "size": "M2.5",
+    "drive": "PH1",
+    "head_face_z": -9.65,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      -74.5,
+      29
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 16
+  },
+  {
+    "id": "case-screw-2",
+    "size": "M2.5",
+    "drive": "PH1",
+    "head_face_z": -9.65,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      74.5,
+      -29
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 16
+  },
+  {
+    "id": "case-screw-3",
+    "size": "M2.5",
+    "drive": "PH1",
+    "head_face_z": -9.65,
+    "screw_direction": 1,
+    "approach_direction": -1,
+    "xy": [
+      74.5,
+      29
+    ],
+    "shaft_diameter": 4,
+    "standard": "ISO7046 countersunk",
+    "nominal_length_mm": 16
+  }
+]

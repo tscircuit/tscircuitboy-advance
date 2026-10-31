@@ -1,0 +1,39 @@
+{
+  "revision": "R13 assembly access and stocked inductor",
+  "published": false,
+  "componentFitFindings": 0,
+  "assemblyAccessChecks": 43,
+  "accessFailures": 0,
+  "printableParts": 17,
+  "fastenerPairs": 17,
+  "fastenerChecks": 55,
+  "shoulderAndLatchMotionChecks": 37,
+  "faceButtonMotionChecks": 78,
+  "insertSizes": {
+    "M2": 9,
+    "M2.5": 4,
+    "M3": 4
+  },
+  "screwDrives": {
+    "M2": "PH0",
+    "M2.5": "PH1",
+    "M3": "PH1"
+  },
+  "caseScrews": "M2.5x16 ISO7046; blind pilot depth6.5mm",
+  "upperDisplayMountsMm": [
+    [
+      62,
+      39.8
+    ],
+    [
+      69,
+      38
+    ]
+  ],
+  "pcbInductor": "XGL4020-152MEC / C7417180",
+  "stockedInductorCount": 2097,
+  "physicalFitQualificationRequired": true,
+  "cadParts": 76,
+  "publishedVersion": "0.0.33",
+  "pcbInsulatingWashers": 4
+}

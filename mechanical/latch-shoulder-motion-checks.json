@@ -1,0 +1,193 @@
+{
+  "beam_surface_strain": 0.003905325443786983,
+  "nominal_PETG_modulus_MPa": 1700,
+  "estimated_squeeze_force_each_N": 0.13073827947200733,
+  "physical_fatigue_and_fit_test_required": true,
+  "checks": [
+    {
+      "name": "Plastic tab retains when lifted without pressing",
+      "overlap_mm3": 0.23999999999999827,
+      "pass_": true
+    },
+    {
+      "name": "Bending-plastic tab extraction 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "Bending-plastic tab extraction -0.2",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "Bending-plastic tab extraction -0.4",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "Bending-plastic tab extraction -1",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "Bending-plastic tab extraction -3",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "Bending tab clears plain cover face",
+      "minimum_gap_mm": 0.15000000000000213,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs supplier switch travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l pad vs supplier switch travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs front travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs rear travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs display retainer travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs supplier switch travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l pad vs supplier switch travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs front travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs rear travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs display retainer travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs supplier switch travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l pad vs supplier switch travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs front travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs rear travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "l paddle vs display retainer travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs supplier switch travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r pad vs supplier switch travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs front travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs rear travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs display retainer travel 0",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs supplier switch travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r pad vs supplier switch travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs front travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs rear travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs display retainer travel 0.13",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs supplier switch travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r pad vs supplier switch travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs front travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs rear travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "r paddle vs display retainer travel 0.26",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    }
+  ]
+}

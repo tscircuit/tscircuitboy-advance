@@ -1,0 +1,538 @@
+{
+  "assumptions": {
+    "actuator_top_mm": 10.3,
+    "cup_roof_mm": 10.45,
+    "released_gap_mm": 0.15,
+    "nominal_switch_travel_mm": 0.25,
+    "maximum_cap_travel_mm": 0.45,
+    "stem_maximum_model_diameter_mm": 3.2,
+    "cavity_diameter_mm": 4.8,
+    "requires_physical_travel_and_tolerance_fit_test": true
+  },
+  "checks": [
+    {
+      "switch": "SW_UP",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_UP",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_UP",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.00048456721278005615,
+      "pass": true
+    },
+    {
+      "switch": "SW_UP",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_UP",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_UP",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_UP",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_DOWN",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_DOWN",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_DOWN",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0004845671974083952,
+      "pass": true
+    },
+    {
+      "switch": "SW_DOWN",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_DOWN",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_DOWN",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_DOWN",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_LEFT",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_LEFT",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_LEFT",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0004845672818829254,
+      "pass": true
+    },
+    {
+      "switch": "SW_LEFT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_LEFT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_LEFT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_LEFT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_RIGHT",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_RIGHT",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_RIGHT",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.00048456723758637395,
+      "pass": true
+    },
+    {
+      "switch": "SW_RIGHT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_RIGHT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_RIGHT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_RIGHT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_Y",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_Y",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_Y",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_Y",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_Y",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_Y",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_Y",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_A",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_A",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_A",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_A",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_A",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_A",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_A",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered lcd-body",
+      "cap_travel_mm": 0,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered touch-glass",
+      "cap_travel_mm": 0,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered lcd-body",
+      "cap_travel_mm": 0.15,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered touch-glass",
+      "cap_travel_mm": 0.15,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered lcd-body",
+      "cap_travel_mm": 0.4,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered touch-glass",
+      "cap_travel_mm": 0.4,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered lcd-body",
+      "cap_travel_mm": 0.45,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_X",
+      "target": "cap vs centered touch-glass",
+      "cap_travel_mm": 0.45,
+      "lateral_shift_mm": -0.15,
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "switch": "SW_B",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_B",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_B",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_B",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_B",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_B",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_B",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_SELECT",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_SELECT",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_SELECT",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_SELECT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_SELECT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_SELECT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_SELECT",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_START",
+      "target": "shell clearance",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_START",
+      "target": "released cup",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_START",
+      "target": "nominal 0.25mm actuation",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_START",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_START",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.15,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_START",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.4,
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "switch": "SW_START",
+      "target": "cap guide travel",
+      "cap_travel_mm": 0.45,
+      "overlap_mm3": 0.0,
+      "pass": true
+    }
+  ]
+}

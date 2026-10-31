@@ -1,0 +1,138 @@
+[
+  {
+    "hole": "pcb-insert-0",
+    "xy": [
+      -50,
+      -32
+    ],
+    "open": true
+  },
+  {
+    "hole": "pcb-insert-1",
+    "xy": [
+      50,
+      -32
+    ],
+    "open": true
+  },
+  {
+    "hole": "pcb-insert-2",
+    "xy": [
+      -60,
+      31
+    ],
+    "open": true
+  },
+  {
+    "hole": "pcb-insert-3",
+    "xy": [
+      60,
+      31
+    ],
+    "open": true
+  },
+  {
+    "hole": "lcd-insert-0",
+    "xy": [
+      -43.6,
+      -18
+    ],
+    "open": true
+  },
+  {
+    "hole": "lcd-insert-1",
+    "xy": [
+      49,
+      -18
+    ],
+    "open": true
+  },
+  {
+    "hole": "lcd-insert-2",
+    "xy": [
+      -43.6,
+      37.5
+    ],
+    "open": true
+  },
+  {
+    "hole": "lcd-insert-3",
+    "xy": [
+      62,
+      39.8
+    ],
+    "open": true
+  },
+  {
+    "hole": "lcd-insert-4",
+    "xy": [
+      69,
+      38.0
+    ],
+    "open": true
+  },
+  {
+    "hole": "speaker-insert-0",
+    "xy": [
+      -39,
+      -29
+    ],
+    "open": true
+  },
+  {
+    "hole": "speaker-insert-1",
+    "xy": [
+      -12.5,
+      -39.3
+    ],
+    "open": true
+  },
+  {
+    "hole": "keeper-insert-0",
+    "xy": [
+      -32.5,
+      -3
+    ],
+    "open": true
+  },
+  {
+    "hole": "keeper-insert-1",
+    "xy": [
+      32.5,
+      -3
+    ],
+    "open": true
+  },
+  {
+    "hole": "case-insert-0",
+    "xy": [
+      -74.5,
+      -29
+    ],
+    "open": true
+  },
+  {
+    "hole": "case-insert-1",
+    "xy": [
+      -74.5,
+      29
+    ],
+    "open": true
+  },
+  {
+    "hole": "case-insert-2",
+    "xy": [
+      74.5,
+      -29
+    ],
+    "open": true
+  },
+  {
+    "hole": "case-insert-3",
+    "xy": [
+      74.5,
+      29
+    ],
+    "open": true
+  }
+]

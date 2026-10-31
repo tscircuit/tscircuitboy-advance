@@ -1,0 +1,885 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "component": "U_3V3",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "rear-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "battery-door",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "lcd-body",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "touch-glass",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "aa-holder",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "speaker",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "speaker-retainer",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "lcd-retainer-lower",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "lcd-retainer-upper",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "front-shell",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "battery-clip-m1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "battery-clip-1",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "button-y",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "button-x",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "button-b",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "button-a",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "button-select",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "button-start",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "dpad",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "volume-wheel",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "shoulder-l",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "U_3V3",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TRIM",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_TOP",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_LOGIC_FB_BOTTOM",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_SPK_LIMIT",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "R_VREG_AVDD",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "C_AMP_IN_COUPLE",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    },
+    {
+      "component": "L_BAT_BUCKBOOST",
+      "part": "shoulder-r",
+      "overlapMm3": 0.0
+    }
+  ]
+}

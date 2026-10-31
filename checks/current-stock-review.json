@@ -1,0 +1,632 @@
+{
+  "checkedAtUtc": "2026-10-14T22:13:01.828611+00:00",
+  "uniqueParts": 56,
+  "bomPlacements": 119,
+  "allListedInStockFor5BoardsBeforeAttrition": true,
+  "stockReserved": false,
+  "parts": [
+    {
+      "part": "C42411118",
+      "references": [
+        "U1"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 6332,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C779876",
+      "references": [
+        "U2"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 16798,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C20625731",
+      "references": [
+        "U_XTAL"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 6622,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C139797",
+      "references": [
+        "U_BOOTSEL",
+        "U_RUN"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 117407,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C165948",
+      "references": [
+        "J_USB"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 383279,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C42411119",
+      "references": [
+        "U_CORE_INDUCTOR"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 55,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C76891",
+      "references": [
+        "R_VREG_AVDD"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 1326964,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C25744",
+      "references": [
+        "R_RUN",
+        "R_BOOT",
+        "R_BAT_MODE",
+        "R_SD_CMD",
+        "R_SD_CS",
+        "R_SD_DAT0",
+        "R_SD_DAT1",
+        "R_SD_DAT2",
+        "R_LCD_BL_PULLDOWN"
+      ],
+      "quantityPerBoard": 9,
+      "stock": 21820088,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C25905",
+      "references": [
+        "R_CC1",
+        "R_CC2"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 5364124,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C25100",
+      "references": [
+        "R_USB_DM",
+        "R_USB_DP"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 33599,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C19702",
+      "references": [
+        "C_VREG_IN",
+        "C_VBUS",
+        "C_3V3_IN"
+      ],
+      "quantityPerBoard": 3,
+      "stock": 9401241,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C19666",
+      "references": [
+        "C_CORE"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 3042681,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C23733",
+      "references": [
+        "C_VREG_AVDD",
+        "C_DVDD2_BULK"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 1886649,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C1525",
+      "references": [
+        "C_QSPI_USB",
+        "C_ADC",
+        "C_FLASH",
+        "C_IOVDD6",
+        "C_IOVDD5",
+        "C_IOVDD4",
+        "C_IOVDD3",
+        "C_IOVDD2",
+        "C_IOVDD1",
+        "C_DVDD3",
+        "C_DVDD2",
+        "C_DVDD1",
+        "C_BAT_VAUX",
+        "C_USB_VALID",
+        "C_PSRAM",
+        "C_SD",
+        "C_3V3_BST"
+      ],
+      "quantityPerBoard": 17,
+      "stock": 22942557,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C1548",
+      "references": [
+        "C_XIN",
+        "C_XOUT"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 1268645,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C11702",
+      "references": [
+        "R_XOUT",
+        "R_BOOTSEL",
+        "R_PSRAM_CE",
+        "R_AMP_IN"
+      ],
+      "quantityPerBoard": 4,
+      "stock": 7667836,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C173752",
+      "references": [
+        "J_BAT"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 148372,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C439873",
+      "references": [
+        "F_BAT"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 3773,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C347476",
+      "references": [
+        "Q_BAT_REVERSE"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 421716,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C25803",
+      "references": [
+        "R_BAT_REVERSE_GATE",
+        "R_BAT_EN_BOTTOM",
+        "R_USB_BOOST_OFF",
+        "R_USB_BOOST_OFF_PULLDOWN"
+      ],
+      "quantityPerBoard": 4,
+      "stock": 19920290,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C109322",
+      "references": [
+        "U_BAT_BUCKBOOST"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 19161,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C5349662",
+      "references": [
+        "L_BAT_BUCKBOOST"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 18246,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C386081",
+      "references": [
+        "C_BAT_IN_LOCAL",
+        "C_BAT_OUT_LOCAL"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 79056,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C15850",
+      "references": [
+        "C_BAT_IN_BULK_A",
+        "C_BAT_IN_BULK_B"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 3846431,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C258782",
+      "references": [
+        "C_BAT_OUT_BULK_A",
+        "C_BAT_OUT_BULK_B",
+        "C_BAT_OUT_BULK_C"
+      ],
+      "quantityPerBoard": 3,
+      "stock": 32017,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C25822",
+      "references": [
+        "R_BAT_FB_TOP"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 1182067,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C22795",
+      "references": [
+        "R_BAT_FB_BOTTOM"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 561790,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C23150",
+      "references": [
+        "R_BAT_EN_TOP"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 67242,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C8678",
+      "references": [
+        "D_BAT_POWER",
+        "D_USB_POWER"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 4049402,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C2873625",
+      "references": [
+        "U_USB_VALID"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 222,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C20526",
+      "references": [
+        "Q_USB_BOOST_OFF"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 556753,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C3040877",
+      "references": [
+        "U_PSRAM"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 1773,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C52923",
+      "references": [
+        "C_PSRAM_BULK",
+        "C_SD_BULK",
+        "C_AMP_IN_COUPLE",
+        "C_AMP_POT_COUPLE",
+        "C_AMP_VDD",
+        "C_AMP_VREF"
+      ],
+      "quantityPerBoard": 6,
+      "stock": 7605594,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C91145",
+      "references": [
+        "J_SD"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 189010,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C2071868",
+      "references": [
+        "U_3V3"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 1927,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C19947652",
+      "references": [
+        "L_3V3"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 187,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C45783",
+      "references": [
+        "C_3V3_OUT_A",
+        "C_3V3_OUT_B"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 3400491,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C1524",
+      "references": [
+        "C_AMP_PWM_FILTER"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 3331818,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C231765",
+      "references": [
+        "RV_VOLUME"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 1283,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C17337",
+      "references": [
+        "U_SPK_AMP"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 4125,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C29277",
+      "references": [
+        "C_AMP_VDD_BULK"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 266754,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C14709",
+      "references": [
+        "FB_SPK_POS",
+        "FB_SPK_NEG"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 1310433,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C39122",
+      "references": [
+        "C_SPK_EMI_POS",
+        "C_SPK_EMI_NEG"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 267588,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C160388",
+      "references": [
+        "J_SPK"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 20901,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C11098",
+      "references": [
+        "J_LCD"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 7224,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C15849",
+      "references": [
+        "C_LCD_VDDI",
+        "C_LCD_VCI"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 10020007,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C5713440",
+      "references": [
+        "R_TOUCH_SCL",
+        "R_TOUCH_SDA",
+        "R_TOUCH_IRQ"
+      ],
+      "quantityPerBoard": 3,
+      "stock": 140338,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C2845146",
+      "references": [
+        "R_LCD_LED"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 37073,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C20917",
+      "references": [
+        "Q_LCD_BL"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 774345,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C136720",
+      "references": [
+        "J_PWR_SW"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 18789,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C3038675",
+      "references": [
+        "SW_UP",
+        "SW_DOWN",
+        "SW_LEFT",
+        "SW_RIGHT",
+        "SW_A",
+        "SW_B",
+        "SW_X",
+        "SW_Y",
+        "SW_SELECT",
+        "SW_START"
+      ],
+      "quantityPerBoard": 10,
+      "stock": 9936,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C231320",
+      "references": [
+        "SW_L",
+        "SW_R"
+      ],
+      "quantityPerBoard": 2,
+      "stock": 10002,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C852808",
+      "references": [
+        "R_LOGIC_FB_TOP"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 17995,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C852559",
+      "references": [
+        "R_LOGIC_FB_BOTTOM"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 6276,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C25778",
+      "references": [
+        "R_SPK_LIMIT"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 132611,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    },
+    {
+      "part": "C25102",
+      "references": [
+        "R_LOGIC_FB_TRIM"
+      ],
+      "quantityPerBoard": 1,
+      "stock": 793874,
+      "enoughFor5BoardsBeforeAttrition": true,
+      "status": "in_stock"
+    }
+  ]
+}

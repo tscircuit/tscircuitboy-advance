@@ -1,0 +1,15 @@
+{
+  "openingMm": [
+    8,
+    8
+  ],
+  "plugEnvelopeMm": [
+    5.8,
+    4.5,
+    6.85
+  ],
+  "manufacturer": "JST PHR-2, PH series housing drawing",
+  "minimumCopperClearanceMm": 0.4000000000000007,
+  "requiredCopperClearanceMm": 0.3,
+  "passed": true
+}

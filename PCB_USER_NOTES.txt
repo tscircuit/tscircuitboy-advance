@@ -1,0 +1,24 @@
+PCB USER / PROTOTYPE BRING-UP NOTES
+
+Battery connector pin 1 = positive, pin 2 = ground. Use four alkaline AA cells.
+This board does not charge AA cells. Check holder wiring before connecting.
+Begin with a current-limited bench supply and inspect for shorts first.
+Confirm the3.234V logic rail and1.1V core supply voltages before connecting the display.
+BOOTSEL selects USB boot mode; RUN resets the MCU. Ground/SWDIO/SWCLK/3V3
+pads are for a compatible 3.3 V debug probe. Never apply 5 V to logic pins.
+Speaker connector pin 1 = amplifier output plus; pin 2 = output minus.
+Both speaker wires are driven: do not connect either to chassis/ground.
+Use the specified8-ohm1W speaker. R_SPK_LIMIT provides passive attenuation;
+check actual output, pops and maximum volume on the bench.
+Insert the specified LCD flex with its contacts facing the connector contacts;
+open its latch first. Disconnect power before inserting/removing the flex.
+Check every button released and pressed before installing the enclosure.
+A released switch must not short its GPIO to ground; pressing it must do so.
+Firmware and USB/display qualification remain necessary before product use.
+
+Pass the assembled JST PHR-2 battery plug through the rectangular PCB
+opening before mating it to J_BAT. Protect leads from the milled edge and
+provide cable slack/strain relief; do not force the plug through an old PCB.
+
+Legacy V3V3/TP_3V3 names now denote the nominal3.234V logic rail.
+See ELECTRICAL_PROTOTYPE_REVIEW.txt for the prototype load/ripple allowances.

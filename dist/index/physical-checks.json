@@ -1,0 +1,478 @@
+{
+  "checkEachPcbPortConnectedToPcbTraces": [],
+  "checkSourceTracesHavePcbTraces": [],
+  "checkEachPcbTraceNonOverlapping": [],
+  "checkTracesAreContiguous": [],
+  "checkSourceTracesMatchPcbTraceThickness": [
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_109",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.Q_BAT_REVERSE > .source to .C_BAT_IN_LOCAL > .pin1] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+      "center": {
+        "x": -34.56519778771086,
+        "y": -30.072749954479512
+      },
+      "source_trace_id": "source_trace_109",
+      "pcb_trace_id": "pcb_trace_254",
+      "pcb_component_ids": [
+        "pcb_component_41",
+        "pcb_component_45"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_172",
+        "pcb_port_191"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_117",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.U_BAT_BUCKBOOST > .PGND to .U_BAT_BUCKBOOST > .GND] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+      "center": {
+        "x": -42.735001,
+        "y": -14.479884
+      },
+      "source_trace_id": "source_trace_117",
+      "pcb_trace_id": "pcb_trace_3",
+      "pcb_component_ids": [
+        "pcb_component_43"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_179",
+        "pcb_port_184"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_121",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_BAT_IN_LOCAL > .pin1 to .U_BAT_BUCKBOOST > .VIN] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+      "center": {
+        "x": -34.56519778771086,
+        "y": -30.072749954479512
+      },
+      "source_trace_id": "source_trace_121",
+      "pcb_trace_id": "pcb_trace_254",
+      "pcb_component_ids": [
+        "pcb_component_43",
+        "pcb_component_45"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_186",
+        "pcb_port_191"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_122",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_BAT_IN_BULK_A > .pin1 to .U_BAT_BUCKBOOST > .VIN] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+      "center": {
+        "x": -34.56519778771086,
+        "y": -30.072749954479512
+      },
+      "source_trace_id": "source_trace_122",
+      "pcb_trace_id": "pcb_trace_254",
+      "pcb_component_ids": [
+        "pcb_component_43",
+        "pcb_component_46"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_186",
+        "pcb_port_193"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_123",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_BAT_IN_BULK_B > .pin1 to .U_BAT_BUCKBOOST > .VIN] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+      "center": {
+        "x": -34.56519778771086,
+        "y": -30.072749954479512
+      },
+      "source_trace_id": "source_trace_123",
+      "pcb_trace_id": "pcb_trace_254",
+      "pcb_component_ids": [
+        "pcb_component_43",
+        "pcb_component_47"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_186",
+        "pcb_port_195"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_200",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_3V3_IN > .pin1 to .U_3V3 > .VIN] is routed thinner than requested (requested: 0.6mm, actual: 0.4mm).",
+      "center": {
+        "x": -35.75,
+        "y": -12.5075
+      },
+      "source_trace_id": "source_trace_200",
+      "pcb_trace_id": "pcb_trace_257",
+      "pcb_component_ids": [
+        "pcb_component_77",
+        "pcb_component_79"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_277",
+        "pcb_port_283"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_207",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_3V3_OUT_A > .pin1 to .L_3V3 > .pin2] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+      "center": {
+        "x": 4.883344117599139,
+        "y": 12.350031
+      },
+      "source_trace_id": "source_trace_207",
+      "pcb_trace_id": "pcb_trace_87",
+      "pcb_component_ids": [
+        "pcb_component_78",
+        "pcb_component_81"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_282",
+        "pcb_port_287"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_208",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_3V3_OUT_B > .pin1 to .L_3V3 > .pin2] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+      "center": {
+        "x": 4.883344117599139,
+        "y": 12.350031
+      },
+      "source_trace_id": "source_trace_208",
+      "pcb_trace_id": "pcb_trace_87",
+      "pcb_component_ids": [
+        "pcb_component_78",
+        "pcb_component_82"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_282",
+        "pcb_port_289"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_249",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.Q_BAT_REVERSE > .source to .J_PWR_SW > .pin1] is routed thinner than requested (requested: 0.3mm, actual: 0.1mm).",
+      "center": {
+        "x": -34.517670228283144,
+        "y": -30.088278350882398
+      },
+      "source_trace_id": "source_trace_249",
+      "pcb_trace_id": "pcb_trace_254",
+      "pcb_component_ids": [
+        "pcb_component_41",
+        "pcb_component_106"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_172",
+        "pcb_port_409"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_338",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_IOVDD6 > .pin1 to .C_IOVDD5 > .pin1] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+      "center": {
+        "x": 4.883344117599139,
+        "y": 12.350031
+      },
+      "source_trace_id": "source_trace_338",
+      "pcb_trace_id": "pcb_trace_87",
+      "pcb_component_ids": [
+        "pcb_component_29",
+        "pcb_component_30"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_147",
+        "pcb_port_149"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_339",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_IOVDD4 > .pin1 to .C_IOVDD5 > .pin1] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+      "center": {
+        "x": 4.883344117599139,
+        "y": 12.350031
+      },
+      "source_trace_id": "source_trace_339",
+      "pcb_trace_id": "pcb_trace_87",
+      "pcb_component_ids": [
+        "pcb_component_30",
+        "pcb_component_31"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_149",
+        "pcb_port_151"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_348",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.D_USB_POWER > .cathode to .C_3V3_IN > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -35.75,
+        "y": -12.5075
+      },
+      "source_trace_id": "source_trace_348",
+      "pcb_trace_id": "pcb_trace_257",
+      "pcb_component_ids": [
+        "pcb_component_76",
+        "pcb_component_79"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_273",
+        "pcb_port_283"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_354",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_BAT_OUT_LOCAL > .pin1 to .C_BAT_OUT_BULK_C > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -29.82994223090974,
+        "y": -30.670061170245642
+      },
+      "source_trace_id": "source_trace_354",
+      "pcb_trace_id": "pcb_trace_252",
+      "pcb_component_ids": [
+        "pcb_component_48",
+        "pcb_component_51"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_197",
+        "pcb_port_203"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_355",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_BAT_OUT_BULK_A > .pin1 to .C_BAT_OUT_BULK_B > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -29.82994223090974,
+        "y": -30.670061170245642
+      },
+      "source_trace_id": "source_trace_355",
+      "pcb_trace_id": "pcb_trace_252",
+      "pcb_component_ids": [
+        "pcb_component_49",
+        "pcb_component_50"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_199",
+        "pcb_port_201"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_356",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_BAT_OUT_BULK_C > .pin1 to .R_BAT_FB_TOP > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -29.82994223090974,
+        "y": -30.670061170245642
+      },
+      "source_trace_id": "source_trace_356",
+      "pcb_trace_id": "pcb_trace_252",
+      "pcb_component_ids": [
+        "pcb_component_51",
+        "pcb_component_53"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_203",
+        "pcb_port_207"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_357",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_BAT_OUT_BULK_C > .pin1 to .D_BAT_POWER > .anode] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -29.82994223090974,
+        "y": -30.670061170245642
+      },
+      "source_trace_id": "source_trace_357",
+      "pcb_trace_id": "pcb_trace_252",
+      "pcb_component_ids": [
+        "pcb_component_51",
+        "pcb_component_58"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_203",
+        "pcb_port_218"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_358",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.U_3V3 > .VIN to .U_3V3 > .EN] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -35.75,
+        "y": -12.5075
+      },
+      "source_trace_id": "source_trace_358",
+      "pcb_trace_id": "pcb_trace_257",
+      "pcb_component_ids": [
+        "pcb_component_77"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_276",
+        "pcb_port_277"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_362",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_AMP_VDD_BULK > .pin1 to .C_3V3_IN > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -35.75,
+        "y": -12.5075
+      },
+      "source_trace_id": "source_trace_362",
+      "pcb_trace_id": "pcb_trace_257",
+      "pcb_component_ids": [
+        "pcb_component_79",
+        "pcb_component_90"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_283",
+        "pcb_port_324"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_363",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.D_BAT_POWER > .cathode to .D_USB_POWER > .cathode] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -35.75,
+        "y": -12.5075
+      },
+      "source_trace_id": "source_trace_363",
+      "pcb_trace_id": "pcb_trace_257",
+      "pcb_component_ids": [
+        "pcb_component_58",
+        "pcb_component_76"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_217",
+        "pcb_port_273"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_364",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.D_USB_POWER > .cathode to .R_LCD_LED > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+      "center": {
+        "x": -35.75,
+        "y": -12.5075
+      },
+      "source_trace_id": "source_trace_364",
+      "pcb_trace_id": "pcb_trace_257",
+      "pcb_component_ids": [
+        "pcb_component_76",
+        "pcb_component_103"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_273",
+        "pcb_port_402"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_365",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_VBUS > .pin1 to .D_USB_POWER > .anode] is routed thinner than requested (requested: 0.8mm, actual: 0.1mm).",
+      "center": {
+        "x": -21.20436134722082,
+        "y": -27.827501849999997
+      },
+      "source_trace_id": "source_trace_365",
+      "pcb_trace_id": "pcb_trace_100",
+      "pcb_component_ids": [
+        "pcb_component_22",
+        "pcb_component_76"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_137",
+        "pcb_port_274"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_366",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.D_USB_POWER > .anode to .U_USB_VALID > .VDD] is routed thinner than requested (requested: 0.8mm, actual: 0.1mm).",
+      "center": {
+        "x": -21.20436134722082,
+        "y": -27.827501849999997
+      },
+      "source_trace_id": "source_trace_366",
+      "pcb_trace_id": "pcb_trace_100",
+      "pcb_component_ids": [
+        "pcb_component_59",
+        "pcb_component_76"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_221",
+        "pcb_port_274"
+      ]
+    },
+    {
+      "type": "pcb_trace_warning",
+      "pcb_trace_warning_id": "pcb_trace_warning_source_trace_377",
+      "warning_type": "pcb_trace_warning",
+      "message": "Trace [.C_VBUS > .pin2 to .C_XOUT > .pin2] is routed thinner than requested (requested: 0.8mm, actual: 0.1mm).",
+      "center": {
+        "x": -42.8,
+        "y": -15.124943
+      },
+      "source_trace_id": "source_trace_377",
+      "pcb_trace_id": "pcb_trace_3",
+      "pcb_component_ids": [
+        "pcb_component_21",
+        "pcb_component_22"
+      ],
+      "pcb_port_ids": [
+        "pcb_port_136",
+        "pcb_port_138"
+      ]
+    }
+  ],
+  "checkPadPadClearance": [],
+  "checkPadTraceClearance": [],
+  "checkViaPadClearance": [],
+  "checkViaTraceClearance": [],
+  "checkSameNetViaSpacing": [],
+  "checkDifferentNetViaSpacing": [],
+  "checkPcbTracesOutOfBoard": [],
+  "checkCopperToBoardEdgeClearance": [],
+  "checkViasOffBoard": [],
+  "checkCopperPourShorts": [],
+  "checkHoleTraceClearance": [],
+  "checkPcbComponentOverCutout": []
+}

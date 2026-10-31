@@ -1,0 +1,5608 @@
+[
+  {
+    "name": "U1",
+    "supplierPart": "C42411118",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -3.301,
+        11.648999999999997,
+        0.8
+      ],
+      [
+        3.7010000000000005,
+        18.651,
+        1.661
+      ]
+    ],
+    "sections": 65,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin61"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin60"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin59"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin58"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin57"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin56"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin55"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin54"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin53"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin52"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin51"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin50"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin49"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin48"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin47"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin46"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin45"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin44"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin43"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin42"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin41"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin40"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin39"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin38"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin37"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin36"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin35"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin34"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin33"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin32"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin31"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin30"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin29"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin28"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin27"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin26"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin25"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin24"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin23"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin22"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin21"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin20"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin19"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin18"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin17"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin16"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin15"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin14"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin13"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin11"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin10"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin8"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U2",
+    "supplierPart": "C779876",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        15.297034,
+        11.849987299999928,
+        0.8
+      ],
+      [
+        25.702966,
+        22.149987299999932,
+        3.649425
+      ]
+    ],
+    "sections": 88,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin8"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin16"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin15"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin14"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin13"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin11"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin10"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_XTAL",
+    "supplierPart": "C20625731",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -0.6500127000000706,
+        21.799999999999997,
+        0.8
+      ],
+      [
+        1.8499872999999298,
+        25.0,
+        1.501
+      ]
+    ],
+    "sections": 8,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_BOOTSEL",
+    "supplierPart": "C139797",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -12.349107299999929,
+        5.30012700000002,
+        0.8
+      ],
+      [
+        -7.65086729999993,
+        8.50012700000002,
+        3.3099999999999996
+      ]
+    ],
+    "sections": 16,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_RUN",
+    "supplierPart": "C139797",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        8.650892700000071,
+        16.300127000000018,
+        0.8
+      ],
+      [
+        13.34913270000007,
+        19.50012700000002,
+        3.3099999999999996
+      ]
+    ],
+    "sections": 16,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "J_USB",
+    "supplierPart": "C165948",
+    "sectionLevelMm": 0,
+    "modelBounds": [
+      [
+        -4.47,
+        39.1931792,
+        -0.050010999999999806
+      ],
+      [
+        4.47,
+        47.0931792,
+        4.050989
+      ]
+    ],
+    "sections": 101,
+    "padChecks": [
+      {
+        "portHints": [
+          "unnamed_platedhole1",
+          "pin11"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole2",
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole3",
+          "pin8"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole4",
+          "pin10"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin19"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin18"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin17"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin16"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin13"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin14"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin15"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin23"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin22"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin20"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin21"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_CORE_INDUCTOR",
+    "supplierPart": "C42411119",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -3.2,
+        5.495,
+        0.8
+      ],
+      [
+        -1.2000000000000002,
+        7.1049999999999995,
+        1.8
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_VREG_AVDD",
+    "supplierPart": "C25105",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -5.650012700000071,
+        7.0,
+        0.8
+      ],
+      [
+        -5.150012700000071,
+        8.0,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_RUN",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -6.01,
+        20.94998729999993,
+        0.8
+      ],
+      [
+        -5.01,
+        21.44998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 11,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BOOT",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        1.5,
+        4.14998729999993,
+        0.8
+      ],
+      [
+        2.5,
+        4.64998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 10,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_CC1",
+    "supplierPart": "C25905",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        5.0,
+        30.14998729999993,
+        0.8
+      ],
+      [
+        6.0,
+        30.64998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 9,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_CC2",
+    "supplierPart": "C25905",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -6.0,
+        30.14998729999993,
+        0.8
+      ],
+      [
+        -5.0,
+        30.64998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 10,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_USB_DM",
+    "supplierPart": "C25100",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        0.24998729999992964,
+        9.13,
+        0.8
+      ],
+      [
+        0.7499872999999299,
+        10.13,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_USB_DP",
+    "supplierPart": "C25100",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        1.8499872999999298,
+        9.13,
+        0.8
+      ],
+      [
+        2.34998729999993,
+        10.13,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_VREG_IN",
+    "supplierPart": "C19702",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -2.5999999999999996,
+        9.6,
+        0.8
+      ],
+      [
+        -0.9999999999999998,
+        10.4,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_CORE",
+    "supplierPart": "C19666",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -2.5999999999999996,
+        8.1,
+        0.8
+      ],
+      [
+        -0.9999999999999998,
+        8.9,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_VREG_AVDD",
+    "supplierPart": "C23733",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -5.650012700000071,
+        9.65,
+        0.8
+      ],
+      [
+        -5.150012700000071,
+        10.65,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_QSPI_USB",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        3.5999999999999996,
+        9.74998729999993,
+        0.8
+      ],
+      [
+        4.6,
+        10.24998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_ADC",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -6.15,
+        12.24998729999993,
+        0.8
+      ],
+      [
+        -5.15,
+        12.74998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_FLASH",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        27.3,
+        13.574987299999929,
+        0.8
+      ],
+      [
+        28.3,
+        14.074987299999929,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_XIN",
+    "supplierPart": "C1548",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        2.2,
+        20.05001270000007,
+        0.8
+      ],
+      [
+        3.2,
+        20.55001270000007,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_XOUT",
+    "supplierPart": "C1548",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        0.29999999999999993,
+        26.15001270000007,
+        0.8
+      ],
+      [
+        1.2999999999999998,
+        26.65001270000007,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_VBUS",
+    "supplierPart": "C19702",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -0.8,
+        29.200000000000003,
+        0.8
+      ],
+      [
+        0.8,
+        30.0,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_XOUT",
+    "supplierPart": "C11702",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -2.55001270000007,
+        22.6,
+        0.8
+      ],
+      [
+        -2.05001270000007,
+        23.6,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 14,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BOOTSEL",
+    "supplierPart": "C11702",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        7.0,
+        8.74998729999993,
+        0.8
+      ],
+      [
+        8.0,
+        9.24998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 10,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_IOVDD6",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        5.6,
+        12.65001270000007,
+        0.8
+      ],
+      [
+        6.6,
+        13.15001270000007,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_IOVDD5",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        5.7,
+        16.45001270000007,
+        0.8
+      ],
+      [
+        6.7,
+        16.95001270000007,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_IOVDD4",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        5.349987299999929,
+        19.75,
+        0.8
+      ],
+      [
+        5.849987299999929,
+        20.75,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_IOVDD3",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -6.185,
+        19.14998729999993,
+        0.8
+      ],
+      [
+        -5.185,
+        19.64998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_IOVDD2",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -7.585,
+        15.99998729999993,
+        0.8
+      ],
+      [
+        -6.585,
+        16.49998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_IOVDD1",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -8.6,
+        12.14998729999993,
+        0.8
+      ],
+      [
+        -7.6,
+        12.64998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_DVDD3",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        6.38,
+        14.60001270000007,
+        0.8
+      ],
+      [
+        7.38,
+        15.10001270000007,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_DVDD2",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -2.3500127000000703,
+        20.35,
+        0.8
+      ],
+      [
+        -1.8500127000000703,
+        21.35,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_DVDD2_BULK",
+    "supplierPart": "C23733",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -4.1,
+        20.44998729999993,
+        0.8
+      ],
+      [
+        -3.1,
+        20.94998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_DVDD1",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -7.58,
+        14.04998729999993,
+        0.8
+      ],
+      [
+        -6.58,
+        14.54998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "J_BAT",
+    "supplierPart": "C173752",
+    "sectionLevelMm": 0,
+    "modelBounds": [
+      [
+        12.024999949999938,
+        -31.52500150000001,
+        -2.699993
+      ],
+      [
+        18.024999949999938,
+        -23.825001500000006,
+        5.850006999999999
+      ]
+    ],
+    "sections": 2,
+    "padChecks": [
+      {
+        "portHints": [
+          "unnamed_platedhole5",
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole6",
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "F_BAT",
+    "supplierPart": "C439873",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        4.750012699999843,
+        -25.6,
+        0.8
+      ],
+      [
+        9.250012699999843,
+        -22.4,
+        1.84
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "Q_BAT_REVERSE",
+    "supplierPart": "C347476",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -41.0527519,
+        -35.450038100000015,
+        0.8
+      ],
+      [
+        -38.5471719,
+        -32.55003810000001,
+        1.8492050000000002
+      ]
+    ],
+    "sections": 25,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BAT_REVERSE_GATE",
+    "supplierPart": "C25803",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -39.31,
+        -37.405,
+        0.8
+      ],
+      [
+        -37.69,
+        -36.595,
+        1.25
+      ]
+    ],
+    "sections": 8,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_BAT_BUCKBOOST",
+    "supplierPart": "C109322",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -33.5,
+        -32.24775210000007,
+        0.8
+      ],
+      [
+        -30.499999999999996,
+        -29.74775210000007,
+        1.7000000000000002
+      ]
+    ],
+    "sections": 121,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin10"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin11"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin14"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin15"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "L_BAT_BUCKBOOST",
+    "supplierPart": "C7417180",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -34.0,
+        -28.654999999999998,
+        0.8
+      ],
+      [
+        -30.0,
+        -24.645,
+        2.9000000000000004
+      ]
+    ],
+    "sections": 8,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_IN_LOCAL",
+    "supplierPart": "C386081",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -37.199999999999996,
+        -30.4,
+        0.8
+      ],
+      [
+        -35.6,
+        -29.6,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_IN_BULK_A",
+    "supplierPart": "C15850",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -37.15001270000007,
+        -26.8,
+        0.8
+      ],
+      [
+        -35.85001270000007,
+        -24.8,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_IN_BULK_B",
+    "supplierPart": "C15850",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -36.65001270000007,
+        -34.5,
+        0.8
+      ],
+      [
+        -35.35001270000007,
+        -32.5,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_OUT_LOCAL",
+    "supplierPart": "C386081",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -29.2,
+        -31.8,
+        0.8
+      ],
+      [
+        -28.400000000000002,
+        -30.2,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_OUT_BULK_A",
+    "supplierPart": "C258782",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -28.15,
+        -26.44998729999993,
+        0.8
+      ],
+      [
+        -26.15,
+        -25.149987299999932,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_OUT_BULK_B",
+    "supplierPart": "C258782",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -26.5,
+        -29.049987299999927,
+        0.8
+      ],
+      [
+        -24.5,
+        -27.74998729999993,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_OUT_BULK_C",
+    "supplierPart": "C258782",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -28.4,
+        -35.14998729999993,
+        0.8
+      ],
+      [
+        -26.4,
+        -33.84998729999993,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_BAT_VAUX",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -31.8,
+        -34.20998729999993,
+        0.8
+      ],
+      [
+        -30.8,
+        -33.70998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BAT_FB_TOP",
+    "supplierPart": "C25822",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -33.61,
+        -36.105000000000004,
+        0.8
+      ],
+      [
+        -31.99,
+        -35.295,
+        1.25
+      ]
+    ],
+    "sections": 9,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BAT_FB_BOTTOM",
+    "supplierPart": "C22795",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -33.61,
+        -38.105000000000004,
+        0.8
+      ],
+      [
+        -31.99,
+        -37.295,
+        1.25
+      ]
+    ],
+    "sections": 9,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BAT_MODE",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -34.5,
+        -23.04998729999993,
+        0.8
+      ],
+      [
+        -33.5,
+        -22.54998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 10,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BAT_EN_TOP",
+    "supplierPart": "C23150",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -29.81,
+        -23.105,
+        0.8
+      ],
+      [
+        -28.19,
+        -22.294999999999998,
+        1.25
+      ]
+    ],
+    "sections": 11,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_BAT_EN_BOTTOM",
+    "supplierPart": "C25803",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -29.81,
+        -20.905,
+        0.8
+      ],
+      [
+        -28.19,
+        -20.095,
+        1.25
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "D_BAT_POWER",
+    "supplierPart": "C8678",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -23.69998730000016,
+        -35.8,
+        0.8
+      ],
+      [
+        -18.999987300000157,
+        -33.2,
+        2.9000000000000004
+      ]
+    ],
+    "sections": 12,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2",
+          "anode",
+          "pos"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1",
+          "cathode",
+          "neg"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_USB_VALID",
+    "supplierPart": "C2873625",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -21.75277729999993,
+        -27.850012699999954,
+        0.8
+      ],
+      [
+        -19.24719729999993,
+        -24.950012699999956,
+        1.8492050000000002
+      ]
+    ],
+    "sections": 25,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_USB_VALID",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -21.0,
+        -29.44998729999993,
+        0.8
+      ],
+      [
+        -20.0,
+        -28.94998729999993,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_USB_BOOST_OFF",
+    "supplierPart": "C25803",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -17.81,
+        -27.755000000000003,
+        0.8
+      ],
+      [
+        -16.19,
+        -26.945,
+        1.25
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "Q_USB_BOOST_OFF",
+    "supplierPart": "C20526",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -23.45277729999993,
+        -24.450012699999956,
+        0.8
+      ],
+      [
+        -20.947197299999928,
+        -21.550012699999957,
+        1.8492050000000002
+      ]
+    ],
+    "sections": 25,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_USB_BOOST_OFF_PULLDOWN",
+    "supplierPart": "C25803",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -17.81,
+        -25.855,
+        0.8
+      ],
+      [
+        -16.19,
+        -25.044999999999998,
+        1.25
+      ]
+    ],
+    "sections": 10,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_PSRAM",
+    "supplierPart": "C3040877",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        10.882049799999905,
+        4.062059999999942,
+        0.8
+      ],
+      [
+        12.902049799999904,
+        7.082059999999942,
+        1.35
+      ]
+    ],
+    "sections": 28,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin8"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_PSRAM",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        8.54998729999993,
+        7.05,
+        0.8
+      ],
+      [
+        9.04998729999993,
+        8.05,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_PSRAM_CE",
+    "supplierPart": "C11702",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        15.0,
+        5.35001270000007,
+        0.8
+      ],
+      [
+        16.0,
+        5.85001270000007,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 8,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_PSRAM_BULK",
+    "supplierPart": "C52923",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        9.79998729999993,
+        8.15,
+        0.8
+      ],
+      [
+        10.29998729999993,
+        9.15,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "J_SD",
+    "supplierPart": "C91145",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        21.950000499999774,
+        -46.81031510000005,
+        0.2000012000000001
+      ],
+      [
+        38.04999949999977,
+        -31.807698100000046,
+        2.7500002
+      ]
+    ],
+    "sections": 51,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin8"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin10"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin13"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin11"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_SD",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        26.239987299999928,
+        -30.2,
+        0.8
+      ],
+      [
+        26.739987299999928,
+        -29.2,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_SD_CMD",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        29.74998729999993,
+        -22.5,
+        0.8
+      ],
+      [
+        30.24998729999993,
+        -21.5,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 15,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_SD_CS",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        33.5,
+        -23.44998729999993,
+        0.8
+      ],
+      [
+        34.5,
+        -22.94998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_SD_DAT0",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        25.6,
+        -21.74998729999993,
+        0.8
+      ],
+      [
+        26.6,
+        -21.24998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_SD_DAT1",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        31.5,
+        -19.24998729999993,
+        0.8
+      ],
+      [
+        32.5,
+        -18.74998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 11,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_SD_DAT2",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        32.2,
+        -21.74998729999993,
+        0.8
+      ],
+      [
+        33.2,
+        -21.24998729999993,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 11,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_SD_BULK",
+    "supplierPart": "C52923",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        28.29998729999993,
+        -28.3,
+        0.8
+      ],
+      [
+        28.79998729999993,
+        -27.3,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "D_USB_POWER",
+    "supplierPart": "C8678",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -18.34998730000016,
+        30.7,
+        0.8
+      ],
+      [
+        -13.649987300000157,
+        33.3,
+        2.9000000000000004
+      ]
+    ],
+    "sections": 12,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2",
+          "anode",
+          "pos"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1",
+          "cathode",
+          "neg"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_3V3",
+    "supplierPart": "C780769",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -19.4,
+        -13.45001270000007,
+        0.8
+      ],
+      [
+        -16.6,
+        -10.550012700000071,
+        1.69
+      ]
+    ],
+    "sections": 41,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "L_3V3",
+    "supplierPart": "C19947652",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -26.59254849999989,
+        -15.175000500000113,
+        0.8
+      ],
+      [
+        -20.607451499999886,
+        -9.224999500000113,
+        3.41
+      ]
+    ],
+    "sections": 20,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_3V3_IN",
+    "supplierPart": "C19702",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -15.0,
+        -10.8,
+        0.8
+      ],
+      [
+        -14.2,
+        -9.2,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_3V3_BST",
+    "supplierPart": "C1525",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -19.4,
+        -9.65001270000007,
+        0.8
+      ],
+      [
+        -18.4,
+        -9.15001270000007,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_3V3_OUT_A",
+    "supplierPart": "C45783",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -19.549987299999927,
+        -16.950000000000003,
+        0.8
+      ],
+      [
+        -18.24998729999993,
+        -14.950000000000001,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_3V3_OUT_B",
+    "supplierPart": "C45783",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -23.049987299999927,
+        -18.8,
+        0.8
+      ],
+      [
+        -21.74998729999993,
+        -16.8,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_AMP_IN",
+    "supplierPart": "C11702",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -47.24998729999993,
+        -18.5,
+        0.8
+      ],
+      [
+        -46.74998729999993,
+        -17.5,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 12,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_AMP_PWM_FILTER",
+    "supplierPart": "C1524",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -45.75001270000007,
+        -16.5,
+        0.8
+      ],
+      [
+        -45.25001270000007,
+        -15.5,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_AMP_IN_COUPLE",
+    "supplierPart": "C52923",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -42.75001270000007,
+        -17.5,
+        0.8
+      ],
+      [
+        -42.25001270000007,
+        -16.5,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_AMP_POT_COUPLE",
+    "supplierPart": "C52923",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -49.25001270000007,
+        -14.5,
+        0.8
+      ],
+      [
+        -48.75001270000007,
+        -13.5,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "U_SPK_AMP",
+    "supplierPart": "C17337",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -40.002966,
+        -17.950012699999842,
+        0.8
+      ],
+      [
+        -33.997034,
+        -8.050012699999844,
+        2.700425
+      ]
+    ],
+    "sections": 82,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin8"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin16"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin15"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin14"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin13"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin11"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin10"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_AMP_VDD",
+    "supplierPart": "C52923",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -42.25001270000007,
+        -15.4,
+        0.8
+      ],
+      [
+        -41.75001270000007,
+        -14.4,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_AMP_VDD_BULK",
+    "supplierPart": "C29277",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -31.64998729999993,
+        -13.4,
+        0.8
+      ],
+      [
+        -30.34998729999993,
+        -11.4,
+        2.1
+      ]
+    ],
+    "sections": 13,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_AMP_VREF",
+    "supplierPart": "C52923",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -42.25001270000007,
+        -20.0,
+        0.8
+      ],
+      [
+        -41.75001270000007,
+        -19.0,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "FB_SPK_POS",
+    "supplierPart": "C14709",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -42.31597660000004,
+        -9.397612400000094,
+        0.8
+      ],
+      [
+        -41.515976600000045,
+        -7.7976124000000935,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "FB_SPK_NEG",
+    "supplierPart": "C14709",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -42.31597660000004,
+        -12.397612400000094,
+        0.8
+      ],
+      [
+        -41.515976600000045,
+        -10.797612400000093,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_SPK_EMI_POS",
+    "supplierPart": "C39122",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -44.05001270000007,
+        -9.1,
+        0.8
+      ],
+      [
+        -43.55001270000007,
+        -8.1,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_SPK_EMI_NEG",
+    "supplierPart": "C39122",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -44.05001270000007,
+        -12.1,
+        0.8
+      ],
+      [
+        -43.55001270000007,
+        -11.1,
+        1.3
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "J_SPK",
+    "supplierPart": "C160388",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -4.0,
+        -21.79950469999999,
+        0.8
+      ],
+      [
+        0.0,
+        -18.199504699999988,
+        5.1
+      ]
+    ],
+    "sections": 11,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "J_LCD",
+    "supplierPart": "C11098",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        40.85400280000002,
+        0.8000000000000007,
+        0.8
+      ],
+      [
+        46.85400280000002,
+        30.0,
+        2.8099999999999996
+      ]
+    ],
+    "sections": 261,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin6"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin7"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin8"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin9"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin10"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin11"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin12"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin13"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin14"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin15"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin16"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin17"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin18"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin19"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin20"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin21"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin22"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin23"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin24"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin25"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin26"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin27"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin28"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin29"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin30"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin31"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin32"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin33"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin34"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin35"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin36"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin37"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin38"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin39"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin40"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin41"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin42"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin43"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin44"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin45"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin46"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin47"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin48"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin49"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin50"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin52"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin51"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_LCD_VDDI",
+    "supplierPart": "C15849",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        49.6,
+        9.899999999999999,
+        0.8
+      ],
+      [
+        50.4,
+        11.5,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "C_LCD_VCI",
+    "supplierPart": "C15849",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        49.6,
+        6.8,
+        0.8
+      ],
+      [
+        50.4,
+        8.4,
+        1.6
+      ]
+    ],
+    "sections": 6,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_TOUCH_SCL",
+    "supplierPart": "C5713440",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        49.19,
+        4.795,
+        0.8
+      ],
+      [
+        50.81,
+        5.605,
+        1.25
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_TOUCH_SDA",
+    "supplierPart": "C5713440",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        49.19,
+        2.9949999999999997,
+        0.8
+      ],
+      [
+        50.81,
+        3.8049999999999997,
+        1.25
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_TOUCH_IRQ",
+    "supplierPart": "C5713440",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        49.19,
+        1.1949999999999998,
+        0.8
+      ],
+      [
+        50.81,
+        2.005,
+        1.25
+      ]
+    ],
+    "sections": 7,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_LCD_LED",
+    "supplierPart": "C2845146",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        37.448572,
+        29.4,
+        0.8
+      ],
+      [
+        40.648572,
+        31.0,
+        1.36
+      ]
+    ],
+    "sections": 9,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "Q_LCD_BL",
+    "supplierPart": "C20917",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -19.25277729999993,
+        10.549987300000044,
+        0.8
+      ],
+      [
+        -16.74719729999993,
+        13.449987300000043,
+        1.8492050000000002
+      ]
+    ],
+    "sections": 25,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "R_LCD_BL_PULLDOWN",
+    "supplierPart": "C25744",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -18.5,
+        7.75001270000007,
+        0.8
+      ],
+      [
+        -17.5,
+        8.25001270000007,
+        1.1600000000000001
+      ]
+    ],
+    "sections": 9,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "J_PWR_SW",
+    "supplierPart": "C136720",
+    "sectionLevelMm": 0,
+    "modelBounds": [
+      [
+        -33.4500127,
+        36.817,
+        -2.699993
+      ],
+      [
+        -20.5500127,
+        47.017,
+        6.9500069999999985
+      ]
+    ],
+    "sections": 5,
+    "padChecks": [
+      {
+        "portHints": [
+          "unnamed_platedhole14",
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole15",
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole16",
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole17",
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole18",
+          "pin5"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_UP",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -62.50005079999994,
+        4.999550800000054,
+        0.8
+      ],
+      [
+        -53.50005079999994,
+        11.000550800000052,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_DOWN",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -62.50005079999994,
+        -11.000449199999945,
+        0.8
+      ],
+      [
+        -53.50005079999994,
+        -4.999449199999947,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_LEFT",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -70.50005079999994,
+        -3.000449199999946,
+        0.8
+      ],
+      [
+        -61.50005079999994,
+        3.0005508000000534,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_RIGHT",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -54.50005079999994,
+        -3.000449199999946,
+        0.8
+      ],
+      [
+        -45.50005079999994,
+        3.0005508000000534,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_A",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        54.99994920000006,
+        -17.50044919999995,
+        0.8
+      ],
+      [
+        63.99994920000006,
+        -11.499449199999948,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_B",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        65.99944919999994,
+        -9.50005079999994,
+        0.8
+      ],
+      [
+        72.00044919999995,
+        -0.5000507999999382,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_X",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        45.49994920000006,
+        -8.000449199999945,
+        0.8
+      ],
+      [
+        54.49994920000006,
+        -1.9994491999999466,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_Y",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        54.99994920000006,
+        1.499550800000054,
+        0.8
+      ],
+      [
+        63.99994920000006,
+        7.500550800000053,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_SELECT",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        -10.50005079999994,
+        -32.60044919999995,
+        0.8
+      ],
+      [
+        -1.500050799999939,
+        -26.59944919999995,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_START",
+    "supplierPart": "C3038675",
+    "sectionLevelMm": 0.82,
+    "modelBounds": [
+      [
+        0.49994920000005916,
+        -32.60044919999995,
+        0.8
+      ],
+      [
+        9.49994920000006,
+        -26.59944919999995,
+        10.3
+      ]
+    ],
+    "sections": 30,
+    "padChecks": [
+      {
+        "portHints": [
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_L",
+    "supplierPart": "C231320",
+    "sectionLevelMm": 0,
+    "modelBounds": [
+      [
+        -58.24623,
+        35.6,
+        -2.7
+      ],
+      [
+        -49.75377,
+        45.75,
+        8.55
+      ]
+    ],
+    "sections": 4,
+    "padChecks": [
+      {
+        "portHints": [
+          "unnamed_platedhole19",
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole20",
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole21",
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole22",
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  },
+  {
+    "name": "SW_R",
+    "supplierPart": "C231320",
+    "sectionLevelMm": 0,
+    "modelBounds": [
+      [
+        49.75377,
+        35.6,
+        -2.7
+      ],
+      [
+        58.24623,
+        45.75,
+        8.55
+      ]
+    ],
+    "sections": 4,
+    "padChecks": [
+      {
+        "portHints": [
+          "unnamed_platedhole23",
+          "pin1"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole24",
+          "pin4"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole25",
+          "pin2"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      },
+      {
+        "portHints": [
+          "unnamed_platedhole26",
+          "pin3"
+        ],
+        "clearanceMm": 0.0,
+        "intersects": true
+      }
+    ],
+    "status": "contact_projection_overlaps_all_pads"
+  }
+]

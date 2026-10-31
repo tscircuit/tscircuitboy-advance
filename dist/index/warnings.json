@@ -1,0 +1,2278 @@
+[
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_0",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "Component U_CORE_INDUCTOR has ftype=\"simple_inductor\" but reference designator should start with one of L, FB",
+    "source_component_id": "source_component_6",
+    "refdes": "U_CORE_INDUCTOR",
+    "source_component_ftype": "simple_inductor",
+    "expected_prefixes": [
+      "L",
+      "FB"
+    ],
+    "actual_prefix": "U"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_1",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"R\" prefix is being used with a <chip />, try using it with a <resistor />",
+    "source_component_id": "source_component_7",
+    "refdes": "R_VREG_AVDD",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "R"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_2",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"F\" prefix is being used with a <chip />, try using it with a <fuse />",
+    "source_component_id": "source_component_40",
+    "refdes": "F_BAT",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "F"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_3",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"Q\" prefix is being used with a <chip />, try using it with a <transistor />",
+    "source_component_id": "source_component_41",
+    "refdes": "Q_BAT_REVERSE",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "Q"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_4",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"Q\" prefix is being used with a <chip />, try using it with a <transistor />",
+    "source_component_id": "source_component_62",
+    "refdes": "Q_USB_BOOST_OFF",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "Q"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_5",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"R\" prefix is being used with a <chip />, try using it with a <resistor />",
+    "source_component_id": "source_component_87",
+    "refdes": "RV_VOLUME",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "RV"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_6",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"F\" prefix is being used with a <chip />, try using it with a <fuse />",
+    "source_component_id": "source_component_92",
+    "refdes": "FB_SPK_POS",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "FB"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_7",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"F\" prefix is being used with a <chip />, try using it with a <fuse />",
+    "source_component_id": "source_component_93",
+    "refdes": "FB_SPK_NEG",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "FB"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_8",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"J\" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />",
+    "source_component_id": "source_component_96",
+    "refdes": "J_SPK",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "J"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_9",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"J\" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />",
+    "source_component_id": "source_component_97",
+    "refdes": "J_LCD",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "J"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_10",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"Q\" prefix is being used with a <chip />, try using it with a <transistor />",
+    "source_component_id": "source_component_104",
+    "refdes": "Q_LCD_BL",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "Q"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_11",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"J\" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />",
+    "source_component_id": "source_component_106",
+    "refdes": "J_PWR_SW",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "J"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_12",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_107",
+    "refdes": "SW_UP",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_13",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_108",
+    "refdes": "SW_DOWN",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_14",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_109",
+    "refdes": "SW_LEFT",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_15",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_110",
+    "refdes": "SW_RIGHT",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_16",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_111",
+    "refdes": "SW_A",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_17",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_112",
+    "refdes": "SW_B",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_18",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_113",
+    "refdes": "SW_X",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_19",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_114",
+    "refdes": "SW_Y",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_20",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_115",
+    "refdes": "SW_SELECT",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_21",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_116",
+    "refdes": "SW_START",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_22",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_117",
+    "refdes": "SW_L",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_refdes_convention_warning",
+    "source_refdes_convention_warning_id": "source_refdes_convention_warning_23",
+    "warning_type": "source_refdes_convention_warning",
+    "message": "The \"S\" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />",
+    "source_component_id": "source_component_118",
+    "refdes": "SW_R",
+    "source_component_ftype": "simple_chip",
+    "expected_prefixes": [
+      "U",
+      "IC"
+    ],
+    "actual_prefix": "SW"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_0",
+    "message": "<trace#841(from:.R_AMP_IN > .pin2 to:.C_AMP_PWM_FILTER > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_212",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_1",
+    "message": "<trace#845(from:.RV_VOLUME > .pin2 to:.C_AMP_IN_COUPLE > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_216",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_2",
+    "message": "<trace#847(from:.C_AMP_IN_COUPLE > .pin2 to:.R_SPK_LIMIT > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_218",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_3",
+    "message": "<trace#861(from:.U_SPK_AMP > .VREF to:.C_AMP_VREF > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_232",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_4",
+    "message": "<trace#863(from:.U_SPK_AMP > .OUT_L_POS to:.FB_SPK_POS > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_234",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_5",
+    "message": "<trace#864(from:.FB_SPK_POS > .pin2 to:.J_SPK > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_235",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_6",
+    "message": "<trace#865(from:.FB_SPK_POS > .pin2 to:.C_SPK_EMI_POS > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_236",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_7",
+    "message": "<trace#867(from:.U_SPK_AMP > .OUT_L_NEG to:.FB_SPK_NEG > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_238",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_8",
+    "message": "<trace#868(from:.FB_SPK_NEG > .pin2 to:.J_SPK > .pin2) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_239",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_unnamed_trace_warning",
+    "source_unnamed_trace_warning_id": "source_unnamed_trace_warning_9",
+    "message": "<trace#869(from:.FB_SPK_NEG > .pin2 to:.C_SPK_EMI_NEG > .pin1) /> is missing a name. Add a name prop to make the trace easier to identify.",
+    "source_trace_id": "source_trace_240",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_unnamed_trace_warning"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_0",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "U1 has no pin with requires_power=true",
+    "source_component_id": "source_component_0",
+    "source_port_ids": [
+      "source_port_0",
+      "source_port_1",
+      "source_port_2",
+      "source_port_3",
+      "source_port_4",
+      "source_port_5",
+      "source_port_6",
+      "source_port_7",
+      "source_port_8",
+      "source_port_9",
+      "source_port_10",
+      "source_port_11",
+      "source_port_12",
+      "source_port_13",
+      "source_port_14",
+      "source_port_15",
+      "source_port_16",
+      "source_port_17",
+      "source_port_18",
+      "source_port_19",
+      "source_port_20",
+      "source_port_21",
+      "source_port_22",
+      "source_port_23",
+      "source_port_24",
+      "source_port_25",
+      "source_port_26",
+      "source_port_27",
+      "source_port_28",
+      "source_port_29",
+      "source_port_30",
+      "source_port_31",
+      "source_port_32",
+      "source_port_33",
+      "source_port_34",
+      "source_port_35",
+      "source_port_36",
+      "source_port_37",
+      "source_port_38",
+      "source_port_39",
+      "source_port_40",
+      "source_port_41",
+      "source_port_42",
+      "source_port_43",
+      "source_port_44",
+      "source_port_45",
+      "source_port_46",
+      "source_port_47",
+      "source_port_48",
+      "source_port_49",
+      "source_port_50",
+      "source_port_51",
+      "source_port_52",
+      "source_port_53",
+      "source_port_54",
+      "source_port_55",
+      "source_port_56",
+      "source_port_57",
+      "source_port_58",
+      "source_port_59",
+      "source_port_60"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_0",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "U1 has no pin with requires_ground=true",
+    "source_component_id": "source_component_0",
+    "source_port_ids": [
+      "source_port_0",
+      "source_port_1",
+      "source_port_2",
+      "source_port_3",
+      "source_port_4",
+      "source_port_5",
+      "source_port_6",
+      "source_port_7",
+      "source_port_8",
+      "source_port_9",
+      "source_port_10",
+      "source_port_11",
+      "source_port_12",
+      "source_port_13",
+      "source_port_14",
+      "source_port_15",
+      "source_port_16",
+      "source_port_17",
+      "source_port_18",
+      "source_port_19",
+      "source_port_20",
+      "source_port_21",
+      "source_port_22",
+      "source_port_23",
+      "source_port_24",
+      "source_port_25",
+      "source_port_26",
+      "source_port_27",
+      "source_port_28",
+      "source_port_29",
+      "source_port_30",
+      "source_port_31",
+      "source_port_32",
+      "source_port_33",
+      "source_port_34",
+      "source_port_35",
+      "source_port_36",
+      "source_port_37",
+      "source_port_38",
+      "source_port_39",
+      "source_port_40",
+      "source_port_41",
+      "source_port_42",
+      "source_port_43",
+      "source_port_44",
+      "source_port_45",
+      "source_port_46",
+      "source_port_47",
+      "source_port_48",
+      "source_port_49",
+      "source_port_50",
+      "source_port_51",
+      "source_port_52",
+      "source_port_53",
+      "source_port_54",
+      "source_port_55",
+      "source_port_56",
+      "source_port_57",
+      "source_port_58",
+      "source_port_59",
+      "source_port_60"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_1",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "U_XTAL has no pin with requires_power=true",
+    "source_component_id": "source_component_2",
+    "source_port_ids": [
+      "source_port_77",
+      "source_port_78",
+      "source_port_79",
+      "source_port_80"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_2",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "U_BOOTSEL has no pin with requires_power=true",
+    "source_component_id": "source_component_3",
+    "source_port_ids": [
+      "source_port_81",
+      "source_port_82",
+      "source_port_83",
+      "source_port_84"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_1",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "U_BOOTSEL has no pin with requires_ground=true",
+    "source_component_id": "source_component_3",
+    "source_port_ids": [
+      "source_port_81",
+      "source_port_82",
+      "source_port_83",
+      "source_port_84"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_0",
+    "source_component_id": "source_component_3",
+    "source_port_ids": [
+      "source_port_81",
+      "source_port_82",
+      "source_port_83",
+      "source_port_84"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on U_BOOTSEL are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_3",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "U_RUN has no pin with requires_power=true",
+    "source_component_id": "source_component_4",
+    "source_port_ids": [
+      "source_port_85",
+      "source_port_86",
+      "source_port_87",
+      "source_port_88"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_2",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "U_RUN has no pin with requires_ground=true",
+    "source_component_id": "source_component_4",
+    "source_port_ids": [
+      "source_port_85",
+      "source_port_86",
+      "source_port_87",
+      "source_port_88"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_1",
+    "source_component_id": "source_component_4",
+    "source_port_ids": [
+      "source_port_85",
+      "source_port_86",
+      "source_port_87",
+      "source_port_88"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on U_RUN are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_4",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "R_VREG_AVDD has no pin with requires_power=true",
+    "source_component_id": "source_component_7",
+    "source_port_ids": [
+      "source_port_107",
+      "source_port_108"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_3",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "R_VREG_AVDD has no pin with requires_ground=true",
+    "source_component_id": "source_component_7",
+    "source_port_ids": [
+      "source_port_107",
+      "source_port_108"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_2",
+    "source_component_id": "source_component_7",
+    "source_port_ids": [
+      "source_port_107",
+      "source_port_108"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on R_VREG_AVDD are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_5",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "F_BAT has no pin with requires_power=true",
+    "source_component_id": "source_component_40",
+    "source_port_ids": [
+      "source_port_169",
+      "source_port_170"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_4",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "F_BAT has no pin with requires_ground=true",
+    "source_component_id": "source_component_40",
+    "source_port_ids": [
+      "source_port_169",
+      "source_port_170"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_3",
+    "source_component_id": "source_component_40",
+    "source_port_ids": [
+      "source_port_169",
+      "source_port_170"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on F_BAT are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_6",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "Q_BAT_REVERSE has no pin with requires_power=true",
+    "source_component_id": "source_component_41",
+    "source_port_ids": [
+      "source_port_171",
+      "source_port_172",
+      "source_port_173"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_5",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "Q_BAT_REVERSE has no pin with requires_ground=true",
+    "source_component_id": "source_component_41",
+    "source_port_ids": [
+      "source_port_171",
+      "source_port_172",
+      "source_port_173"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_4",
+    "source_component_id": "source_component_41",
+    "source_port_ids": [
+      "source_port_171",
+      "source_port_172",
+      "source_port_173"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on Q_BAT_REVERSE are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_7",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "Q_USB_BOOST_OFF has no pin with requires_power=true",
+    "source_component_id": "source_component_62",
+    "source_port_ids": [
+      "source_port_226",
+      "source_port_227",
+      "source_port_228"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_6",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "Q_USB_BOOST_OFF has no pin with requires_ground=true",
+    "source_component_id": "source_component_62",
+    "source_port_ids": [
+      "source_port_226",
+      "source_port_227",
+      "source_port_228"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_5",
+    "source_component_id": "source_component_62",
+    "source_port_ids": [
+      "source_port_226",
+      "source_port_227",
+      "source_port_228"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on Q_USB_BOOST_OFF are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_8",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "RV_VOLUME has no pin with requires_power=true",
+    "source_component_id": "source_component_87",
+    "source_port_ids": [
+      "source_port_299",
+      "source_port_300",
+      "source_port_301",
+      "source_port_302",
+      "source_port_303",
+      "source_port_304",
+      "source_port_305"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_7",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "RV_VOLUME has no pin with requires_ground=true",
+    "source_component_id": "source_component_87",
+    "source_port_ids": [
+      "source_port_299",
+      "source_port_300",
+      "source_port_301",
+      "source_port_302",
+      "source_port_303",
+      "source_port_304",
+      "source_port_305"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_6",
+    "source_component_id": "source_component_87",
+    "source_port_ids": [
+      "source_port_299",
+      "source_port_300",
+      "source_port_301",
+      "source_port_302",
+      "source_port_303",
+      "source_port_304",
+      "source_port_305"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on RV_VOLUME are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_9",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "U_SPK_AMP has no pin with requires_power=true",
+    "source_component_id": "source_component_88",
+    "source_port_ids": [
+      "source_port_306",
+      "source_port_307",
+      "source_port_308",
+      "source_port_309",
+      "source_port_310",
+      "source_port_311",
+      "source_port_312",
+      "source_port_313",
+      "source_port_314",
+      "source_port_315",
+      "source_port_316",
+      "source_port_317",
+      "source_port_318",
+      "source_port_319",
+      "source_port_320",
+      "source_port_321"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_8",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "U_SPK_AMP has no pin with requires_ground=true",
+    "source_component_id": "source_component_88",
+    "source_port_ids": [
+      "source_port_306",
+      "source_port_307",
+      "source_port_308",
+      "source_port_309",
+      "source_port_310",
+      "source_port_311",
+      "source_port_312",
+      "source_port_313",
+      "source_port_314",
+      "source_port_315",
+      "source_port_316",
+      "source_port_317",
+      "source_port_318",
+      "source_port_319",
+      "source_port_320",
+      "source_port_321"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_10",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "FB_SPK_POS has no pin with requires_power=true",
+    "source_component_id": "source_component_92",
+    "source_port_ids": [
+      "source_port_328",
+      "source_port_329"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_9",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "FB_SPK_POS has no pin with requires_ground=true",
+    "source_component_id": "source_component_92",
+    "source_port_ids": [
+      "source_port_328",
+      "source_port_329"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_7",
+    "source_component_id": "source_component_92",
+    "source_port_ids": [
+      "source_port_328",
+      "source_port_329"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on FB_SPK_POS are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_11",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "FB_SPK_NEG has no pin with requires_power=true",
+    "source_component_id": "source_component_93",
+    "source_port_ids": [
+      "source_port_330",
+      "source_port_331"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_10",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "FB_SPK_NEG has no pin with requires_ground=true",
+    "source_component_id": "source_component_93",
+    "source_port_ids": [
+      "source_port_330",
+      "source_port_331"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_8",
+    "source_component_id": "source_component_93",
+    "source_port_ids": [
+      "source_port_330",
+      "source_port_331"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on FB_SPK_NEG are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_12",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "J_SPK has no pin with requires_power=true",
+    "source_component_id": "source_component_96",
+    "source_port_ids": [
+      "source_port_336",
+      "source_port_337",
+      "source_port_338",
+      "source_port_339"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_11",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "J_SPK has no pin with requires_ground=true",
+    "source_component_id": "source_component_96",
+    "source_port_ids": [
+      "source_port_336",
+      "source_port_337",
+      "source_port_338",
+      "source_port_339"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_9",
+    "source_component_id": "source_component_96",
+    "source_port_ids": [
+      "source_port_336",
+      "source_port_337",
+      "source_port_338",
+      "source_port_339"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on J_SPK are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_13",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "J_LCD has no pin with requires_power=true",
+    "source_component_id": "source_component_97",
+    "source_port_ids": [
+      "source_port_340",
+      "source_port_341",
+      "source_port_342",
+      "source_port_343",
+      "source_port_344",
+      "source_port_345",
+      "source_port_346",
+      "source_port_347",
+      "source_port_348",
+      "source_port_349",
+      "source_port_350",
+      "source_port_351",
+      "source_port_352",
+      "source_port_353",
+      "source_port_354",
+      "source_port_355",
+      "source_port_356",
+      "source_port_357",
+      "source_port_358",
+      "source_port_359",
+      "source_port_360",
+      "source_port_361",
+      "source_port_362",
+      "source_port_363",
+      "source_port_364",
+      "source_port_365",
+      "source_port_366",
+      "source_port_367",
+      "source_port_368",
+      "source_port_369",
+      "source_port_370",
+      "source_port_371",
+      "source_port_372",
+      "source_port_373",
+      "source_port_374",
+      "source_port_375",
+      "source_port_376",
+      "source_port_377",
+      "source_port_378",
+      "source_port_379",
+      "source_port_380",
+      "source_port_381",
+      "source_port_382",
+      "source_port_383",
+      "source_port_384",
+      "source_port_385",
+      "source_port_386",
+      "source_port_387",
+      "source_port_388",
+      "source_port_389",
+      "source_port_390",
+      "source_port_391"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_12",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "J_LCD has no pin with requires_ground=true",
+    "source_component_id": "source_component_97",
+    "source_port_ids": [
+      "source_port_340",
+      "source_port_341",
+      "source_port_342",
+      "source_port_343",
+      "source_port_344",
+      "source_port_345",
+      "source_port_346",
+      "source_port_347",
+      "source_port_348",
+      "source_port_349",
+      "source_port_350",
+      "source_port_351",
+      "source_port_352",
+      "source_port_353",
+      "source_port_354",
+      "source_port_355",
+      "source_port_356",
+      "source_port_357",
+      "source_port_358",
+      "source_port_359",
+      "source_port_360",
+      "source_port_361",
+      "source_port_362",
+      "source_port_363",
+      "source_port_364",
+      "source_port_365",
+      "source_port_366",
+      "source_port_367",
+      "source_port_368",
+      "source_port_369",
+      "source_port_370",
+      "source_port_371",
+      "source_port_372",
+      "source_port_373",
+      "source_port_374",
+      "source_port_375",
+      "source_port_376",
+      "source_port_377",
+      "source_port_378",
+      "source_port_379",
+      "source_port_380",
+      "source_port_381",
+      "source_port_382",
+      "source_port_383",
+      "source_port_384",
+      "source_port_385",
+      "source_port_386",
+      "source_port_387",
+      "source_port_388",
+      "source_port_389",
+      "source_port_390",
+      "source_port_391"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_14",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "Q_LCD_BL has no pin with requires_power=true",
+    "source_component_id": "source_component_104",
+    "source_port_ids": [
+      "source_port_404",
+      "source_port_405",
+      "source_port_406"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_13",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "Q_LCD_BL has no pin with requires_ground=true",
+    "source_component_id": "source_component_104",
+    "source_port_ids": [
+      "source_port_404",
+      "source_port_405",
+      "source_port_406"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_10",
+    "source_component_id": "source_component_104",
+    "source_port_ids": [
+      "source_port_404",
+      "source_port_405",
+      "source_port_406"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on Q_LCD_BL are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_15",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "J_PWR_SW has no pin with requires_power=true",
+    "source_component_id": "source_component_106",
+    "source_port_ids": [
+      "source_port_409",
+      "source_port_410",
+      "source_port_411",
+      "source_port_412",
+      "source_port_413"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_14",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "J_PWR_SW has no pin with requires_ground=true",
+    "source_component_id": "source_component_106",
+    "source_port_ids": [
+      "source_port_409",
+      "source_port_410",
+      "source_port_411",
+      "source_port_412",
+      "source_port_413"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_16",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_UP has no pin with requires_power=true",
+    "source_component_id": "source_component_107",
+    "source_port_ids": [
+      "source_port_414",
+      "source_port_415",
+      "source_port_416",
+      "source_port_417"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_15",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_UP has no pin with requires_ground=true",
+    "source_component_id": "source_component_107",
+    "source_port_ids": [
+      "source_port_414",
+      "source_port_415",
+      "source_port_416",
+      "source_port_417"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_11",
+    "source_component_id": "source_component_107",
+    "source_port_ids": [
+      "source_port_414",
+      "source_port_415",
+      "source_port_416",
+      "source_port_417"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_UP are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_17",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_DOWN has no pin with requires_power=true",
+    "source_component_id": "source_component_108",
+    "source_port_ids": [
+      "source_port_418",
+      "source_port_419",
+      "source_port_420",
+      "source_port_421"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_16",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_DOWN has no pin with requires_ground=true",
+    "source_component_id": "source_component_108",
+    "source_port_ids": [
+      "source_port_418",
+      "source_port_419",
+      "source_port_420",
+      "source_port_421"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_12",
+    "source_component_id": "source_component_108",
+    "source_port_ids": [
+      "source_port_418",
+      "source_port_419",
+      "source_port_420",
+      "source_port_421"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_DOWN are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_18",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_LEFT has no pin with requires_power=true",
+    "source_component_id": "source_component_109",
+    "source_port_ids": [
+      "source_port_422",
+      "source_port_423",
+      "source_port_424",
+      "source_port_425"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_17",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_LEFT has no pin with requires_ground=true",
+    "source_component_id": "source_component_109",
+    "source_port_ids": [
+      "source_port_422",
+      "source_port_423",
+      "source_port_424",
+      "source_port_425"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_13",
+    "source_component_id": "source_component_109",
+    "source_port_ids": [
+      "source_port_422",
+      "source_port_423",
+      "source_port_424",
+      "source_port_425"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_LEFT are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_19",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_RIGHT has no pin with requires_power=true",
+    "source_component_id": "source_component_110",
+    "source_port_ids": [
+      "source_port_426",
+      "source_port_427",
+      "source_port_428",
+      "source_port_429"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_18",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_RIGHT has no pin with requires_ground=true",
+    "source_component_id": "source_component_110",
+    "source_port_ids": [
+      "source_port_426",
+      "source_port_427",
+      "source_port_428",
+      "source_port_429"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_14",
+    "source_component_id": "source_component_110",
+    "source_port_ids": [
+      "source_port_426",
+      "source_port_427",
+      "source_port_428",
+      "source_port_429"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_RIGHT are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_20",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_A has no pin with requires_power=true",
+    "source_component_id": "source_component_111",
+    "source_port_ids": [
+      "source_port_430",
+      "source_port_431",
+      "source_port_432",
+      "source_port_433"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_19",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_A has no pin with requires_ground=true",
+    "source_component_id": "source_component_111",
+    "source_port_ids": [
+      "source_port_430",
+      "source_port_431",
+      "source_port_432",
+      "source_port_433"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_15",
+    "source_component_id": "source_component_111",
+    "source_port_ids": [
+      "source_port_430",
+      "source_port_431",
+      "source_port_432",
+      "source_port_433"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_A are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_21",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_B has no pin with requires_power=true",
+    "source_component_id": "source_component_112",
+    "source_port_ids": [
+      "source_port_434",
+      "source_port_435",
+      "source_port_436",
+      "source_port_437"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_20",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_B has no pin with requires_ground=true",
+    "source_component_id": "source_component_112",
+    "source_port_ids": [
+      "source_port_434",
+      "source_port_435",
+      "source_port_436",
+      "source_port_437"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_16",
+    "source_component_id": "source_component_112",
+    "source_port_ids": [
+      "source_port_434",
+      "source_port_435",
+      "source_port_436",
+      "source_port_437"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_B are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_22",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_X has no pin with requires_power=true",
+    "source_component_id": "source_component_113",
+    "source_port_ids": [
+      "source_port_438",
+      "source_port_439",
+      "source_port_440",
+      "source_port_441"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_21",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_X has no pin with requires_ground=true",
+    "source_component_id": "source_component_113",
+    "source_port_ids": [
+      "source_port_438",
+      "source_port_439",
+      "source_port_440",
+      "source_port_441"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_17",
+    "source_component_id": "source_component_113",
+    "source_port_ids": [
+      "source_port_438",
+      "source_port_439",
+      "source_port_440",
+      "source_port_441"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_X are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_23",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_Y has no pin with requires_power=true",
+    "source_component_id": "source_component_114",
+    "source_port_ids": [
+      "source_port_442",
+      "source_port_443",
+      "source_port_444",
+      "source_port_445"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_22",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_Y has no pin with requires_ground=true",
+    "source_component_id": "source_component_114",
+    "source_port_ids": [
+      "source_port_442",
+      "source_port_443",
+      "source_port_444",
+      "source_port_445"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_18",
+    "source_component_id": "source_component_114",
+    "source_port_ids": [
+      "source_port_442",
+      "source_port_443",
+      "source_port_444",
+      "source_port_445"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_Y are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_24",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_SELECT has no pin with requires_power=true",
+    "source_component_id": "source_component_115",
+    "source_port_ids": [
+      "source_port_446",
+      "source_port_447",
+      "source_port_448",
+      "source_port_449"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_23",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_SELECT has no pin with requires_ground=true",
+    "source_component_id": "source_component_115",
+    "source_port_ids": [
+      "source_port_446",
+      "source_port_447",
+      "source_port_448",
+      "source_port_449"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_19",
+    "source_component_id": "source_component_115",
+    "source_port_ids": [
+      "source_port_446",
+      "source_port_447",
+      "source_port_448",
+      "source_port_449"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_SELECT are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_25",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_START has no pin with requires_power=true",
+    "source_component_id": "source_component_116",
+    "source_port_ids": [
+      "source_port_450",
+      "source_port_451",
+      "source_port_452",
+      "source_port_453"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_24",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_START has no pin with requires_ground=true",
+    "source_component_id": "source_component_116",
+    "source_port_ids": [
+      "source_port_450",
+      "source_port_451",
+      "source_port_452",
+      "source_port_453"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_20",
+    "source_component_id": "source_component_116",
+    "source_port_ids": [
+      "source_port_450",
+      "source_port_451",
+      "source_port_452",
+      "source_port_453"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_START are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_26",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_L has no pin with requires_power=true",
+    "source_component_id": "source_component_117",
+    "source_port_ids": [
+      "source_port_454",
+      "source_port_455",
+      "source_port_456",
+      "source_port_457"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_25",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_L has no pin with requires_ground=true",
+    "source_component_id": "source_component_117",
+    "source_port_ids": [
+      "source_port_454",
+      "source_port_455",
+      "source_port_456",
+      "source_port_457"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_21",
+    "source_component_id": "source_component_117",
+    "source_port_ids": [
+      "source_port_454",
+      "source_port_455",
+      "source_port_456",
+      "source_port_457"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_L are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "source_no_power_pin_defined_warning",
+    "source_no_power_pin_defined_warning_id": "source_no_power_pin_defined_warning_27",
+    "warning_type": "source_no_power_pin_defined_warning",
+    "message": "SW_R has no pin with requires_power=true",
+    "source_component_id": "source_component_118",
+    "source_port_ids": [
+      "source_port_458",
+      "source_port_459",
+      "source_port_460",
+      "source_port_461"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_no_ground_pin_defined_warning",
+    "source_no_ground_pin_defined_warning_id": "source_no_ground_pin_defined_warning_26",
+    "warning_type": "source_no_ground_pin_defined_warning",
+    "message": "SW_R has no pin with requires_ground=true",
+    "source_component_id": "source_component_118",
+    "source_port_ids": [
+      "source_port_458",
+      "source_port_459",
+      "source_port_460",
+      "source_port_461"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_component_pins_underspecified_warning",
+    "source_component_pins_underspecified_warning_id": "source_component_pins_underspecified_warning_22",
+    "source_component_id": "source_component_118",
+    "source_port_ids": [
+      "source_port_458",
+      "source_port_459",
+      "source_port_460",
+      "source_port_461"
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_component_pins_underspecified_warning",
+    "message": "All pins on SW_R are underspecified (no pinAttributes set)"
+  },
+  {
+    "type": "schematic_element_outside_sheet_warning",
+    "schematic_element_outside_sheet_warning_id": "schematic_element_outside_sheet_warning_0",
+    "warning_type": "schematic_element_outside_sheet_warning",
+    "message": "schematic_net_label schematic_net_label_123 extends outside the drawing area of schematic sheet \"PWM Audio and Speaker\"",
+    "schematic_sheet_id": "schematic_sheet_8",
+    "schematic_element_type": "schematic_net_label",
+    "schematic_element_id": "schematic_net_label_123"
+  },
+  {
+    "type": "schematic_element_outside_sheet_warning",
+    "schematic_element_outside_sheet_warning_id": "schematic_element_outside_sheet_warning_1",
+    "warning_type": "schematic_element_outside_sheet_warning",
+    "message": "schematic_trace schematic_trace_191 extends outside the drawing area of schematic sheet \"PWM Audio and Speaker\"",
+    "schematic_sheet_id": "schematic_sheet_8",
+    "schematic_element_type": "schematic_trace",
+    "schematic_element_id": "schematic_trace_191"
+  },
+  {
+    "type": "pcb_connector_not_in_accessible_orientation_warning",
+    "pcb_connector_not_in_accessible_orientation_warning_id": "pcb_connector_not_in_accessible_orientation_warning_0",
+    "warning_type": "pcb_connector_not_in_accessible_orientation_warning",
+    "message": "J_LCD is inferred to face x- from its cable insertion center because no explicit footprint insertionDirection is defined, but should face x+ so the connector is accessible from the board edge. Set insertionDirection on the <footprint> to specify the actual direction in the footprint's unrotated orientation; for example, <footprint insertionDirection=\"from_above\"> for a connector accessed from above the PCB (+Z).",
+    "pcb_component_id": "pcb_component_97",
+    "source_component_id": "source_component_97",
+    "pcb_board_id": "pcb_board_0",
+    "facing_direction": "x-",
+    "recommended_facing_direction": "x+",
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "source_missing_manufacturer_part_number_warning",
+    "source_missing_manufacturer_part_number_warning_id": "source_missing_manufacturer_part_number_warning_0",
+    "source_component_id": "source_component_25",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_missing_manufacturer_part_number_warning",
+    "message": "<testpoint#328 name=\".TP_SWDIO\" /> is missing a manufacturer part number and could not be resolved to a supplier part. Specify mpn, manufacturerPartNumber, or mfn, provide supplierPartNumbers, or configure a parts engine to select a part. If this part will not be assembled, mark it doNotPlace."
+  },
+  {
+    "type": "source_missing_manufacturer_part_number_warning",
+    "source_missing_manufacturer_part_number_warning_id": "source_missing_manufacturer_part_number_warning_1",
+    "source_component_id": "source_component_26",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_missing_manufacturer_part_number_warning",
+    "message": "<testpoint#334 name=\".TP_SWCLK\" /> is missing a manufacturer part number and could not be resolved to a supplier part. Specify mpn, manufacturerPartNumber, or mfn, provide supplierPartNumbers, or configure a parts engine to select a part. If this part will not be assembled, mark it doNotPlace."
+  },
+  {
+    "type": "source_missing_manufacturer_part_number_warning",
+    "source_missing_manufacturer_part_number_warning_id": "source_missing_manufacturer_part_number_warning_2",
+    "source_component_id": "source_component_27",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_missing_manufacturer_part_number_warning",
+    "message": "<testpoint#340 name=\".TP_GND\" /> is missing a manufacturer part number and could not be resolved to a supplier part. Specify mpn, manufacturerPartNumber, or mfn, provide supplierPartNumbers, or configure a parts engine to select a part. If this part will not be assembled, mark it doNotPlace."
+  },
+  {
+    "type": "source_missing_manufacturer_part_number_warning",
+    "source_missing_manufacturer_part_number_warning_id": "source_missing_manufacturer_part_number_warning_3",
+    "source_component_id": "source_component_28",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "warning_type": "source_missing_manufacturer_part_number_warning",
+    "message": "<testpoint#346 name=\".TP_3V3\" /> is missing a manufacturer part number and could not be resolved to a supplier part. Specify mpn, manufacturerPartNumber, or mfn, provide supplierPartNumbers, or configure a parts engine to select a part. If this part will not be assembled, mark it doNotPlace."
+  },
+  {
+    "type": "pcb_component_missing_courtyard_warning",
+    "pcb_component_missing_courtyard_warning_id": "pcb_component_missing_courtyard_warning_0",
+    "warning_type": "pcb_component_missing_courtyard_warning",
+    "message": "TP_SWDIO has no courtyard",
+    "pcb_component_id": "pcb_component_25",
+    "source_component_id": "source_component_25",
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "pcb_component_missing_courtyard_warning",
+    "pcb_component_missing_courtyard_warning_id": "pcb_component_missing_courtyard_warning_1",
+    "warning_type": "pcb_component_missing_courtyard_warning",
+    "message": "TP_SWCLK has no courtyard",
+    "pcb_component_id": "pcb_component_26",
+    "source_component_id": "source_component_26",
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "pcb_component_missing_courtyard_warning",
+    "pcb_component_missing_courtyard_warning_id": "pcb_component_missing_courtyard_warning_2",
+    "warning_type": "pcb_component_missing_courtyard_warning",
+    "message": "TP_GND has no courtyard",
+    "pcb_component_id": "pcb_component_27",
+    "source_component_id": "source_component_27",
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "pcb_component_missing_courtyard_warning",
+    "pcb_component_missing_courtyard_warning_id": "pcb_component_missing_courtyard_warning_3",
+    "warning_type": "pcb_component_missing_courtyard_warning",
+    "message": "TP_3V3 has no courtyard",
+    "pcb_component_id": "pcb_component_28",
+    "source_component_id": "source_component_28",
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_0",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.Q_BAT_REVERSE > .source to .C_BAT_IN_LOCAL > .pin1] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+    "center": {
+      "x": -34.56519778771086,
+      "y": -30.072749954479512
+    },
+    "source_trace_id": "source_trace_109",
+    "pcb_trace_id": "pcb_trace_254",
+    "pcb_component_ids": [
+      "pcb_component_41",
+      "pcb_component_45"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_172",
+      "pcb_port_191"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_1",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.U_BAT_BUCKBOOST > .PGND to .U_BAT_BUCKBOOST > .GND] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+    "center": {
+      "x": -42.735001,
+      "y": -14.479884
+    },
+    "source_trace_id": "source_trace_117",
+    "pcb_trace_id": "pcb_trace_3",
+    "pcb_component_ids": [
+      "pcb_component_43"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_179",
+      "pcb_port_184"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_2",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_BAT_IN_LOCAL > .pin1 to .U_BAT_BUCKBOOST > .VIN] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+    "center": {
+      "x": -34.56519778771086,
+      "y": -30.072749954479512
+    },
+    "source_trace_id": "source_trace_121",
+    "pcb_trace_id": "pcb_trace_254",
+    "pcb_component_ids": [
+      "pcb_component_43",
+      "pcb_component_45"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_186",
+      "pcb_port_191"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_3",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_BAT_IN_BULK_A > .pin1 to .U_BAT_BUCKBOOST > .VIN] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+    "center": {
+      "x": -34.56519778771086,
+      "y": -30.072749954479512
+    },
+    "source_trace_id": "source_trace_122",
+    "pcb_trace_id": "pcb_trace_254",
+    "pcb_component_ids": [
+      "pcb_component_43",
+      "pcb_component_46"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_186",
+      "pcb_port_193"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_4",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_BAT_IN_BULK_B > .pin1 to .U_BAT_BUCKBOOST > .VIN] is routed thinner than requested (requested: 0.4mm, actual: 0.1mm).",
+    "center": {
+      "x": -34.56519778771086,
+      "y": -30.072749954479512
+    },
+    "source_trace_id": "source_trace_123",
+    "pcb_trace_id": "pcb_trace_254",
+    "pcb_component_ids": [
+      "pcb_component_43",
+      "pcb_component_47"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_186",
+      "pcb_port_195"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_5",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_3V3_IN > .pin1 to .U_3V3 > .VIN] is routed thinner than requested (requested: 0.6mm, actual: 0.4mm).",
+    "center": {
+      "x": -35.75,
+      "y": -12.5075
+    },
+    "source_trace_id": "source_trace_200",
+    "pcb_trace_id": "pcb_trace_257",
+    "pcb_component_ids": [
+      "pcb_component_77",
+      "pcb_component_79"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_277",
+      "pcb_port_283"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_6",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_3V3_OUT_A > .pin1 to .L_3V3 > .pin2] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+    "center": {
+      "x": 4.883344117599139,
+      "y": 12.350031
+    },
+    "source_trace_id": "source_trace_207",
+    "pcb_trace_id": "pcb_trace_87",
+    "pcb_component_ids": [
+      "pcb_component_78",
+      "pcb_component_81"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_282",
+      "pcb_port_287"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_7",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_3V3_OUT_B > .pin1 to .L_3V3 > .pin2] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+    "center": {
+      "x": 4.883344117599139,
+      "y": 12.350031
+    },
+    "source_trace_id": "source_trace_208",
+    "pcb_trace_id": "pcb_trace_87",
+    "pcb_component_ids": [
+      "pcb_component_78",
+      "pcb_component_82"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_282",
+      "pcb_port_289"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_8",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.Q_BAT_REVERSE > .source to .J_PWR_SW > .pin1] is routed thinner than requested (requested: 0.3mm, actual: 0.1mm).",
+    "center": {
+      "x": -34.517670228283144,
+      "y": -30.088278350882398
+    },
+    "source_trace_id": "source_trace_249",
+    "pcb_trace_id": "pcb_trace_254",
+    "pcb_component_ids": [
+      "pcb_component_41",
+      "pcb_component_106"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_172",
+      "pcb_port_409"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_9",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_IOVDD6 > .pin1 to .C_IOVDD5 > .pin1] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+    "center": {
+      "x": 4.883344117599139,
+      "y": 12.350031
+    },
+    "source_trace_id": "source_trace_338",
+    "pcb_trace_id": "pcb_trace_87",
+    "pcb_component_ids": [
+      "pcb_component_29",
+      "pcb_component_30"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_147",
+      "pcb_port_149"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_10",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_IOVDD4 > .pin1 to .C_IOVDD5 > .pin1] is routed thinner than requested (requested: 0.6mm, actual: 0.1mm).",
+    "center": {
+      "x": 4.883344117599139,
+      "y": 12.350031
+    },
+    "source_trace_id": "source_trace_339",
+    "pcb_trace_id": "pcb_trace_87",
+    "pcb_component_ids": [
+      "pcb_component_30",
+      "pcb_component_31"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_149",
+      "pcb_port_151"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_11",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.D_USB_POWER > .cathode to .C_3V3_IN > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -35.75,
+      "y": -12.5075
+    },
+    "source_trace_id": "source_trace_348",
+    "pcb_trace_id": "pcb_trace_257",
+    "pcb_component_ids": [
+      "pcb_component_76",
+      "pcb_component_79"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_273",
+      "pcb_port_283"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_12",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_BAT_OUT_LOCAL > .pin1 to .C_BAT_OUT_BULK_C > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -29.82994223090974,
+      "y": -30.670061170245642
+    },
+    "source_trace_id": "source_trace_354",
+    "pcb_trace_id": "pcb_trace_252",
+    "pcb_component_ids": [
+      "pcb_component_48",
+      "pcb_component_51"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_197",
+      "pcb_port_203"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_13",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_BAT_OUT_BULK_A > .pin1 to .C_BAT_OUT_BULK_B > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -29.82994223090974,
+      "y": -30.670061170245642
+    },
+    "source_trace_id": "source_trace_355",
+    "pcb_trace_id": "pcb_trace_252",
+    "pcb_component_ids": [
+      "pcb_component_49",
+      "pcb_component_50"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_199",
+      "pcb_port_201"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_14",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_BAT_OUT_BULK_C > .pin1 to .R_BAT_FB_TOP > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -29.82994223090974,
+      "y": -30.670061170245642
+    },
+    "source_trace_id": "source_trace_356",
+    "pcb_trace_id": "pcb_trace_252",
+    "pcb_component_ids": [
+      "pcb_component_51",
+      "pcb_component_53"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_203",
+      "pcb_port_207"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_15",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_BAT_OUT_BULK_C > .pin1 to .D_BAT_POWER > .anode] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -29.82994223090974,
+      "y": -30.670061170245642
+    },
+    "source_trace_id": "source_trace_357",
+    "pcb_trace_id": "pcb_trace_252",
+    "pcb_component_ids": [
+      "pcb_component_51",
+      "pcb_component_58"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_203",
+      "pcb_port_218"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_16",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.U_3V3 > .VIN to .U_3V3 > .EN] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -35.75,
+      "y": -12.5075
+    },
+    "source_trace_id": "source_trace_358",
+    "pcb_trace_id": "pcb_trace_257",
+    "pcb_component_ids": [
+      "pcb_component_77"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_276",
+      "pcb_port_277"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_17",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_AMP_VDD_BULK > .pin1 to .C_3V3_IN > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -35.75,
+      "y": -12.5075
+    },
+    "source_trace_id": "source_trace_362",
+    "pcb_trace_id": "pcb_trace_257",
+    "pcb_component_ids": [
+      "pcb_component_79",
+      "pcb_component_90"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_283",
+      "pcb_port_324"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_18",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.D_BAT_POWER > .cathode to .D_USB_POWER > .cathode] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -35.75,
+      "y": -12.5075
+    },
+    "source_trace_id": "source_trace_363",
+    "pcb_trace_id": "pcb_trace_257",
+    "pcb_component_ids": [
+      "pcb_component_58",
+      "pcb_component_76"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_217",
+      "pcb_port_273"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_19",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.D_USB_POWER > .cathode to .R_LCD_LED > .pin1] is routed thinner than requested (requested: 0.8mm, actual: 0.4mm).",
+    "center": {
+      "x": -35.75,
+      "y": -12.5075
+    },
+    "source_trace_id": "source_trace_364",
+    "pcb_trace_id": "pcb_trace_257",
+    "pcb_component_ids": [
+      "pcb_component_76",
+      "pcb_component_103"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_273",
+      "pcb_port_402"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_20",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_VBUS > .pin1 to .D_USB_POWER > .anode] is routed thinner than requested (requested: 0.8mm, actual: 0.1mm).",
+    "center": {
+      "x": -21.20436134722082,
+      "y": -27.827501849999997
+    },
+    "source_trace_id": "source_trace_365",
+    "pcb_trace_id": "pcb_trace_100",
+    "pcb_component_ids": [
+      "pcb_component_22",
+      "pcb_component_76"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_137",
+      "pcb_port_274"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_21",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.D_USB_POWER > .anode to .U_USB_VALID > .VDD] is routed thinner than requested (requested: 0.8mm, actual: 0.1mm).",
+    "center": {
+      "x": -21.20436134722082,
+      "y": -27.827501849999997
+    },
+    "source_trace_id": "source_trace_366",
+    "pcb_trace_id": "pcb_trace_100",
+    "pcb_component_ids": [
+      "pcb_component_59",
+      "pcb_component_76"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_221",
+      "pcb_port_274"
+    ]
+  },
+  {
+    "type": "pcb_trace_warning",
+    "pcb_trace_warning_id": "pcb_trace_warning_22",
+    "warning_type": "pcb_trace_warning",
+    "message": "Trace [.C_VBUS > .pin2 to .C_XOUT > .pin2] is routed thinner than requested (requested: 0.8mm, actual: 0.1mm).",
+    "center": {
+      "x": -42.8,
+      "y": -15.124943
+    },
+    "source_trace_id": "source_trace_377",
+    "pcb_trace_id": "pcb_trace_3",
+    "pcb_component_ids": [
+      "pcb_component_21",
+      "pcb_component_22"
+    ],
+    "pcb_port_ids": [
+      "pcb_port_136",
+      "pcb_port_138"
+    ]
+  }
+]

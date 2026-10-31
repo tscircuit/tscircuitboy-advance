@@ -1,0 +1,32 @@
+{
+  "nominalDifferentialOhm": 90,
+  "stackup": "JLC04161H-3313",
+  "widthMm": 0.131318,
+  "gapMm": 0.15,
+  "coplanarGapMm": 0.18,
+  "traces": {
+    "USB_DM_A": {
+      "lengthMm": 47.37883426876401,
+      "viaTransitions": 0
+    },
+    "USB_DP_A": {
+      "lengthMm": 46.72944130427547,
+      "viaTransitions": 0
+    },
+    "USB_DM": {
+      "lengthMm": 2.026388472300349,
+      "viaTransitions": 0
+    },
+    "USB_DP": {
+      "lengthMm": 4.2737360214694835,
+      "viaTransitions": 2
+    }
+  },
+  "groundReferenceSamples": 5940,
+  "mainMismatchMm": 0.6493929644885412,
+  "totalMismatchMm": 1.5979545846805951,
+  "orientationMismatchMm": {
+    "A6_A7": 3.6627585982621014,
+    "B6_B7": 3.954104591702923
+  }
+}

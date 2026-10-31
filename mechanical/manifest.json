@@ -1,0 +1,2747 @@
+{
+  "revision": "R13 assembly access review",
+  "units": "mm",
+  "pcb_revision": "R8 edge-mounted USB-C, microSD, power and volume; supplier B3F-3152 shoulders; 0.3/0.45 mm through vias",
+  "pcb_size": [
+    144.5,
+    89.55,
+    1.6
+  ],
+  "body_size": [
+    157,
+    93,
+    36.650000000000006
+  ],
+  "grip_depth_mm": [
+    23.55,
+    35.35
+  ],
+  "display_active_centre_x_mm": 0,
+  "battery_transition": "continuous smooth loft",
+  "grip_style": "shallow subtractive finger grooves, unchanged compact outline",
+  "main_body_depth_mm": 23.55,
+  "battery_bay_depth_mm": 36.65,
+  "wall": 2.4,
+  "mounting_holes": [
+    [
+      -50,
+      -32
+    ],
+    [
+      50,
+      -32
+    ],
+    [
+      -60,
+      31
+    ],
+    [
+      60,
+      31
+    ]
+  ],
+  "parts": [
+    {
+      "id": "rear-shell",
+      "label": "Rear shell / plain sides and central battery bay",
+      "color": [
+        75,
+        83,
+        98
+      ],
+      "group": "rear",
+      "explode": [
+        0,
+        0,
+        -40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/rear-shell.glb",
+      "stl": "cad/rear-shell.stl",
+      "step": "cad/rear-shell.step",
+      "bounds": [
+        [
+          -78.5,
+          -46.5,
+          -23.10000000000002
+        ],
+        [
+          78.5,
+          46.5,
+          2.2
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 94495.31906608758,
+      "valid": true
+    },
+    {
+      "id": "battery-door",
+      "label": "Plain battery cover / integral bending-plastic edge tab",
+      "color": [
+        90,
+        98,
+        113
+      ],
+      "group": "door",
+      "explode": [
+        0,
+        -25,
+        -68
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/battery-door.glb",
+      "stl": "cad/battery-door.stl",
+      "step": "cad/battery-door.step",
+      "bounds": [
+        [
+          -34.001692299671205,
+          -39.40000010000001,
+          -23.101692299671207
+        ],
+        [
+          34.001692299671205,
+          35.10000010000001,
+          -19.49999989999999
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10438.908845889135,
+      "valid": true
+    },
+    {
+      "id": "lcd-body",
+      "label": "ER-TFT035IPS-6 bare LCD reference",
+      "color": [
+        170,
+        177,
+        183
+      ],
+      "group": "display",
+      "explode": [
+        0,
+        0,
+        22
+      ],
+      "printable": false,
+      "provenance": "Current user-supplied ER-TFT035IPS-6 PDF page8: BL83 x54.5, LCD thickness2.3; landscape",
+      "glb": "cad/lcd-body.glb",
+      "stl": "cad/lcd-body.stl",
+      "step": "cad/lcd-body.step",
+      "bounds": [
+        [
+          -39.2200001,
+          -11.850000100000004,
+          7.499999899999995
+        ],
+        [
+          43.7800001,
+          42.6500001,
+          9.800000100000005
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10404.050000000003,
+      "valid": true
+    },
+    {
+      "id": "touch-glass",
+      "label": "Verified 84.96 x56.54 mm capacitive glass",
+      "color": [
+        27,
+        31,
+        39
+      ],
+      "group": "display",
+      "explode": [
+        0,
+        0,
+        22
+      ],
+      "printable": false,
+      "provenance": "Current IPS PDF page8: CTP84.96 x56.54 +/-0.2, complete stack3.95 +/-0.25mm",
+      "glb": "cad/touch-glass.glb",
+      "stl": "cad/touch-glass.stl",
+      "step": "cad/touch-glass.step",
+      "bounds": [
+        [
+          -40.480000100000005,
+          -12.870000100000004,
+          9.799999899999992
+        ],
+        [
+          44.480000100000005,
+          43.67000010000001,
+          11.450000100000008
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 7926.0033599999915,
+      "valid": true
+    },
+    {
+      "id": "active-area",
+      "label": "73.44 x 48.96 viewing area",
+      "color": [
+        34,
+        86,
+        109
+      ],
+      "group": "display",
+      "explode": [
+        0,
+        0,
+        22
+      ],
+      "printable": false,
+      "provenance": "Manufacturer active area; provisional centering",
+      "glb": "cad/active-area.glb",
+      "stl": "cad/active-area.stl",
+      "step": "cad/active-area.step",
+      "bounds": [
+        [
+          -36.7200001,
+          -9.080000100000003,
+          11.449999899999998
+        ],
+        [
+          36.7200001,
+          39.880000100000004,
+          11.490000100000003
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 143.82489599999693,
+      "valid": true
+    },
+    {
+      "id": "aa-holder",
+      "label": "MPD BH4AAW / four AA cells in one column",
+      "color": [
+        28,
+        30,
+        34
+      ],
+      "group": "battery",
+      "explode": [
+        0,
+        0,
+        -18
+      ],
+      "printable": false,
+      "provenance": "Unmodified manufacturer STEP, rigid placement only; supplier CAD is a filled mounting envelope, not internal cell geometry; nominal 57.15 x 61.72 x 15.88 mm, drawing +/-0.5 mm",
+      "glb": "cad/aa-holder.glb",
+      "stl": "cad/aa-holder.stl",
+      "step": "cad/aa-holder.step",
+      "bounds": [
+        [
+          -28.57661192018681,
+          -33.86261192018683,
+          -19.249611920186826
+        ],
+        [
+          28.57661192018684,
+          27.86261192018682,
+          -3.4994812040005314
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 55149.09729782397,
+      "valid": true
+    },
+    {
+      "id": "aa-0",
+      "label": "AA cell 1 / column orientation",
+      "color": [
+        204,
+        156,
+        64
+      ],
+      "group": "battery",
+      "explode": [
+        0,
+        0,
+        -18
+      ],
+      "printable": false,
+      "provenance": "Standard AA maximum diameter14.5 x length50.5 mm; row centres illustrate manufacturer four-cell arrangement",
+      "glb": "cad/aa-0.glb",
+      "stl": "cad/aa-0.stl",
+      "step": "cad/aa-0.step",
+      "bounds": [
+        [
+          -25.253244965944607,
+          -33.11243370406909,
+          -19.70324496594461
+        ],
+        [
+          25.253244965944607,
+          -18.607566295930912,
+          -5.199999899999989
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 8339.063174642832,
+      "valid": true
+    },
+    {
+      "id": "aa-1",
+      "label": "AA cell 2 / column orientation",
+      "color": [
+        204,
+        156,
+        64
+      ],
+      "group": "battery",
+      "explode": [
+        0,
+        0,
+        -18
+      ],
+      "printable": false,
+      "provenance": "Standard AA maximum diameter14.5 x length50.5 mm; row centres illustrate manufacturer four-cell arrangement",
+      "glb": "cad/aa-1.glb",
+      "stl": "cad/aa-1.stl",
+      "step": "cad/aa-1.step",
+      "bounds": [
+        [
+          -25.253244965944603,
+          -17.872433704069085,
+          -19.703244965944606
+        ],
+        [
+          25.253244965944603,
+          -3.3675662959309123,
+          -5.199999899999991
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 8339.063174642832,
+      "valid": true
+    },
+    {
+      "id": "aa-2",
+      "label": "AA cell 3 / column orientation",
+      "color": [
+        204,
+        156,
+        64
+      ],
+      "group": "battery",
+      "explode": [
+        0,
+        0,
+        -18
+      ],
+      "printable": false,
+      "provenance": "Standard AA maximum diameter14.5 x length50.5 mm; row centres illustrate manufacturer four-cell arrangement",
+      "glb": "cad/aa-2.glb",
+      "stl": "cad/aa-2.stl",
+      "step": "cad/aa-2.step",
+      "bounds": [
+        [
+          -25.253244965944603,
+          -2.632433704069087,
+          -19.703244965944606
+        ],
+        [
+          25.253244965944603,
+          11.872433704069087,
+          -5.199999899999992
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 8339.063174642832,
+      "valid": true
+    },
+    {
+      "id": "aa-3",
+      "label": "AA cell 4 / column orientation",
+      "color": [
+        204,
+        156,
+        64
+      ],
+      "group": "battery",
+      "explode": [
+        0,
+        0,
+        -18
+      ],
+      "printable": false,
+      "provenance": "Standard AA maximum diameter14.5 x length50.5 mm; row centres illustrate manufacturer four-cell arrangement",
+      "glb": "cad/aa-3.glb",
+      "stl": "cad/aa-3.stl",
+      "step": "cad/aa-3.step",
+      "bounds": [
+        [
+          -25.253244965944607,
+          12.607566295930912,
+          -19.70324496594461
+        ],
+        [
+          25.253244965944607,
+          27.112433704069087,
+          -5.19999989999999
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 8339.063174642832,
+      "valid": true
+    },
+    {
+      "id": "speaker",
+      "label": "Same Sky CMS-23558N-L152B / 8 ohm 1 W",
+      "color": [
+        34,
+        38,
+        44
+      ],
+      "group": "speaker",
+      "explode": [
+        0,
+        0,
+        18
+      ],
+      "printable": false,
+      "provenance": "Datasheet envelope: nominal 23 mm diameter x 5.5 mm, maximum 23.2 mm diameter x 5.8 mm including drawing tolerances; simplified reference not vendor CAD",
+      "glb": "cad/speaker.glb",
+      "stl": "cad/speaker.stl",
+      "step": "cad/speaker.step",
+      "bounds": [
+        [
+          -35.6000001,
+          -40.60389386651054,
+          5.944808114488632
+        ],
+        [
+          -12.394808114488633,
+          -17.396106133489457,
+          11.755191885511367
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 2451.8497033088465,
+      "valid": true
+    },
+    {
+      "id": "speaker-retainer",
+      "label": "Front speaker retaining ring / two M2 screws",
+      "color": [
+        104,
+        115,
+        134
+      ],
+      "group": "mounts",
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/speaker-retainer.glb",
+      "stl": "cad/speaker-retainer.stl",
+      "step": "cad/speaker-retainer.step",
+      "bounds": [
+        [
+          -39.01197945617379,
+          -42.50469344471003,
+          5.038020543826206
+        ],
+        [
+          -10.495344307193433,
+          -15.494415416248742,
+          5.861979456173795
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 302.72530036874736,
+      "valid": true
+    },
+    {
+      "id": "lcd-retainer-lower",
+      "label": "LCD lower/left retainer / three M2 screws",
+      "color": [
+        104,
+        115,
+        134
+      ],
+      "group": "mounts",
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/lcd-retainer-lower.glb",
+      "stl": "cad/lcd-retainer-lower.stl",
+      "step": "cad/lcd-retainer-lower.step",
+      "bounds": [
+        [
+          -46.201153606659865,
+          -20.601075014109966,
+          5.9927237945766665
+        ],
+        [
+          51.60101706962633,
+          40.50000010000003,
+          7.201153606659863
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 746.8380801679292,
+      "valid": true
+    },
+    {
+      "id": "lcd-retainer-upper",
+      "label": "LCD upper/right retainer / two M2 screws",
+      "color": [
+        104,
+        115,
+        134
+      ],
+      "group": "mounts",
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/lcd-retainer-upper.glb",
+      "stl": "cad/lcd-retainer-upper.stl",
+      "step": "cad/lcd-retainer-upper.step",
+      "bounds": [
+        [
+          -17.300000100000013,
+          35.39884114932921,
+          5.992723794576664
+        ],
+        [
+          71.60072558107372,
+          44.30000010000003,
+          8.100000100000013
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 252.8157908814656,
+      "valid": true
+    },
+    {
+      "id": "front-shell",
+      "label": "Front shell / LCD bezel",
+      "color": [
+        209,
+        211,
+        216
+      ],
+      "group": "front",
+      "explode": [
+        0,
+        0,
+        38
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/front-shell.glb",
+      "stl": "cad/front-shell.stl",
+      "step": "cad/front-shell.step",
+      "bounds": [
+        [
+          -78.50836400913616,
+          -46.50549928089695,
+          0.9916359908638384
+        ],
+        [
+          78.50836400913616,
+          46.50836400913616,
+          13.555499280896948
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 33464.369091601206,
+      "valid": true
+    },
+    {
+      "id": "battery-clip-m1",
+      "label": "MPD holder end keeper / M2 flat head",
+      "color": [
+        104,
+        115,
+        134
+      ],
+      "group": "mounts",
+      "explode": [
+        0,
+        0,
+        -10
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/battery-clip-m1.glb",
+      "stl": "cad/battery-clip-m1.stl",
+      "step": "cad/battery-clip-m1.step",
+      "bounds": [
+        [
+          -37.00000010000001,
+          -7.000000100000007,
+          -3.5004831798403218
+        ],
+        [
+          -27.99999989999999,
+          1.0000001000000072,
+          -1.4927237945766714
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 132.83477970914186,
+      "valid": true
+    },
+    {
+      "id": "battery-clip-1",
+      "label": "MPD holder end keeper / M2 flat head",
+      "color": [
+        104,
+        115,
+        134
+      ],
+      "group": "mounts",
+      "explode": [
+        0,
+        0,
+        -10
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/battery-clip-1.glb",
+      "stl": "cad/battery-clip-1.stl",
+      "step": "cad/battery-clip-1.step",
+      "bounds": [
+        [
+          27.99999989999999,
+          -7.000000100000007,
+          -3.500483179840329
+        ],
+        [
+          37.00000010000001,
+          1.0000001000000072,
+          -1.4927237945766714
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 132.83477970914186,
+      "valid": true
+    },
+    {
+      "id": "button-y",
+      "label": "Y captive cup cap / supplier actuator inside",
+      "color": [
+        153,
+        75,
+        104
+      ],
+      "group": "buttons",
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/button-y.glb",
+      "stl": "cad/button-y.stl",
+      "step": "cad/button-y.step",
+      "bounds": [
+        [
+          53.69999989999998,
+          -1.3019469832552855,
+          8.897404007244301
+        ],
+        [
+          65.3025959927557,
+          10.301946983255286,
+          15.05232745212579
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 519.2675665265497,
+      "valid": true
+    },
+    {
+      "id": "button-x",
+      "label": "X captive cup cap / supplier actuator inside",
+      "color": [
+        153,
+        75,
+        104
+      ],
+      "group": "buttons",
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/button-x.glb",
+      "stl": "cad/button-x.stl",
+      "step": "cad/button-x.step",
+      "bounds": [
+        [
+          44.797687056246744,
+          -10.800205047084761,
+          8.89744880541954
+        ],
+        [
+          55.80255119458046,
+          0.8002050470847608,
+          15.05231294375325
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 515.4404273840179,
+      "valid": true
+    },
+    {
+      "id": "button-b",
+      "label": "B captive cup cap / supplier actuator inside",
+      "color": [
+        153,
+        75,
+        104
+      ],
+      "group": "buttons",
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/button-b.glb",
+      "stl": "cad/button-b.stl",
+      "step": "cad/button-b.step",
+      "bounds": [
+        [
+          63.19999989999998,
+          -10.801946983255286,
+          8.897404007244301
+        ],
+        [
+          74.8025959927557,
+          0.8019469832552855,
+          15.05232745212579
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 519.2675665265497,
+      "valid": true
+    },
+    {
+      "id": "button-a",
+      "label": "A captive cup cap / supplier actuator inside",
+      "color": [
+        153,
+        75,
+        104
+      ],
+      "group": "buttons",
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/button-a.glb",
+      "stl": "cad/button-a.stl",
+      "step": "cad/button-a.step",
+      "bounds": [
+        [
+          53.69999989999998,
+          -20.301946983255288,
+          8.897404007244301
+        ],
+        [
+          65.3025959927557,
+          -8.698053016744714,
+          15.05232745212579
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 519.2675665265497,
+      "valid": true
+    },
+    {
+      "id": "button-select",
+      "label": "SELECT captive cup cap / supplier actuator inside",
+      "color": [
+        58,
+        64,
+        78
+      ],
+      "group": "buttons",
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/button-select.glb",
+      "stl": "cad/button-select.stl",
+      "step": "cad/button-select.step",
+      "bounds": [
+        [
+          -10.800000100000009,
+          -34.4016113137285,
+          8.897851574960809
+        ],
+        [
+          -1.1978515749608092,
+          -24.798388686271498,
+          15.051700857322693
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 283.36537416849205,
+      "valid": true
+    },
+    {
+      "id": "button-start",
+      "label": "START captive cup cap / supplier actuator inside",
+      "color": [
+        58,
+        64,
+        78
+      ],
+      "group": "buttons",
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/button-start.glb",
+      "stl": "cad/button-start.stl",
+      "step": "cad/button-start.step",
+      "bounds": [
+        [
+          0.1999998999999923,
+          -34.4016113137285,
+          8.897851574960809
+        ],
+        [
+          9.802148425039192,
+          -24.798388686271498,
+          15.051700857322693
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 283.3653741684921,
+      "valid": true
+    },
+    {
+      "id": "dpad",
+      "label": "Captive D-pad / four hollow actuator cups",
+      "color": [
+        53,
+        59,
+        72
+      ],
+      "group": "buttons",
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "printable": true,
+      "provenance": "Designed locally",
+      "glb": "cad/dpad.glb",
+      "stl": "cad/dpad.stl",
+      "step": "cad/dpad.step",
+      "bounds": [
+        [
+          -72.6000001,
+          -14.600000100000013,
+          1.4993285484252492
+        ],
+        [
+          -43.39999989999998,
+          14.600000100000013,
+          15.050000100000014
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 2376.909646392464,
+      "valid": true
+    },
+    {
+      "id": "volume-wheel",
+      "label": "RK10J12E002L wheel drawing reference",
+      "color": [
+        55,
+        60,
+        68
+      ],
+      "group": "controls",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "printable": false,
+      "provenance": "ALPS dimensioned wheel diameter 14 / thickness 0.9; ALPS page2: wheel0.9 mm thick within1.8 mm seated assembly; wheel centre PCB+.8+1.35=2.15 mm",
+      "glb": "cad/volume-wheel.glb",
+      "stl": "cad/volume-wheel.stl",
+      "step": "cad/volume-wheel.step",
+      "bounds": [
+        [
+          15.099999899999993,
+          33.4726502133126,
+          1.6968669259845157
+        ],
+        [
+          29.103133074015485,
+          47.477349786687405,
+          2.6031330740154845
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 138.54423602330988,
+      "valid": true
+    },
+    {
+      "id": "shoulder-l",
+      "label": "Broad corner shoulder paddle / B3F-3152 plunger",
+      "color": [
+        128,
+        135,
+        150
+      ],
+      "group": "controls",
+      "explode": [
+        0,
+        0,
+        10
+      ],
+      "printable": true,
+      "provenance": "Existing supplier STEP/OBJ B3F-3152; 0.25 mm nominal switch travel, captive broad paddle; validate return on prototype",
+      "glb": "cad/shoulder-l.glb",
+      "stl": "cad/shoulder-l.stl",
+      "step": "cad/shoulder-l.step",
+      "bounds": [
+        [
+          -68.00000010000025,
+          42.39867929120205,
+          1.0994922400986287
+        ],
+        [
+          -39.99999989999982,
+          49.20050775990137,
+          6.701320708797951
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 616.348250643457,
+      "valid": true
+    },
+    {
+      "id": "shoulder-pad-l",
+      "label": "Shoulder silicone plunger pad / 0.4 mm",
+      "color": [
+        116,
+        161,
+        151
+      ],
+      "group": "gaskets",
+      "explode": [
+        0,
+        0,
+        10
+      ],
+      "printable": false,
+      "provenance": "Cut 0.4 mm silicone pad; 0.01 mm nominal clearance to supplier actuator",
+      "glb": "cad/shoulder-pad-l.glb",
+      "stl": "cad/shoulder-pad-l.stl",
+      "step": "cad/shoulder-pad-l.step",
+      "bounds": [
+        [
+          -55.20000010000001,
+          45.75999989999999,
+          3.5999998999999896
+        ],
+        [
+          -52.79999989999999,
+          46.16000010000001,
+          6.00000010000001
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 2.304000000000015,
+      "valid": true
+    },
+    {
+      "id": "shoulder-r",
+      "label": "Broad corner shoulder paddle / B3F-3152 plunger",
+      "color": [
+        128,
+        135,
+        150
+      ],
+      "group": "controls",
+      "explode": [
+        0,
+        0,
+        10
+      ],
+      "printable": true,
+      "provenance": "Existing supplier STEP/OBJ B3F-3152; 0.25 mm nominal switch travel, captive broad paddle; validate return on prototype",
+      "glb": "cad/shoulder-r.glb",
+      "stl": "cad/shoulder-r.stl",
+      "step": "cad/shoulder-r.step",
+      "bounds": [
+        [
+          39.99999989999994,
+          42.39867929120205,
+          1.0994922400986287
+        ],
+        [
+          68.00000010000011,
+          49.20050775990137,
+          6.701320708797948
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 616.3482506434624,
+      "valid": true
+    },
+    {
+      "id": "shoulder-pad-r",
+      "label": "Shoulder silicone plunger pad / 0.4 mm",
+      "color": [
+        116,
+        161,
+        151
+      ],
+      "group": "gaskets",
+      "explode": [
+        0,
+        0,
+        10
+      ],
+      "printable": false,
+      "provenance": "Cut 0.4 mm silicone pad; 0.01 mm nominal clearance to supplier actuator",
+      "glb": "cad/shoulder-pad-r.glb",
+      "stl": "cad/shoulder-pad-r.stl",
+      "step": "cad/shoulder-pad-r.step",
+      "bounds": [
+        [
+          52.79999989999999,
+          45.75999989999999,
+          3.5999998999999896
+        ],
+        [
+          55.20000010000001,
+          46.16000010000001,
+          6.00000010000001
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 2.304000000000015,
+      "valid": true
+    },
+    {
+      "id": "dpad-pivot-pad",
+      "label": "D-pad insulating pivot pad / 0.7 mm",
+      "color": [
+        116,
+        161,
+        151
+      ],
+      "group": "gaskets",
+      "explode": [
+        0,
+        0,
+        10
+      ],
+      "printable": false,
+      "provenance": "Cut 4 mm diameter insulating silicone/PET stack; check clearance on actual PCB before bonding",
+      "glb": "cad/dpad-pivot-pad.glb",
+      "stl": "cad/dpad-pivot-pad.stl",
+      "step": "cad/dpad-pivot-pad.step",
+      "bounds": [
+        [
+          -60.00000010000001,
+          -2.0006714390535474,
+          0.7991047645669996
+        ],
+        [
+          -55.999104764567,
+          2.0006714390535474,
+          1.5008952354330003
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 8.796459430051423,
+      "valid": true
+    },
+    {
+      "id": "lcd-foam",
+      "label": "LCD border foam / 0.5 mm stock compressed to 0.3",
+      "color": [
+        116,
+        161,
+        151
+      ],
+      "group": "gaskets",
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "printable": false,
+      "provenance": "Die-cut closed-cell foam on inactive rear border; no force on visible active area",
+      "glb": "cad/lcd-foam.glb",
+      "stl": "cad/lcd-foam.stl",
+      "step": "cad/lcd-foam.step",
+      "bounds": [
+        [
+          -39.10000010000001,
+          -12.550000100000002,
+          7.199999899999992
+        ],
+        [
+          43.70000010000001,
+          42.5000001,
+          7.500000100000007
+        ]
+      ],
+      "solids": 7,
+      "volume_mm3": 22.200000000000024,
+      "valid": true
+    },
+    {
+      "id": "lcd-front-foam",
+      "label": "Front inactive-border foam / display clamp",
+      "color": [
+        116,
+        161,
+        151
+      ],
+      "group": "gaskets",
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "printable": false,
+      "provenance": "Cut soft 0.8 mm foam pads; nominal front compression to 0.5 mm with rear 0.5 mm stock compressed to 0.3 mm. Combined 1.3 mm free stock covers the 0.55 to 1.05 mm border-clamp gap from LCD stack tolerance. Verify compression force on hardware.",
+      "glb": "cad/lcd-front-foam.glb",
+      "stl": "cad/lcd-front-foam.stl",
+      "step": "cad/lcd-front-foam.step",
+      "bounds": [
+        [
+          -39.7500001,
+          -12.200000100000002,
+          11.449999899999993
+        ],
+        [
+          43.800000100000005,
+          42.800000100000005,
+          11.950000100000006
+        ]
+      ],
+      "solids": 8,
+      "volume_mm3": 52.00000000000006,
+      "valid": true
+    },
+    {
+      "id": "speaker-gasket",
+      "label": "Front speaker rim gasket / 0.4 mm foam",
+      "color": [
+        116,
+        161,
+        151
+      ],
+      "group": "gaskets",
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "printable": false,
+      "provenance": "Foam only on fixed frame rim, keep diaphragm clear",
+      "glb": "cad/speaker-gasket.glb",
+      "stl": "cad/speaker-gasket.stl",
+      "step": "cad/speaker-gasket.step",
+      "bounds": [
+        [
+          -35.550000100000005,
+          -40.5538770830342,
+          11.744830492874458
+        ],
+        [
+          -12.444830492874457,
+          -17.446122916965802,
+          12.155169507125542
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 54.227030793613395,
+      "valid": true
+    },
+    {
+      "id": "lcd-screw-0",
+      "label": "M2 x 4 flat-head retainer screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "lcd-fasteners",
+      "explode": [
+        0,
+        0,
+        14
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/lcd-screw-0.glb",
+      "stl": "cad/lcd-screw-0.stl",
+      "step": "cad/lcd-screw-0.step",
+      "bounds": [
+        [
+          -45.50635714570132,
+          -19.906994917802187,
+          6.092792475637335
+        ],
+        [
+          -41.69279247563734,
+          -16.093005082197813,
+          10.100447667716502
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 14.393730178593252,
+      "valid": true
+    },
+    {
+      "id": "lcd-screw-1",
+      "label": "M2 x 4 flat-head retainer screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "lcd-fasteners",
+      "explode": [
+        0,
+        0,
+        14
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/lcd-screw-1.glb",
+      "stl": "cad/lcd-screw-1.stl",
+      "step": "cad/lcd-screw-1.step",
+      "bounds": [
+        [
+          47.09364285429868,
+          -19.906994917802187,
+          6.092792475637335
+        ],
+        [
+          50.90720752436266,
+          -16.093005082197813,
+          10.100447667716505
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 14.393730178593252,
+      "valid": true
+    },
+    {
+      "id": "lcd-screw-2",
+      "label": "M2 x 4 flat-head retainer screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "lcd-fasteners",
+      "explode": [
+        0,
+        0,
+        14
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/lcd-screw-2.glb",
+      "stl": "cad/lcd-screw-2.stl",
+      "step": "cad/lcd-screw-2.step",
+      "bounds": [
+        [
+          -45.50635714570132,
+          35.59300508219782,
+          6.092792475637338
+        ],
+        [
+          -41.69279247563734,
+          39.40699491780218,
+          10.100447667716503
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 14.393730178593254,
+      "valid": true
+    },
+    {
+      "id": "lcd-screw-3",
+      "label": "M2 x 4 flat-head retainer screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "lcd-fasteners",
+      "explode": [
+        0,
+        0,
+        14
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/lcd-screw-3.glb",
+      "stl": "cad/lcd-screw-3.stl",
+      "step": "cad/lcd-screw-3.step",
+      "bounds": [
+        [
+          60.09364285429868,
+          37.89300508219782,
+          6.092792475637338
+        ],
+        [
+          63.90720752436266,
+          41.70699491780218,
+          10.100447667716505
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 14.393730178593252,
+      "valid": true
+    },
+    {
+      "id": "lcd-screw-4",
+      "label": "M2 x 4 flat-head retainer screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "lcd-fasteners",
+      "explode": [
+        0,
+        0,
+        14
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/lcd-screw-4.glb",
+      "stl": "cad/lcd-screw-4.stl",
+      "step": "cad/lcd-screw-4.step",
+      "bounds": [
+        [
+          67.09364285429892,
+          36.09300508219806,
+          6.092792475637578
+        ],
+        [
+          70.90720752436243,
+          39.90699491780194,
+          10.10044766771651
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 14.39373017859327,
+      "valid": true
+    },
+    {
+      "id": "keeper-screw-0",
+      "label": "M2 x 5 flat-head keeper screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "rear-fasteners",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/keeper-screw-0.glb",
+      "stl": "cad/keeper-screw-0.stl",
+      "step": "cad/keeper-screw-0.step",
+      "bounds": [
+        [
+          -34.40720752436266,
+          -4.906994917802181,
+          -6.600439263491207
+        ],
+        [
+          -30.59364285429868,
+          -1.0930050821978186,
+          -1.5927924756373382
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 17.53532283218283,
+      "valid": true
+    },
+    {
+      "id": "keeper-screw-1",
+      "label": "M2 x 5 flat-head keeper screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "rear-fasteners",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/keeper-screw-1.glb",
+      "stl": "cad/keeper-screw-1.stl",
+      "step": "cad/keeper-screw-1.step",
+      "bounds": [
+        [
+          30.59279247563734,
+          -4.906994917802181,
+          -6.600439263491209
+        ],
+        [
+          34.40635714570132,
+          -1.0930050821978186,
+          -1.5927924756373382
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 17.53532283218283,
+      "valid": true
+    },
+    {
+      "id": "pcb-screw-0",
+      "label": "M3 PCB screw / nominal / Phillips PH1",
+      "color": [
+        160,
+        163,
+        170
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/pcb-screw-0.glb",
+      "stl": "cad/pcb-screw-0.stl",
+      "step": "cad/pcb-screw-0.step",
+      "bounds": [
+        [
+          -52.800000100000005,
+          -34.80093997467496,
+          -4.700671451574756
+        ],
+        [
+          -47.198746710393806,
+          -29.19906002532504,
+          3.7012532896061976
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 97.65970819341146,
+      "valid": true
+    },
+    {
+      "id": "pcb-screw-1",
+      "label": "M3 PCB screw / nominal / Phillips PH1",
+      "color": [
+        160,
+        163,
+        170
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/pcb-screw-1.glb",
+      "stl": "cad/pcb-screw-1.stl",
+      "step": "cad/pcb-screw-1.step",
+      "bounds": [
+        [
+          47.199999899999995,
+          -34.80093997467496,
+          -4.700671451574756
+        ],
+        [
+          52.801253289606194,
+          -29.19906002532504,
+          3.7012532896061976
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 97.65970819341146,
+      "valid": true
+    },
+    {
+      "id": "pcb-screw-2",
+      "label": "M3 PCB screw / nominal / Phillips PH1",
+      "color": [
+        160,
+        163,
+        170
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/pcb-screw-2.glb",
+      "stl": "cad/pcb-screw-2.stl",
+      "step": "cad/pcb-screw-2.step",
+      "bounds": [
+        [
+          -62.800000100000005,
+          28.19906002532504,
+          -4.7006714515747525
+        ],
+        [
+          -57.198746710393806,
+          33.80093997467496,
+          3.7012532896061967
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 97.65970819341152,
+      "valid": true
+    },
+    {
+      "id": "pcb-screw-3",
+      "label": "M3 PCB screw / nominal / Phillips PH1",
+      "color": [
+        160,
+        163,
+        170
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/pcb-screw-3.glb",
+      "stl": "cad/pcb-screw-3.stl",
+      "step": "cad/pcb-screw-3.step",
+      "bounds": [
+        [
+          57.199999899999995,
+          28.19906002532504,
+          -4.7006714515747525
+        ],
+        [
+          62.801253289606194,
+          33.80093997467496,
+          3.7012532896061967
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 97.65970819341152,
+      "valid": true
+    },
+    {
+      "id": "pcb-insert-0",
+      "label": "CNC Kitchen M3 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/pcb-insert-0.glb",
+      "stl": "cad/pcb-insert-0.stl",
+      "step": "cad/pcb-insert-0.step",
+      "bounds": [
+        [
+          -52.310362995130205,
+          -34.31036299513021,
+          -6.509219150594086
+        ],
+        [
+          -47.689637004869795,
+          -29.68963700486979,
+          -0.7961340125969771
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 40.7541140712959,
+      "valid": true
+    },
+    {
+      "id": "pcb-insert-1",
+      "label": "CNC Kitchen M3 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/pcb-insert-1.glb",
+      "stl": "cad/pcb-insert-1.stl",
+      "step": "cad/pcb-insert-1.step",
+      "bounds": [
+        [
+          47.689637004869795,
+          -34.31036299513021,
+          -6.509219150594086
+        ],
+        [
+          52.310362995130205,
+          -29.68963700486979,
+          -0.7961340125969771
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 40.7541140712959,
+      "valid": true
+    },
+    {
+      "id": "pcb-insert-2",
+      "label": "CNC Kitchen M3 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/pcb-insert-2.glb",
+      "stl": "cad/pcb-insert-2.stl",
+      "step": "cad/pcb-insert-2.step",
+      "bounds": [
+        [
+          -62.31036299513022,
+          28.68963700486979,
+          -6.5092191505940855
+        ],
+        [
+          -57.689637004869795,
+          33.31036299513021,
+          -0.7961340125969774
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 40.7541140712959,
+      "valid": true
+    },
+    {
+      "id": "pcb-insert-3",
+      "label": "CNC Kitchen M3 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/pcb-insert-3.glb",
+      "stl": "cad/pcb-insert-3.stl",
+      "step": "cad/pcb-insert-3.step",
+      "bounds": [
+        [
+          57.68963700486978,
+          28.68963700486979,
+          -6.5092191505940855
+        ],
+        [
+          62.310362995130205,
+          33.31036299513021,
+          -0.7961340125969774
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 40.7541140712959,
+      "valid": true
+    },
+    {
+      "id": "lcd-insert-0",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/lcd-insert-0.glb",
+      "stl": "cad/lcd-insert-0.stl",
+      "step": "cad/lcd-insert-0.step",
+      "bounds": [
+        [
+          -45.41265733166011,
+          -19.81265733166009,
+          7.196432844147144
+        ],
+        [
+          -41.787342668339896,
+          -16.18734266833991,
+          10.213191905419315
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.800665450997652,
+      "valid": true
+    },
+    {
+      "id": "lcd-insert-1",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/lcd-insert-1.glb",
+      "stl": "cad/lcd-insert-1.stl",
+      "step": "cad/lcd-insert-1.step",
+      "bounds": [
+        [
+          47.1873426683399,
+          -19.81265733166009,
+          7.196432844147138
+        ],
+        [
+          50.8126573316601,
+          -16.18734266833991,
+          10.21319190541931
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.80066545099767,
+      "valid": true
+    },
+    {
+      "id": "lcd-insert-2",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/lcd-insert-2.glb",
+      "stl": "cad/lcd-insert-2.stl",
+      "step": "cad/lcd-insert-2.step",
+      "bounds": [
+        [
+          -45.41265733166011,
+          35.6873426683399,
+          7.196432844147145
+        ],
+        [
+          -41.787342668339896,
+          39.3126573316601,
+          10.213191905419317
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.800665450997661,
+      "valid": true
+    },
+    {
+      "id": "lcd-insert-3",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/lcd-insert-3.glb",
+      "stl": "cad/lcd-insert-3.stl",
+      "step": "cad/lcd-insert-3.step",
+      "bounds": [
+        [
+          60.1873426683399,
+          37.9873426683399,
+          7.196432844147139
+        ],
+        [
+          63.8126573316601,
+          41.612657331660095,
+          10.213191905419311
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.800665450997657,
+      "valid": true
+    },
+    {
+      "id": "lcd-insert-4",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/lcd-insert-4.glb",
+      "stl": "cad/lcd-insert-4.stl",
+      "step": "cad/lcd-insert-4.step",
+      "bounds": [
+        [
+          67.18734266833991,
+          36.187342668339895,
+          7.1964328441471315
+        ],
+        [
+          70.81265733166009,
+          39.81265733166009,
+          10.21319190541932
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.800665450997672,
+      "valid": true
+    },
+    {
+      "id": "speaker-insert-0",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/speaker-insert-0.glb",
+      "stl": "cad/speaker-insert-0.stl",
+      "step": "cad/speaker-insert-0.step",
+      "bounds": [
+        [
+          -40.8126573316601,
+          -30.81265733166009,
+          5.946432844147138
+        ],
+        [
+          -37.1873426683399,
+          -27.18734266833991,
+          8.96319190541931
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.800665450997668,
+      "valid": true
+    },
+    {
+      "id": "speaker-screw-0",
+      "label": "M2 x4 flat-head speaker screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "speaker-fasteners",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/speaker-screw-0.glb",
+      "stl": "cad/speaker-screw-0.stl",
+      "step": "cad/speaker-screw-0.step",
+      "bounds": [
+        [
+          -40.90635714570132,
+          -30.906994917802187,
+          5.042792475637335
+        ],
+        [
+          -37.09279247563734,
+          -27.093005082197813,
+          9.050447667716506
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 14.393730178593252,
+      "valid": true
+    },
+    {
+      "id": "speaker-insert-1",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/speaker-insert-1.glb",
+      "stl": "cad/speaker-insert-1.stl",
+      "step": "cad/speaker-insert-1.step",
+      "bounds": [
+        [
+          -14.312657331660093,
+          -41.112657331660095,
+          5.946432844147144
+        ],
+        [
+          -10.687342668339907,
+          -37.4873426683399,
+          8.96319190541931
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.8006654509976,
+      "valid": true
+    },
+    {
+      "id": "speaker-screw-1",
+      "label": "M2 x4 flat-head speaker screw / Phillips PH0",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "speaker-fasteners",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/speaker-screw-1.glb",
+      "stl": "cad/speaker-screw-1.stl",
+      "step": "cad/speaker-screw-1.step",
+      "bounds": [
+        [
+          -14.406357145701318,
+          -41.20699491780218,
+          5.042792475637339
+        ],
+        [
+          -10.592792475637339,
+          -37.39300508219782,
+          9.050447667716504
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 14.393730178593257,
+      "valid": true
+    },
+    {
+      "id": "keeper-insert-0",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/keeper-insert-0.glb",
+      "stl": "cad/keeper-insert-0.stl",
+      "step": "cad/keeper-insert-0.step",
+      "bounds": [
+        [
+          -34.3126573316601,
+          -4.812657331660096,
+          -6.513191905419309
+        ],
+        [
+          -30.687342668339912,
+          -1.187342668339908,
+          -3.496432844147141
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.800665450997672,
+      "valid": true
+    },
+    {
+      "id": "keeper-insert-1",
+      "label": "CNC Kitchen M2 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/keeper-insert-1.glb",
+      "stl": "cad/keeper-insert-1.stl",
+      "step": "cad/keeper-insert-1.step",
+      "bounds": [
+        [
+          30.68734266833991,
+          -4.812657331660092,
+          -6.513191905419308
+        ],
+        [
+          34.3126573316601,
+          -1.187342668339908,
+          -3.4964328441471375
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 10.800665450997663,
+      "valid": true
+    },
+    {
+      "id": "case-insert-0",
+      "label": "CNC Kitchen M2.5 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/case-insert-0.glb",
+      "stl": "cad/case-insert-0.stl",
+      "step": "cad/case-insert-0.step",
+      "bounds": [
+        [
+          -76.81201202619168,
+          -31.312012026191674,
+          0.9963769131042001
+        ],
+        [
+          -72.18798797380832,
+          -26.687987973808326,
+          5.013793991129118
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 34.03016693918193,
+      "valid": true
+    },
+    {
+      "id": "case-screw-0",
+      "label": "M2.5 x16 enclosure screw / Phillips PH1",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "case-fasteners",
+      "explode": [
+        0,
+        0,
+        -15
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/case-screw-0.glb",
+      "stl": "cad/case-screw-0.stl",
+      "step": "cad/case-screw-0.step",
+      "bounds": [
+        [
+          -76.86054004165992,
+          -31.361328865047838,
+          -9.661591825793693
+        ],
+        [
+          -72.13840817420632,
+          -26.638671134952162,
+          6.350559559645637
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 80.86867853545259,
+      "valid": true
+    },
+    {
+      "id": "case-insert-1",
+      "label": "CNC Kitchen M2.5 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/case-insert-1.glb",
+      "stl": "cad/case-insert-1.stl",
+      "step": "cad/case-insert-1.step",
+      "bounds": [
+        [
+          -76.81201202619168,
+          26.687987973808326,
+          0.9963769131042001
+        ],
+        [
+          -72.18798797380832,
+          31.312012026191674,
+          5.013793991129118
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 34.03016693918193,
+      "valid": true
+    },
+    {
+      "id": "case-screw-1",
+      "label": "M2.5 x16 enclosure screw / Phillips PH1",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "case-fasteners",
+      "explode": [
+        0,
+        0,
+        -15
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/case-screw-1.glb",
+      "stl": "cad/case-screw-1.stl",
+      "step": "cad/case-screw-1.step",
+      "bounds": [
+        [
+          -76.86054004165992,
+          26.638671134952162,
+          -9.661591825793693
+        ],
+        [
+          -72.13840817420632,
+          31.361328865047838,
+          6.350559559645637
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 80.86867853545253,
+      "valid": true
+    },
+    {
+      "id": "case-insert-2",
+      "label": "CNC Kitchen M2.5 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/case-insert-2.glb",
+      "stl": "cad/case-insert-2.stl",
+      "step": "cad/case-insert-2.step",
+      "bounds": [
+        [
+          72.18798797380832,
+          -31.312012026191674,
+          0.9963769131042001
+        ],
+        [
+          76.81201202619168,
+          -26.687987973808326,
+          5.013793991129118
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 34.03016693918193,
+      "valid": true
+    },
+    {
+      "id": "case-screw-2",
+      "label": "M2.5 x16 enclosure screw / Phillips PH1",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "case-fasteners",
+      "explode": [
+        0,
+        0,
+        -15
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/case-screw-2.glb",
+      "stl": "cad/case-screw-2.stl",
+      "step": "cad/case-screw-2.step",
+      "bounds": [
+        [
+          72.13945995834008,
+          -31.361328865047838,
+          -9.661591825793693
+        ],
+        [
+          76.86159182579368,
+          -26.638671134952162,
+          6.350559559645637
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 80.86867853545259,
+      "valid": true
+    },
+    {
+      "id": "case-insert-3",
+      "label": "CNC Kitchen M2.5 heat-set insert",
+      "color": [
+        183,
+        139,
+        49
+      ],
+      "group": "inserts",
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "printable": false,
+      "provenance": "Manufacturer STEP, unmodified apart from rigid pose; installation bore and blind depth from CNC Kitchen2025 table",
+      "glb": "cad/case-insert-3.glb",
+      "stl": "cad/case-insert-3.stl",
+      "step": "cad/case-insert-3.step",
+      "bounds": [
+        [
+          72.18798797380832,
+          26.687987973808326,
+          0.9963769131042001
+        ],
+        [
+          76.81201202619168,
+          31.312012026191674,
+          5.013793991129118
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 34.03016693918193,
+      "valid": true
+    },
+    {
+      "id": "case-screw-3",
+      "label": "M2.5 x16 enclosure screw / Phillips PH1",
+      "color": [
+        182,
+        186,
+        194
+      ],
+      "group": "case-fasteners",
+      "explode": [
+        0,
+        0,
+        -15
+      ],
+      "printable": false,
+      "provenance": "ISO screw envelope with simplified cross drive; threads omitted. Use real cross-recessed machine screws, not the former plain-head CAD envelopes.",
+      "glb": "cad/case-screw-3.glb",
+      "stl": "cad/case-screw-3.stl",
+      "step": "cad/case-screw-3.step",
+      "bounds": [
+        [
+          72.13945995834008,
+          26.638671134952162,
+          -9.661591825793693
+        ],
+        [
+          76.86159182579368,
+          31.361328865047838,
+          6.350559559645637
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 80.86867853545255,
+      "valid": true
+    },
+    {
+      "id": "speaker-lead-red",
+      "label": "Factory speaker red lead / 152 mm",
+      "color": [
+        205,
+        52,
+        54
+      ],
+      "group": "cables",
+      "explode": [
+        0,
+        0,
+        5
+      ],
+      "printable": false,
+      "provenance": "CMS-23558N-L152B drawing: UL1571 28 AWG, 152 +/-5 mm; 0.8 mm OD conservative SH-compatible insulation envelope; actual JST-SH plug CAD unavailable",
+      "glb": "cad/speaker-lead-red.glb",
+      "stl": "cad/speaker-lead-red.stl",
+      "step": "cad/speaker-lead-red.step",
+      "bounds": [
+        [
+          -25.20039983335967,
+          -42.902816642719756,
+          1.8014313083062976
+        ],
+        [
+          11.603880409429033,
+          -19.949465898829622,
+          6.650578860446268
+        ]
+      ],
+      "solids": 469,
+      "volume_mm3": 107.82340726832051,
+      "valid": true
+    },
+    {
+      "id": "speaker-lead-black",
+      "label": "Factory speaker black lead / 152 mm",
+      "color": [
+        30,
+        32,
+        38
+      ],
+      "group": "cables",
+      "explode": [
+        0,
+        0,
+        5
+      ],
+      "printable": false,
+      "provenance": "CMS-23558N-L152B drawing: UL1571 28 AWG, 152 +/-5 mm; 0.8 mm OD conservative SH-compatible insulation envelope; actual JST-SH plug CAD unavailable",
+      "glb": "cad/speaker-lead-black.glb",
+      "stl": "cad/speaker-lead-black.stl",
+      "step": "cad/speaker-lead-black.step",
+      "bounds": [
+        [
+          -23.600399833359667,
+          -42.90217790218283,
+          2.701526411578597
+        ],
+        [
+          11.603526997964135,
+          -19.949465898829622,
+          7.277595723424309
+        ]
+      ],
+      "solids": 469,
+      "volume_mm3": 107.8187128229535,
+      "valid": true
+    },
+    {
+      "id": "battery-lead-red",
+      "label": "BH4AAW red lead / trimmed PH harness",
+      "color": [
+        205,
+        52,
+        54
+      ],
+      "group": "cables",
+      "explode": [
+        0,
+        0,
+        -4
+      ],
+      "printable": false,
+      "provenance": "BH4AAW manufacturer drawing: 24AWG UL1007 152.4 +/-5 mm; assembly cut length is CAD path length plus crimp allowance; maximum PH-compatible 1.5 mm OD envelope; PHR-2 and SPH-002T-P0.5S required, mating plug CAD unavailable",
+      "glb": "cad/battery-lead-red.glb",
+      "stl": "cad/battery-lead-red.stl",
+      "step": "cad/battery-lead-red.step",
+      "bounds": [
+        [
+          13.363720911815589,
+          -35.79724790323103,
+          -14.163759128681013
+        ],
+        [
+          37.00050513513065,
+          -17.811801305020747,
+          4.655350530795869
+        ]
+      ],
+      "solids": 159,
+      "volume_mm3": 160.56697953813196,
+      "valid": true
+    },
+    {
+      "id": "battery-lead-black",
+      "label": "BH4AAW black lead / trimmed PH harness",
+      "color": [
+        30,
+        32,
+        38
+      ],
+      "group": "cables",
+      "explode": [
+        0,
+        0,
+        -4
+      ],
+      "printable": false,
+      "provenance": "BH4AAW manufacturer drawing: 24AWG UL1007 152.4 +/-5 mm; assembly cut length is CAD path length plus crimp allowance; maximum PH-compatible 1.5 mm OD envelope; PHR-2 and SPH-002T-P0.5S required, mating plug CAD unavailable",
+      "glb": "cad/battery-lead-black.glb",
+      "stl": "cad/battery-lead-black.stl",
+      "step": "cad/battery-lead-black.step",
+      "bounds": [
+        [
+          14.980902071596903,
+          -35.83719629288478,
+          -14.163617277477966
+        ],
+        [
+          37.00147829101165,
+          -16.211232971901694,
+          4.655323184550137
+        ]
+      ],
+      "solids": 157,
+      "volume_mm3": 158.7526842269629,
+      "valid": true
+    },
+    {
+      "id": "lcd-flex",
+      "label": "Display integral flex / inward fold candidate",
+      "color": [
+        213,
+        158,
+        58
+      ],
+      "group": "cables",
+      "explode": [
+        0,
+        0,
+        22
+      ],
+      "printable": false,
+      "provenance": "Routed user-supplied older STEP; two static 1.2 mm radius folds; rigid IC and reinforced tip stay flat. Supplier bend radius and physical assembly still require qualification.",
+      "glb": "cad/lcd-flex.glb",
+      "stl": null,
+      "step": null,
+      "bounds": [
+        [
+          32.159911184307745,
+          -6.0500000000000025,
+          1.2499999999999991
+        ],
+        [
+          45.73,
+          41.85,
+          8.25
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 228.44297720940085,
+      "valid": true
+    },
+    {
+      "id": "lcd-flex-clearance",
+      "label": "Two-fold flex clearance / driver flat",
+      "color": [
+        244,
+        178,
+        50
+      ],
+      "group": "clearance",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "printable": false,
+      "provenance": "Conservative corridor for local layout checking; static fold radius not supplier-qualified",
+      "glb": "cad/lcd-flex-clearance.glb",
+      "stl": "cad/lcd-flex-clearance.stl",
+      "step": "cad/lcd-flex-clearance.step",
+      "bounds": [
+        [
+          31.984911084307733,
+          -6.050000100000005,
+          1.274999899999991
+        ],
+        [
+          45.90500010000001,
+          41.85000010000001,
+          8.42491565651678
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 700.9245844562861,
+      "valid": true
+    },
+    {
+      "id": "pcb-washer-0",
+      "label": "M3 nylon insulating washer / 7 x3.2 x0.5mm",
+      "color": [
+        214,
+        217,
+        205
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "Nominal nylon washer; insulates screw head from PCB copper; purchase 3.2mm ID,7mm OD,0.5mm thickness",
+      "glb": "cad/pcb-washer-0.glb",
+      "stl": "cad/pcb-washer-0.stl",
+      "step": "cad/pcb-washer-0.step",
+      "bounds": [
+        [
+          -53.50000010000001,
+          -35.5011749433437,
+          0.7984334129922543
+        ],
+        [
+          -46.498433412992256,
+          -28.498825056656298,
+          1.3015665870077457
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 15.221016406642548,
+      "valid": true
+    },
+    {
+      "id": "pcb-washer-1",
+      "label": "M3 nylon insulating washer / 7 x3.2 x0.5mm",
+      "color": [
+        214,
+        217,
+        205
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "Nominal nylon washer; insulates screw head from PCB copper; purchase 3.2mm ID,7mm OD,0.5mm thickness",
+      "glb": "cad/pcb-washer-1.glb",
+      "stl": "cad/pcb-washer-1.stl",
+      "step": "cad/pcb-washer-1.step",
+      "bounds": [
+        [
+          46.49999989999999,
+          -35.5011749433437,
+          0.7984334129922543
+        ],
+        [
+          53.501566587007744,
+          -28.498825056656298,
+          1.3015665870077457
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 15.221016406642548,
+      "valid": true
+    },
+    {
+      "id": "pcb-washer-2",
+      "label": "M3 nylon insulating washer / 7 x3.2 x0.5mm",
+      "color": [
+        214,
+        217,
+        205
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "Nominal nylon washer; insulates screw head from PCB copper; purchase 3.2mm ID,7mm OD,0.5mm thickness",
+      "glb": "cad/pcb-washer-2.glb",
+      "stl": "cad/pcb-washer-2.stl",
+      "step": "cad/pcb-washer-2.step",
+      "bounds": [
+        [
+          -63.50000010000001,
+          27.498825056656298,
+          0.7984334129922543
+        ],
+        [
+          -56.498433412992256,
+          34.5011749433437,
+          1.3015665870077457
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 15.221016406642548,
+      "valid": true
+    },
+    {
+      "id": "pcb-washer-3",
+      "label": "M3 nylon insulating washer / 7 x3.2 x0.5mm",
+      "color": [
+        214,
+        217,
+        205
+      ],
+      "group": "fasteners",
+      "explode": [
+        0,
+        0,
+        25
+      ],
+      "printable": false,
+      "provenance": "Nominal nylon washer; insulates screw head from PCB copper; purchase 3.2mm ID,7mm OD,0.5mm thickness",
+      "glb": "cad/pcb-washer-3.glb",
+      "stl": "cad/pcb-washer-3.stl",
+      "step": "cad/pcb-washer-3.step",
+      "bounds": [
+        [
+          56.49999989999999,
+          27.498825056656298,
+          0.7984334129922543
+        ],
+        [
+          63.501566587007744,
+          34.5011749433437,
+          1.3015665870077457
+        ]
+      ],
+      "solids": 1,
+      "volume_mm3": 15.221016406642548,
+      "valid": true
+    }
+  ],
+  "blockers": [
+    "Current IPS datasheet verified; user-supplied ER-TFT035-6 STEP is an older mechanical reference",
+    "Mating SH/PH housing STEP not available for download; plug fit must be checked against JST drawings",
+    "LCD/CTP bend radius and full FPC routing require supplier drawing/physical qualification",
+    "Manufacturer holder STEP is a filled envelope; internal battery seats omitted by supplier; speaker and volume wheel simplified references",
+    "Button travel/return, shoulder silicone pads, screws and tolerances require physical fit test"
+  ]
+}

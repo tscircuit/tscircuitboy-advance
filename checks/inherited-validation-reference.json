@@ -1,0 +1,37 @@
+{
+  "accepted": true,
+  "batteryCellCount": 4,
+  "batteryEnableTopOhm": 390000,
+  "batteryEnableBottomOhm": 100000,
+  "nominalBatteryStartV": 3.9200000000000004,
+  "nominalBatteryStopV": 3.43,
+  "assemblyCellCountSelection": true,
+  "tscircuit": "0.0.2827",
+  "flash": "W25Q256JVFIQ",
+  "flashJlcpcb": "C779876",
+  "capacityMB": 32,
+  "reimportedPartTypes": 51,
+  "localConnectorReview": {
+    "speakerPositionMm": [
+      -2,
+      -20
+    ],
+    "shoulderPart": "SKHLLCA010",
+    "shoulderJlcpcb": "C139766",
+    "shoulderSidePush": true,
+    "usbJlcpcb": "C5143397",
+    "usbCadReferenceOnly": true,
+    "usbCadSource": "GCT dimensioned drawing"
+  },
+  "physicalComponentPorts": 462,
+  "preservedElectricalGroups": 133,
+  "newFlashNcPins": 7,
+  "layers": 4,
+  "physicalDrcErrors": 0,
+  "shorts": 0,
+  "pcbStyleFindings": 0,
+  "retainedLengthFindings": 16,
+  "retainedWidthWarnings": 25,
+  "nativeRoutingPhases": 5,
+  "policy": "Zero physical DRC/shorts; original mapped net partitions and board rules preserved; no narrower traces or new/worse length findings. Additional flash addressing firmware not implemented."
+}

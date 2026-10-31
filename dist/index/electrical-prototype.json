@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "logicNominalV": 3.2339393939393943,
+  "dcToleranceMinV": 3.1887834434609155,
+  "dcToleranceMaxV": 3.279423091676256,
+  "feederResistanceEstimateOhm": 0.053709986524697384,
+  "logicLoadMinV": 3.1469284501985673,
+  "feederLoadAllowanceA": 0.5,
+  "downstreamDropAllowanceV": 0.005,
+  "ripplePeakAllowanceV": 0.01,
+  "analogMinVAt20mA": 3.144678450198567,
+  "displayOperatingMaxV": 3.3,
+  "mcuAnalogAndUsbMinV": 3.135,
+  "feedbackTemperatureAllowanceC": 65,
+  "speakerSeriesOhm": 330000,
+  "speakerGainBoundWithMargins": 1.0188340807174887,
+  "speakerSteadyAcPowerBoundAt4OhmW": 0.7065043254439057,
+  "specifiedSpeakerOhm": 8,
+  "specifiedSpeakerW": 1,
+  "batteryConverterOutputDesignTargetA": 1.5,
+  "inductorPeakAtDesignTargetA": 3.049039060068471,
+  "inductor20PercentMarginA": 3.658846872082165,
+  "inductorLowerTabulatedSaturationA": 4.57,
+  "boostModeMaxAverageLimitPlusRippleEstimateA": 4.402976190476191,
+  "physicalPrototypeTestingRequired": [
+    "startup and load-transient rails",
+    "PFM ripple and analog-filter ringing",
+    "maximum brightness/audio low-battery thermal load",
+    "actual speaker waveform including turn-on pops",
+    "USB current and enumeration"
+  ],
+  "productionQualified": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "part": "rear_shell",
+    "maxDeltaMm": 3.8146972158870085e-7,
+    "pass": true
+  },
+  {
+    "part": "lcd_retainer_lower",
+    "maxDeltaMm": 0.007276205423333515,
+    "pass": true
+  },
+  {
+    "part": "lcd_retainer_upper",
+    "maxDeltaMm": 0.0072762054233361795,
+    "pass": true
+  },
+  {
+    "part": "front_shell",
+    "maxDeltaMm": 0.008364009136161643,
+    "pass": true
+  }
+]

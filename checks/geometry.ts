@@ -1,0 +1,5 @@
+import {readFileSync,writeFileSync,readdirSync} from 'node:fs'
+import {relative,join} from 'node:path'
+import {CircuitRunner} from '@tscircuit/eval'
+const root=process.cwd(),fsMap:any={};function collect(d:string){for(const e of readdirSync(d,{withFileTypes:true})){if(['node_modules','dist','checks','.git','.tscircuit'].includes(e.name))continue;const p=join(d,e.name);if(e.isDirectory())collect(p);else if(/\.(tsx?|json)$/.test(e.name))fsMap[relative(root,p)]=readFileSync(p,'utf8')}}collect(root)
+fsMap['index.circuit.tsx']=fsMap['index.circuit.tsx'].replace('<board','<board routingDisabled={true} schematicDisabled={true}').replace(/<copperpour[^>]*\/>/g,'').replace(/<pcbtrace source_trace_id="[^"]+" route=\{\[.*?\]\} \/>/g,'').replace(/<trace\s[\s\S]*?\/>/g,'<group />').replace(/<bus[^>]*\/>/g,'');writeFileSync('../geometry-input.tsx',fsMap['index.circuit.tsx']);const runner=new CircuitRunner();try{await runner.executeWithFsMap({fsMap,mainComponentPath:'index.circuit.tsx'});await runner.renderUntilSettled();writeFileSync('../geometry.json',JSON.stringify(await runner.getCircuitJson()))}finally{await runner.kill()}

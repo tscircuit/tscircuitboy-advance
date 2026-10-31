@@ -1,0 +1,15 @@
+{
+  "material": "PETG",
+  "style": "Integral bending-plastic edge tab, plain cover face and two opposite locating tongues",
+  "separate_latch_parts": 0,
+  "metal_springs": 0,
+  "beam_length_mm": 13,
+  "beam_thickness_mm": 0.8,
+  "beam_depth_mm": 1.2,
+  "parallel_flex_arms": 2,
+  "release_deflection_mm": 0.55,
+  "hook_projection_mm": 0.4,
+  "nominal_surface_strain": 0.003905325443786983,
+  "operation": "Press the textured plastic edge tab toward the cover centre, lift that edge, then slide the opposite tongues out",
+  "prototype_fit_test_required": true
+}

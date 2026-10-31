@@ -1,0 +1,229 @@
+{
+  "datasheets": [
+    "datasheets/C3038675.pdf page 1",
+    "datasheets/C139797.pdf page 2",
+    "datasheets/B3F.pdf page 5"
+  ],
+  "buttons": [
+    {
+      "component": "SW_UP",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_DOWN",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_LEFT",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_RIGHT",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_A",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_B",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_X",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_Y",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_SELECT",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_START",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_L",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "SW_R",
+      "signalPin": 1,
+      "groundPin": 4,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "U_BOOTSEL",
+      "signalPin": 1,
+      "groundPin": 3,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "component": "U_RUN",
+      "signalPin": 1,
+      "groundPin": 3,
+      "internalCommonPairsInImportedNumbering": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "revision": "R12 cleaned door-corner transition, local only",
+  "published": false,
+  "authoritativeMechanicalDirectory": "/workspace/work/gba-enclosure-r12-local/mechanical",
+  "geometry": "Exact rounded-rectangle section wires with degree3 smooth loft; plain sides, central battery bay and closed shoulder slots retained",
+  "rearShellStepSha256": "d190aca061edb08885d453ac8ec143bbb04c22b5447a3a676b0745cad41c5b9c",
+  "holderMounting": "M2 heat-set inserts hosted by rear shell, independent of PCB",
+  "componentFitFindings": 0,
+  "printablePartsPassed": 17,
+  "screwInsertPairsPassed": 17,
+  "fastenerChecksPassed": 57,
+  "latchAndShoulderChecksPassed": 37,
+  "physicalPrintFitRequired": true
+}

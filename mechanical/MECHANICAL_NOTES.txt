@@ -1,0 +1,7 @@
+R13: 76 CAD models, 17 printed bodies, 17 inserts and Phillips screws, four insulating washers. Current assembly sequence: ASSEMBLY_GUIDE.md. Print pack: https://registry-api.tscircuit.com/package_files/download?package_file_id=731d4c1b-571c-493b-ad41-3ad9b07c3b23
+
+Corrected model/ALPS control revision for0.0.36:
+Fit-print pack: https://registry-api.tscircuit.com/package_files/download?package_file_id=2c65aa5d-486e-426b-b658-b19df225c06c
+Assembly guide: https://registry-api.tscircuit.com/package_files/download?package_file_id=a98a15d5-467a-4f45-b484-802f97d35a65
+Aligned shoulder snapshot: https://registry-api.tscircuit.com/package_files/download?package_file_id=82ba886d-0326-4f0d-b5fc-6b07e1aaff46
+Use this updated front shell; volume wheel opening and hidden housing relief follow ALPS drawing.

@@ -1,0 +1,33 @@
+MODEL / ENCLOSURE REVIEW FOR0.0.36
+
+SW_L andSW_R retain their imported C231320 OBJ/STEP models. Explicit cadmodel
+components move both by+1.375 mm in board Y, restoring supplier pin origins
+at(-54,39.6,.8) and(54,39.6,.8). Four pins per switch align with their holes.
+No shoulder footprint, trace, pad, mounting point or cap dimensions change.
+
+All114 supplier meshes were checked against compiled footprint contacts.
+The mesh contact projection audit uses the PCB mid-plane for through-hole
+pins and a small solder-height band for SMD contact surfaces. The four bare
+test pads do not require component meshes. ALPS volume control has no sourced
+full supplier model; its inaccurate generic bounding box is suppressed.
+Its wheel remains a clearly identified drawing reference and its housing
+clearance is verified using the manufacturer dimensional envelope.
+
+ALPS RK10J12E002L drawing page2 specifies9.3 mm stake spacing. Its imported
+footprint used10 mm; the two untraced mechanical stake holes now match9.3 mm.
+Electrical pin rows and all334 trace branches/499 vias are unchanged.
+The14 mm wheel is0.9 mm thick within a1.8 mm seated assembly; its centre is
+nowZ2.15 mm above PCB coordinate origin, rather than the provisionalZ4.15 mm.
+The outer wheel window is lowered2 mm. A hidden internal pocket clears the
+housing while preserving the exterior opening and0.75 mm local lower rim.
+The wheel projects0.975 mm beyond the main exterior top edge.
+ALPS page3 terminal layout confirms the used channel:common pin1, wiper pin2,
+end pin3. The other channel is intentionally unused.
+
+77 component/enclosure fit checks pass. Corrected shoulder travel and battery
+latch checks pass37 cases. All43 assembly-access checks pass. The final front
+relief removes material only; it cannot introduce new assembly obstructions.
+All17 printable parts are watertight, consistently wound and connected, with
+open heat-set mounting pilots. Updated print pack and assembly views are linked
+in the mechanical notes. Physical printed tolerance, button return, flex bend
+limits, cable strain relief and control feel still require a prototype test.

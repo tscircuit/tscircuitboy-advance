@@ -1,0 +1,426 @@
+{
+  "pcb_json_sha256": "d0c0bc4dc2e1d36a82edc06ce29cafccb3d5049876e3c6b45dcd2a61c71b9be9",
+  "checks": [
+    {
+      "name": "Front/rear seam clearance",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs battery-door",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs aa-holder",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs battery-clip-m1",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs battery-clip-1",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs dpad",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs volume-wheel",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs shoulder-l",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs shoulder-r",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-body vs lcd-retainer-upper",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-body vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "touch-glass vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "speaker vs lcd-retainer-lower",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "speaker vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "speaker-retainer vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-retainer-lower vs lcd-retainer-upper",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-retainer-lower vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-retainer-lower vs dpad",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-retainer-upper vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-retainer-upper vs shoulder-r",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs button-y",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs button-x",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs button-b",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs button-a",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs button-select",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs button-start",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs dpad",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs volume-wheel",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs shoulder-l",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs shoulder-r",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-y vs button-x",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-y vs button-b",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-x vs button-a",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-b vs button-a",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "rear-shell vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "battery-door vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "speaker-retainer vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-retainer-lower vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "lcd-retainer-upper vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "front-shell vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "battery-clip-m1 vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "battery-clip-1 vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-y vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-x vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-b vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-a vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-select vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "button-start vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "dpad vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "shoulder-l vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "shoulder-r vs actual PCB outline",
+      "overlap_mm3": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "SW_R vs rear-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_R vs lcd-retainer-upper",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_R vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_R vs shoulder-r",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_L vs rear-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_L vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_L vs shoulder-l",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_START vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_START vs button-start",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_SELECT vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_SELECT vs button-select",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_Y vs button-y",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_X vs button-x",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_B vs button-b",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_A vs button-a",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_RIGHT vs dpad",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_LEFT vs dpad",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_DOWN vs dpad",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "SW_UP vs dpad",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "J_PWR_SW vs rear-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "J_PWR_SW vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "exact supplier STEP"
+    },
+    {
+      "name": "ALPS drawing housing envelope vs front-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "manufacturer dimensional envelope; corrected hidden relief"
+    },
+    {
+      "name": "ALPS drawing housing envelope vs rear-shell",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "manufacturer dimensional envelope"
+    },
+    {
+      "name": "ALPS drawing housing envelope vs lcd-retainer-upper",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "manufacturer dimensional envelope"
+    },
+    {
+      "name": "ALPS drawing housing envelope vs lcd-retainer-lower",
+      "overlap_mm3": 0.0,
+      "pass_": true,
+      "method": "manufacturer dimensional envelope"
+    }
+  ],
+  "method": "Actual imported model bounding envelopes, plus exact shell BRep intersections",
+  "frontReliefProof": {
+    "newFrontIsSubsetOfPreviouslyCheckedFront": true,
+    "addedVolumeMm3": 0.0,
+    "housingOverlapMm3": 0.0,
+    "minimumLocalOuterRimThicknessMm": 0.75,
+    "nominalHousingPocketForwardClearanceMm": 0.275
+  },
+  "final_circuit_sha256": "1454e3563fae125ba036ce56954985e67025a169db7069bc4936961888ea9576",
+  "supplierModelPosesUnchangedAfterFinalSourcePreparation": true,
+  "genericVolumePlaceholderSuppressed": true
+}

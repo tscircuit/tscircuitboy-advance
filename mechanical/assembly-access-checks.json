@@ -1,0 +1,562 @@
+[
+  {
+    "screw": "pcb-screw-0",
+    "stage": "PCB before mating front",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "pcb-screw-1",
+    "stage": "PCB before mating front",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "pcb-screw-2",
+    "stage": "PCB before mating front",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "pcb-screw-3",
+    "stage": "PCB before mating front",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "lcd-screw-0",
+    "stage": "front before caps/paddles and PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "lcd-screw-1",
+    "stage": "front before caps/paddles and PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "lcd-screw-2",
+    "stage": "front before caps/paddles and PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "lcd-screw-3",
+    "stage": "front before caps/paddles and PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "lcd-screw-4",
+    "stage": "front before caps/paddles and PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "speaker-screw-0",
+    "stage": "front before caps/paddles and PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "speaker-screw-1",
+    "stage": "front before caps/paddles and PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "keeper-screw-0",
+    "stage": "rear before PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "keeper-screw-1",
+    "stage": "rear before PCB",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "case-screw-0",
+    "stage": "exterior after closing",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "case-screw-1",
+    "stage": "exterior after closing",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "case-screw-2",
+    "stage": "exterior after closing",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "screw": "case-screw-3",
+    "stage": "exterior after closing",
+    "shaft_mm": 4,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "button-y",
+    "operation": "Rear-loaded cap insertion",
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "button-x",
+    "operation": "Rear-loaded cap insertion",
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "button-b",
+    "operation": "Rear-loaded cap insertion",
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "button-a",
+    "operation": "Rear-loaded cap insertion",
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "button-select",
+    "operation": "Rear-loaded cap insertion",
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "button-start",
+    "operation": "Rear-loaded cap insertion",
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "dpad",
+    "operation": "Rear-loaded cap insertion",
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "shoulder-l",
+    "operation": "Shoulder flange insertion after LCD retainer",
+    "path_yz": [
+      [
+        0.7,
+        -6.0
+      ],
+      [
+        0.7,
+        -5.75
+      ],
+      [
+        0.7,
+        -5.5
+      ],
+      [
+        0.7,
+        -5.25
+      ],
+      [
+        0.7,
+        -5.0
+      ],
+      [
+        0.7,
+        -4.75
+      ],
+      [
+        0.7,
+        -4.5
+      ],
+      [
+        0.7,
+        -4.25
+      ],
+      [
+        0.7,
+        -4.0
+      ],
+      [
+        0.7,
+        -3.75
+      ],
+      [
+        0.7,
+        -3.5
+      ],
+      [
+        0.7,
+        -3.25
+      ],
+      [
+        0.7,
+        -3.0
+      ],
+      [
+        0.7,
+        -2.75
+      ],
+      [
+        0.7,
+        -2.5
+      ],
+      [
+        0.7,
+        -2.25
+      ],
+      [
+        0.7,
+        -2.0
+      ],
+      [
+        0.7,
+        -1.75
+      ],
+      [
+        0.7,
+        -1.5
+      ],
+      [
+        0.7,
+        -1.25
+      ],
+      [
+        0.7,
+        -1.0
+      ],
+      [
+        0.7,
+        -0.75
+      ],
+      [
+        0.7,
+        -0.5
+      ],
+      [
+        0.7,
+        -0.25
+      ],
+      [
+        0.7,
+        0.0
+      ],
+      [
+        0.7,
+        0
+      ],
+      [
+        0.6,
+        0
+      ],
+      [
+        0.49999999999999994,
+        0
+      ],
+      [
+        0.3999999999999999,
+        0
+      ],
+      [
+        0.29999999999999993,
+        0
+      ],
+      [
+        0.19999999999999996,
+        0
+      ],
+      [
+        0.09999999999999987,
+        0
+      ],
+      [
+        -1.1102230246251565e-16,
+        0
+      ]
+    ],
+    "hits": [],
+    "pass": true
+  },
+  {
+    "part": "shoulder-r",
+    "operation": "Shoulder flange insertion after LCD retainer",
+    "path_yz": [
+      [
+        0.7,
+        -6.0
+      ],
+      [
+        0.7,
+        -5.75
+      ],
+      [
+        0.7,
+        -5.5
+      ],
+      [
+        0.7,
+        -5.25
+      ],
+      [
+        0.7,
+        -5.0
+      ],
+      [
+        0.7,
+        -4.75
+      ],
+      [
+        0.7,
+        -4.5
+      ],
+      [
+        0.7,
+        -4.25
+      ],
+      [
+        0.7,
+        -4.0
+      ],
+      [
+        0.7,
+        -3.75
+      ],
+      [
+        0.7,
+        -3.5
+      ],
+      [
+        0.7,
+        -3.25
+      ],
+      [
+        0.7,
+        -3.0
+      ],
+      [
+        0.7,
+        -2.75
+      ],
+      [
+        0.7,
+        -2.5
+      ],
+      [
+        0.7,
+        -2.25
+      ],
+      [
+        0.7,
+        -2.0
+      ],
+      [
+        0.7,
+        -1.75
+      ],
+      [
+        0.7,
+        -1.5
+      ],
+      [
+        0.7,
+        -1.25
+      ],
+      [
+        0.7,
+        -1.0
+      ],
+      [
+        0.7,
+        -0.75
+      ],
+      [
+        0.7,
+        -0.5
+      ],
+      [
+        0.7,
+        -0.25
+      ],
+      [
+        0.7,
+        0.0
+      ],
+      [
+        0.7,
+        0
+      ],
+      [
+        0.6,
+        0
+      ],
+      [
+        0.49999999999999994,
+        0
+      ],
+      [
+        0.3999999999999999,
+        0
+      ],
+      [
+        0.29999999999999993,
+        0
+      ],
+      [
+        0.19999999999999996,
+        0
+      ],
+      [
+        0.09999999999999987,
+        0
+      ],
+      [
+        -1.1102230246251565e-16,
+        0
+      ]
+    ],
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "pcb-insert-0",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "pcb-insert-1",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "pcb-insert-2",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "pcb-insert-3",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "lcd-insert-0",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "lcd-insert-1",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "lcd-insert-2",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "lcd-insert-3",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "lcd-insert-4",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "speaker-insert-0",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "speaker-insert-1",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "keeper-insert-0",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "keeper-insert-1",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "case-insert-0",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "case-insert-1",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "case-insert-2",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  },
+  {
+    "insert": "case-insert-3",
+    "operation": "Slim heat-set tip access into bare shell",
+    "shaft_mm": 3,
+    "hits": [],
+    "pass": true
+  }
+]

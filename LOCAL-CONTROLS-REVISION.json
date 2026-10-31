@@ -1,0 +1,12 @@
+{
+  "switches": 10,
+  "supplier": "C3038675",
+  "sharedCapPositionsVerified": true,
+  "supplierCadVerified": true,
+  "lcdPosition": {
+    "x": 45,
+    "y": 15.4
+  },
+  "gerberShorts": 0,
+  "enclosureStatus": "R8 v0.0.31: plain cover with integral bending-plastic edge tab, shallow grips, exterior edge controls and supplier-model B3F-3152 broad shoulders. PCB/fit/print/motion checks passed; physical fit qualification pending."
+}

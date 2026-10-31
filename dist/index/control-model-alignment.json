@@ -1,0 +1,27 @@
+{
+  "shoulders": [
+    {
+      "name": "SW_L",
+      "modelPosition": {
+        "x": -54,
+        "y": 39.6,
+        "z": 0.8
+      },
+      "pinsAligned": 4,
+      "passed": true
+    },
+    {
+      "name": "SW_R",
+      "modelPosition": {
+        "x": 54,
+        "y": 39.6,
+        "z": 0.8
+      },
+      "pinsAligned": 4,
+      "passed": true
+    }
+  ],
+  "volumeStakeSpacingMm": 9.3,
+  "volumeWheelCenterZMm": 2.15,
+  "passed": true
+}

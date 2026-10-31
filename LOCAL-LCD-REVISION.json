@@ -1,0 +1,20 @@
+{
+  "part": "AFC07-S50ECC-00",
+  "jlcpcb": "C11098",
+  "contactType": "top",
+  "supplierCadRotationDeg": 270,
+  "originalSupplierCadRotationDeg": 90,
+  "buttonsRestored": true,
+  "pin1BoardY": 27.650801,
+  "pin50BoardY": 3.149199000000001,
+  "originalPinOrderPreserved": true,
+  "vddiSupplyLengthMm": 3.7771889704944375,
+  "maxLocalDecouplingLengthMm": 5.5,
+  "buildPassed": true,
+  "newRevisionPublished": true,
+  "flex": "Two folds; supplier minimum bend radius unspecified; actual display requires bend and tip fit confirmation.",
+  "enclosureIntegrated": true,
+  "mechanicalChecksPassed": true,
+  "publishedVersion": "0.0.29",
+  "hostedBuildVerified": false
+}

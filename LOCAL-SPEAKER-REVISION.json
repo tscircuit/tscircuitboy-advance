@@ -1,0 +1,24 @@
+{
+  "localOnly": true,
+  "published": false,
+  "connector": "C160388",
+  "speaker": "CMS-23558N-L152B",
+  "changedCopperBranches": [
+    "pcb_trace_241",
+    "pcb_trace_242",
+    "pcb_trace_243",
+    "pcb_trace_275",
+    "pcb_trace_276"
+  ],
+  "unrelatedPcbPlacementsPreserved": true,
+  "unrelatedAuthoredRouteGeometryPreserved": true,
+  "removedGroundStitchVias": 2,
+  "newThroughVias": 8,
+  "physicalDrcErrors": 0,
+  "gerberShorts": 0,
+  "splitPhysicalNets": 0,
+  "retainedLengthFindings": 9,
+  "retainedWidthWarnings": 23,
+  "speakerPowerLimiterImplemented": false,
+  "speakerPowerLimitRequiredWatt": 1
+}

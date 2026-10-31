@@ -1,0 +1,40 @@
+LOCAL INDUCTOR REPLACEMENT REVIEW — based on published v0.0.37
+
+L_BAT_BUCKBOOST: replace Coilcraft XGL4020-152MEC / C7417180 with
+APV APH0420T1R5M / C5349662. Live JLCPCB listing: 18,246 stocked;
+small-quantity component price USD 0.0978 versus USD 5.9462 for Coilcraft.
+Extended-component assembly charges and attrition are separate.
+
+APV manufacturer datasheet, revised 2026-08-12:
+1.5uH +/-20%; DCR max 46mOhm; Isat typical 5.50A, other tabulated
+Isat value 4.57A; Irms typical 5.00A, other tabulated value 4.41A.
+Typical Isat uses a 30% inductance drop; typical Irms uses a 40C rise.
+Do not treat typical current figures as temperature-independent guarantees.
+Body nominal 4.4x4.2x1.8mm, tolerance envelope 4.75x4.5x2.0mm.
+Imported supplier OBJ is 4.4x4.2x2.1mm; clearance checked with the
+larger 4.75x4.5x2.1mm envelope. Real supplier STEP/OBJ retained.
+
+Use APV recommended land pattern, page 2: two 1.50x2.50mm pads,
+2.20mm inner-edge gap, centres +/-1.85mm. Imported library pad geometry
+was corrected to this manufacturer drawing. Nonpolar device rotated180deg
+to retain left/right logical port correspondence. Centre shifted0.30mm left.
+Two switching branches remain top-layer, 0.40mm wide, below5.5mm.
+Power-save control uses two0.30/0.45mm full-through vias and a bottom route.
+VIN-to-mode branch adjusted around the larger pad. USB routes unchanged.
+No DRC, spacing, length or power-width limits relaxed.
+
+TI TPS63070 datasheet section9.2.2.2 requires actual load-based saturation
+selection with20% peak-current margin. Conservative example:
+VIN3.2V, VOUT5.1V, efficiency85%, L1.2uH, f2.1MHz, output1.5A gives
+3.049A peak; adding20% gives3.659A, below4.57A tabulated value.
+At2A output the same20% margin is4.784A, exceeding4.57A: this replacement
+is not qualified here for continuous2A worst-case boost operation.
+The1.5A calculation is an assumption, not a measured board load or enforced
+current limit. Prototype must verify maximum-load current, startup behavior,
+voltage stability and temperature at low batteries, high brightness and audio.
+Higher DCR increases copper losses compared with the Coilcraft part.
+
+Local native build, all original mapped net partitions, USB ground-reference,
+button contact, schematic and PCB style checks pass. Existing23 requested-width
+warnings retained. All22 enclosure envelope checks pass.
+Included in revision0.0.39; see ELECTRICAL_PROTOTYPE_REVIEW.txt for current qualification.

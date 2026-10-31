@@ -1,0 +1,14 @@
+[
+  {
+    "x": -62,
+    "y": -23,
+    "original_surface_z": -17.116410940627084,
+    "nominal_depth": 0.75
+  },
+  {
+    "x": 62,
+    "y": -23,
+    "original_surface_z": -17.116410940627084,
+    "nominal_depth": 0.75
+  }
+]

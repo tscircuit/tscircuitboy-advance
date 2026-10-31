@@ -1,0 +1,54 @@
+{
+  "localOnly": false,
+  "published": true,
+  "basePublishedVersion": "0.0.23",
+  "checkedUtc": "2026-10-13T22:18:16.148893+00:00",
+  "placements": {
+    "J_PWR_SW": {
+      "pcbX": -27,
+      "pcbY": 36.5,
+      "pcbRotation": 90,
+      "sideOfUsb": "left"
+    },
+    "RV_VOLUME": {
+      "pcbX": 22.1,
+      "pcbY": 34,
+      "pcbRotation": 0,
+      "sideOfUsb": "right"
+    },
+    "R_LCD_LED": {
+      "pcbX": 29,
+      "pcbY": 26.9,
+      "purpose": "Clearance for moved volume wheel"
+    }
+  },
+  "reroutedBranches": 10,
+  "addedFullDepthVias": 20,
+  "buildPassed": true,
+  "physicalDrcErrors": 0,
+  "shorts": 0,
+  "gerberAllLayerShorts": 0,
+  "splitPhysicalNets": 0,
+  "physicalComponentPorts": 462,
+  "preservedOriginalMappedNetGroups": 133,
+  "retainedTraceLengthFindings": 9,
+  "retainedWidthWarnings": 23,
+  "schematicSheets": 11,
+  "schematicFindings": 0,
+  "evidenceDirectory": "/workspace/work/top-edge-controls-v2",
+  "revision": "Wider spacing and exposed volume rim",
+  "relativeMovementMm": {
+    "powerLeft": 12,
+    "volumeRight": 2.7,
+    "volumeTowardTop": 2.9
+  },
+  "nominalDrawnWheelRimBeyondPcbEdgeMm": 2.838,
+  "reroutedBranchesThisRevision": 10,
+  "addedFullDepthViasThisRevision": 7,
+  "publishedVersion": "0.0.24",
+  "hostedBuildPassed": true,
+  "hostedValidationPending": false,
+  "hostedGeometryMatchesLocalExactly": true,
+  "publicationEvidenceDirectory": "/workspace/work/top-edge-controls-v2/publication-024",
+  "publishedWebsiteStyleAnalysisFindings": 0
+}

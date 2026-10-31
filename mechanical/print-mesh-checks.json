@@ -1,0 +1,155 @@
+[
+  {
+    "part": "rear-shell",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 94566.3023459299
+  },
+  {
+    "part": "battery-door",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 10438.846802129789
+  },
+  {
+    "part": "speaker-retainer",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 302.5886096202471
+  },
+  {
+    "part": "lcd-retainer-lower",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 746.8444985723895
+  },
+  {
+    "part": "lcd-retainer-upper",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 252.81527295398882
+  },
+  {
+    "part": "front-shell",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 33462.38576699637
+  },
+  {
+    "part": "battery-clip-m1",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 132.84909616280478
+  },
+  {
+    "part": "battery-clip-1",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 132.84909616280478
+  },
+  {
+    "part": "button-y",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 518.9577343539993
+  },
+  {
+    "part": "button-x",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 515.1664878806891
+  },
+  {
+    "part": "button-b",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 518.9577343539993
+  },
+  {
+    "part": "button-a",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 518.9577343539993
+  },
+  {
+    "part": "button-select",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 283.1962985055807
+  },
+  {
+    "part": "button-start",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 283.1962985055807
+  },
+  {
+    "part": "dpad",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 2376.9509602744733
+  },
+  {
+    "part": "shoulder-l",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 616.3481442046326
+  },
+  {
+    "part": "shoulder-r",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_z_min": 0.0,
+    "positive_bodies": 1,
+    "enclosed_voids": 0,
+    "volume_mm3": 616.3481442046326
+  }
+]

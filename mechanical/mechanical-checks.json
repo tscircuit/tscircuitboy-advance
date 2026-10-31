@@ -1,0 +1,82 @@
+[
+  {
+    "name": "CAD solids valid",
+    "pass_": true,
+    "detail": "OpenCascade BRep validation"
+  },
+  {
+    "name": "Printable pieces connected",
+    "pass_": true,
+    "detail": "Each printable mesh has one solid"
+  },
+  {
+    "name": "lcd-body vs front-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "lcd-body vs rear-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "lcd-body vs battery-door",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "touch-glass vs front-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "touch-glass vs rear-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "touch-glass vs battery-door",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "aa-holder vs front-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "aa-holder vs rear-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "aa-holder vs battery-door",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "speaker vs front-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "speaker vs rear-shell",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "speaker vs battery-door",
+    "pass_": true,
+    "detail": "overlap 0.0000 mm3"
+  },
+  {
+    "name": "Speaker above PCB",
+    "pass_": true,
+    "detail": "Speaker bottom 5.95 mm; worst local component top 2.90 mm"
+  },
+  {
+    "name": "Local-only enclosure revision",
+    "pass_": true,
+    "detail": "Validated v0.0.29 PCB and control placements retained; enclosure not published"
+  }
+]

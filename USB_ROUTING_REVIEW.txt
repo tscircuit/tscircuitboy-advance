@@ -1,0 +1,41 @@
+USB DIFFERENTIAL ROUTING REVIEW - v0.0.37
+
+Release v0.0.37 contains the validated USB routing update.
+The retained enclosure, component footprints, power-switch location, display
+connector, real supplier models, and buttons are unchanged.
+
+Long connector-to-27-ohm-resistor paths are paired on L1 with no signal vias.
+The primary D- contact is B7 and D+ is A6; the other USB-C duplicate contacts
+remain tied correctly through their short breakout branches. Both termination
+resistors remain in their original positions near RP2350.
+
+Nominal geometry: JLC04161H-3313, 90 ohm coplanar differential, L1 over L2;
+0.131318 mm width, 0.15 mm pair gap, 0.18 mm gap to coplanar ground.
+Supplier calculator: https://jlcpcb.com/pcb-impedance-calculator
+Stackup: https://jlcpcb.com/impedance
+RP2350 guide, section 5.1:
+https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf
+
+Short resistor-to-MCU escapes remain the original routes: D- approx. 2.03 mm,
+no vias; D+ approx. 4.27 mm, two vias. These breakouts do not have a controlled
+90-ohm differential geometry. At 12 Mbps, the approx. 1.60 mm mismatch between the primary B7/A6 paths is small; actual USB compliance/eye testing has not been performed.
+The paired trunks measure D- 47.38 mm and D+ 46.73 mm (0.65 mm skew).
+Including the duplicate-contact stubs and chip escapes, the A6/A7 plug path
+has 3.66 mm skew and the B6/B7 path has 3.95 mm skew. These are PCB path
+estimates, not measured USB timing. Do not describe the entire USB path as
+via-free or USB-certified.
+
+Neighboring trace branches were adjusted to preserve clearances and ground
+reference under the long USB pair. Power-path widths were preserved. Generated
+via endpoint port IDs were removed from authored routes because deleting or
+adding vias changes those virtual IDs; actual component endpoints remain.
+No DRC, spacing, via-size, or maximum-length limits were relaxed.
+
+The full local build and independent all-layer Gerber short check pass.
+Exact polygon subtraction finds zero missing L2 ground under both paired
+trunks. All component PCB positions, rotations, layers and footprint
+dimensions match published v0.0.36.
+
+Validation evidence is under dist/index: validation.json, physical-checks.json,
+physical-connectivity.json, usb-differential-routing.json, and schematic reports.
+The retained 23 requested-width warnings are separate from errors.

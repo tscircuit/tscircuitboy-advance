@@ -1,0 +1,14 @@
+[
+  {
+    "washer": "pcb-washer-2",
+    "part": "SW_L",
+    "overlap_mm3": 0.0,
+    "pass": true
+  },
+  {
+    "washer": "pcb-washer-3",
+    "part": "SW_R",
+    "overlap_mm3": 0.0,
+    "pass": true
+  }
+]

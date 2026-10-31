@@ -1,0 +1,229 @@
+{
+  "datasheets": [
+    "checks/datasheets/C3038675.pdf:1",
+    "checks/datasheets/C139797.pdf:2",
+    "checks/datasheets/B3F.pdf:5"
+  ],
+  "buttons": [
+    {
+      "name": "U_BOOTSEL",
+      "signalPin": 1,
+      "groundPin": 3,
+      "importedCommonPairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "U_RUN",
+      "signalPin": 1,
+      "groundPin": 3,
+      "importedCommonPairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_UP",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_DOWN",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_LEFT",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_RIGHT",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_A",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_B",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_X",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_Y",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_SELECT",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_START",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_L",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    },
+    {
+      "name": "SW_R",
+      "signalPin": 1,
+      "groundPin": 4,
+      "importedCommonPairs": [
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "result": "opposite_contacts"
+    }
+  ]
+}
