@@ -34,7 +34,7 @@
     "Webcam snapshots establish image correctness, not precise optical frame-rate measurement; fps comes from completed display transfers.",
     "Audio not implemented."
   ],
-  "experimental": true,
+  "experimental": false,
   "update_semantics": "Nonempty scanline fields; each physical row belongs to one of three fields, not full-frame fps",
   "full_screen_field_updates_per_second": [
     24.18,
@@ -45,6 +45,7 @@
     34.93
   ],
   "field_history_test_cases_passed": 40,
-  "physical_user_evaluation": "Pending",
-  "webcam_latest": "Full-screen image visible at 50 MHz; motion softening/combing expected. 60 MHz two-field trial showed noise."
+  "physical_user_evaluation": "User confirmed: Smoother and acceptable",
+  "webcam_latest": "Full-screen image visible at 50 MHz; motion softening/combing expected. 60 MHz two-field trial showed noise.",
+  "acceptance_note": "Accepted for gameplay with three-field scanline tradeoff; field-update rates are not complete-frame rates."
 }

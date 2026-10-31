@@ -1,16 +1,16 @@
-# Experimental full-screen RGB666 scanline fields
+# Full-screen RGB666 scanline fields
 
-This branch tests three interleaved sets of physical scanlines at full 480×320 coverage. It is an appearance/performance experiment, not a replacement qualification for the progressive build on main.
+This firmware uses three interleaved sets of physical scanlines at full 480×320 coverage. The user tested it on the device and confirmed: “Smoother and acceptable.”
 
 Each new Doom game tick updates one set of rows (y modulo 3). Three compact SRAM snapshots retain exactly the rows belonging to each set. Per-row changed spans reduce transfer size; outgoing RGB666 DMA spans are rounded outward to four-byte alignment. CPU remains at 150 MHz and PIO pixel clock remains at 50 MHz. There is no color dithering.
 
-The E1M1 automated run measured 29–35 completed field updates/sec during later movement/firing windows (an earlier mixed stationary/movement window was 24.18). These are **field updates, not complete frames**: an individual row receives new motion roughly 10–12 times/sec at those rates. The telemetry name `display_fps_x100` is inherited and counts these completed nonempty fields in this experimental build. Combing, softened moving edges and staggered palette flashes are possible. The user is evaluating whether the motion tradeoff is acceptable.
+The E1M1 automated run measured 29–35 completed field updates/sec during later movement/firing windows (an earlier mixed stationary/movement window was 24.18). These are **field updates, not complete frames**: an individual row receives new motion roughly 10–12 times/sec at those rates. The telemetry name `display_fps_x100` is inherited and counts these completed nonempty fields in this build. Combing, softened moving edges and staggered palette flashes are possible. The user accepted this motion tradeoff.
 
 The webcam showed full-screen output without the earlier blanking. A separate two-field trial reached roughly 22–26 updates/sec; raising that trial to 60 MHz showed noise and was rejected. The first external-RAM-history prototype slowed rendering and was replaced with these compact SRAM field histories.
 
 `tests/test_adaptive_scan.py` compiles the actual field planner and dispatcher with a simulated LCD: 40 cases exercise full/sparse changes, palette changes, resize, complete convergence after three fields, scanline ownership and DMA alignment. Flash readback verification passed. `performance.log` records the run.
 
-The main branch retains the prior progressive firmware and LCD test. The working device currently has this experiment loaded. Earlier source sections below describe the baseline for setup, controls and hardware; the display implementation and rates above supersede baseline claims.
+The prior progressive firmware remains available at commit `764f883`; the separate LCD test remains in `../lcd-test`. The working device has this accepted scanline-field build loaded. Earlier source sections below describe the baseline for setup, controls and hardware; the display implementation and rates above supersede baseline claims.
 
 # GBA game selector and Doom — native RP2350 firmware
 
