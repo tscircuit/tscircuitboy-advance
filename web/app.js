@@ -9,7 +9,7 @@ for(let i=3;i<display.data.length;i+=4) display.data[i]=255;
 let worker, launch, paused=false, saves=[], frameCount=0, fpsTime=0, field=0, loadId=0;
 const held = new Map();
 const mapping={ArrowUp:0,ArrowDown:1,ArrowLeft:2,ArrowRight:3,KeyZ:4,Enter:4,KeyX:5,ShiftLeft:6,ShiftRight:6,KeyC:7,Tab:8,Escape:9,KeyQ:10,KeyE:11};
-function status(text) { $('status').textContent=text; }
+function status(text) { $('status').textContent=text; $('status').hidden=!text; }
 function log(text) { $('log').textContent=($('log').textContent+'\n'+text).slice(-14000); }
 function buttons() {
   let mask=0; for(const bit of held.values()) mask |= 1<<bit;
@@ -20,7 +20,7 @@ function release() { held.clear(); buttons(); }
 function setPause(value) {
   if(!worker) return;
   paused=value; release(); worker.postMessage({type:'pause',value});
-  $('paused').hidden=!value; $('pause').textContent=value?'Resume':'Pause';
+  $('paused').hidden=!value; $('pause').textContent=value?'▶':'Ⅱ'; $('pause').setAttribute('aria-label',value?'Resume':'Pause'); $('pause').title=value?'Resume':'Pause';
   if(value) $('fps').textContent='paused';
   frameCount=0; fpsTime=performance.now();
 }
@@ -49,7 +49,7 @@ function start(config) {
   launch=config; paused=false; field=0;
   display.data.fill(0); for(let i=3;i<display.data.length;i+=4) display.data[i]=255;
   ctx.fillStyle='#080d0c';ctx.fillRect(0,0,480,320);
-  $('paused').hidden=true; $('pause').textContent='Pause'; $('save-name-form').hidden=true;
+  $('paused').hidden=true; $('pause').textContent='Ⅱ'; $('pause').setAttribute('aria-label','Pause'); $('pause').title='Pause'; $('save-name-form').hidden=true;
   $('empty').hidden=true; $('log').textContent='';
   $('game-title').textContent=config.game==='doom'?'DOOM / '+config.name:'STAR TEST / PORTABLE C';
   status('Starting '+(config.game==='doom'?'Doom':'Star Test')+'…');
@@ -66,16 +66,16 @@ function start(config) {
     }
     if(data.type==='ready') {
       frameCount=0; fpsTime=performance.now();
-      status(config.game==='doom'?'Ready. Press Z or Enter to choose New Game. Click the screen for keyboard controls.':'Move with ← →. Shoot with Z. After a crash, press Z to restart.');
+      status('');
     }
     if(data.type==='error') {
       status('Could not run game: '+data.message);log(data.message);
-      worker.terminate();worker=null;release();$('pause').disabled=true;$('export').disabled=true;
+      worker.terminate();worker=null;release();$('pause').disabled=true;$('export').disabled=true;$('empty').hidden=false;$('paused').hidden=true;
     }
     if(data.type==='saves') {
       const blob=new Blob([JSON.stringify({format:'tscircuitboy-saves-v1',files:data.files})],{type:'application/json'});
       const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='tscircuitboy-doom-saves.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
-      $('save-status').textContent='Exported '+data.files.length+' save/config files. Import this file before a future launch.';
+      $('save-status').hidden=false; $('save-status').textContent='Exported '+data.files.length+' save/config files. Import this file before a future launch.';
     }
   };
   worker.onerror=e=>{status('Browser worker error: '+e.message);log(e.message);};
@@ -120,10 +120,10 @@ $('saves').onchange=async e=>{
     const bundle=JSON.parse(await file.text());
     if(bundle.format!=='tscircuitboy-saves-v1'||!Array.isArray(bundle.files)||bundle.files.length>100)throw Error('Invalid save bundle.');
     for(const f of bundle.files) {
-      if(typeof f.path!=='string'||!/^\/games\/doom\/(?:[\w-]+\/)*[\w.-]+$/.test(f.path)||/\.wad$/i.test(f.path)||!Array.isArray(f.bytes)||!f.bytes.every(b=>Number.isInteger(b)&&b>=0&&b<=255))throw Error('Invalid save file.');
+      if(typeof f.path!=='string'||!/^\/games\/doom\/(?:[\w.-]+\/)*[\w.-]+$/.test(f.path)||f.path.split('/').some(p=>p==='.'||p==='..')||/\.wad$/i.test(f.path)||!Array.isArray(f.bytes)||!f.bytes.every(b=>Number.isInteger(b)&&b>=0&&b<=255))throw Error('Invalid save file.');
     }
-    saves=bundle.files;$('save-status').textContent='Imported '+saves.length+' files. Launch or restart Doom to use them.';
-  }catch(e){$('save-status').textContent=e.message;}
+    saves=bundle.files;$('save-status').hidden=false;$('save-status').textContent='Imported '+saves.length+' files. Launch or restart Doom to use them.';
+  }catch(e){$('save-status').hidden=false;$('save-status').textContent=e.message;}
   e.target.value='';
 };
 window.addEventListener('keydown',e=>{
@@ -144,3 +144,11 @@ $('save-name-form').onsubmit=e=>{
   e.preventDefault();$('save-confirm').disabled=true;
   worker?.postMessage({type:'save-name',name:$('save-name').value});
 };
+
+$('games').onclick=()=>{
+  setPause(true); $('pause').disabled=true; $('paused').hidden=true; $('empty').hidden=false;
+  $('save-name-form').hidden=true; status(''); $('shareware').focus();
+};
+for(const label of document.querySelectorAll('label[role="button"]')) {
+  label.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();$(label.htmlFor).click();}});
+}

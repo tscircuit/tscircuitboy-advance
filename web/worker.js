@@ -61,7 +61,7 @@ onmessage = async ({data}) => {
       onAbort:reason=>postMessage({type:'error',message:String(reason)})});
     game.FS.mkdirTree('/games/doom');
     for (const file of data.saves || []) {
-      if (!/^\/games\/doom\/(?:[\w-]+\/)*[\w.-]+$/.test(file.path) || /\.wad$/i.test(file.path)) throw Error('Invalid save path');
+      if (!/^\/games\/doom\/(?:[\w.-]+\/)*[\w.-]+$/.test(file.path) || file.path.split('/').some(p=>p==='.'||p==='..') || /\.wad$/i.test(file.path)) throw Error('Invalid save path');
       game.FS.mkdirTree(file.path.slice(0,file.path.lastIndexOf('/')));
       game.FS.writeFile(file.path,new Uint8Array(file.bytes));
     }

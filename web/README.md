@@ -25,12 +25,14 @@ Open http://127.0.0.1:8765. `EMCC=/path/to/emcc python3 web/build.py` also works
 Use HTTP(S), not `file://`, because the worker loads JS and WASM assets.
 No cross-origin isolation headers or server backend are required.
 
-Choose **Star Test** for an asset-free game. Doom accepts a local Doom/Doom II
-IWAD or downloads the original shareware episode from the Doom-Utils archive.
+Every page load opens directly on game selection. Choose **Star Test** for an
+asset-free game or **Doom** for the original shareware episode from the Doom-Utils
+archive. **Advanced controls → Open WAD** loads a local Doom/Doom II IWAD.
+The grid icon returns to game selection; controls and advanced options stay collapsed.
 WADs are neither committed nor included in the build artifact. Local files are
 copied into the worker's in-memory filesystem and are not uploaded.
-The optional shareware fetch contacts GitHub; fonts use Google Fonts with local
-fallbacks. The rest of gameplay is local after assets load.
+The optional shareware fetch contacts GitHub. Gameplay is local after assets
+load; the interface uses system fonts and has no external UI dependencies.
 
 ### Controls and saves
 
