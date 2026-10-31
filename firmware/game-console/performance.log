@@ -1,0 +1,72 @@
+FULL SCREEN 480x320
+LAUNCH /games/doom/doom1.wad
+Doom Generic 0.1
+Z_Init: Init zone memory allocation daemon.
+zone memory: 11010018, 600000 allocated for zone
+Using /games/doom for configuration and saves
+V_Init: allocate screens.
+M_LoadDefaults: Load system defaults.
+default file: /games/doom/default.cfg
+saving config in /games/doom/default.cfg
+extra configuration file: /games/doom/extra.cfg
+W_Init: Init WADfiles.
+adding /games/doom/doom1.wad
+Using /games/doom/saves/doom.wad/ for savegames
+===========================================================================
+DOOM Shareware
+===========================================================================
+Doom Generic is free software, covered by the GNU General Public
+License.  There is NO warranty; not even for MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. You are welcome to change and distribute
+copies under certain conditions. See the source for more information.
+===========================================================================
+I_Init: Setting up machine state.
+M_Init: Init miscellaneous info.
+R_Init: Init DOOM refresh daemon - ..
+...
+.
+.
+.
+.
+.
+.........
+P_Init: Init Playloop state.
+S_Init: Setting up sound.
+D_CheckNetGame: Checking network game status.
+startskill 2  deathmatch: 0  startmap: 1  startepisode: 1
+player 1 of 1 (1 nodes)
+Emulating the behavior of the 'Doom 1.9' executable.
+HU_Init: Setting up heads up display.
+ST_Init: Init status bar.
+TITLE DOOM Shareware
+I_InitGraphics: framebuffer: x_res: 320, y_res: 200, x_virtual: 320, y_virtual: 200, bpp: 8
+I_InitGraphics: framebuffer: RGBA: 0000, red_off: 0, green_off: 0, blue_off: 0, transp_off: 0
+I_InitGraphics: DOOM screen size: w x h: 320 x 200
+I_InitGraphics: Auto-scaling factor: 1
+PERF render_fps_x100=8 display_fps_x100=0 render_frames=1 displayed=0 copy_us=271 spi_hz=50000000 gametic=1 map=0 buttons=000
+KEY 010 100
+KEY 010 100
+KEY 010 100
+PERF render_fps_x100=5451 display_fps_x100=397 render_frames=275 displayed=20 copy_us=1106 spi_hz=50000000 gametic=136 map=1 buttons=000
+PERF render_fps_x100=5105 display_fps_x100=1296 render_frames=531 displayed=85 copy_us=2187 spi_hz=50000000 gametic=302 map=1 buttons=000
+KEY 004 8000
+PERF render_fps_x100=5770 display_fps_x100=1377 render_frames=820 displayed=154 copy_us=822 spi_hz=50000000 gametic=478 map=1 buttons=000
+PERF render_fps_x100=6121 display_fps_x100=1615 render_frames=1127 displayed=235 copy_us=833 spi_hz=50000000 gametic=653 map=1 buttons=000
+KEY 001 7000
+PERF render_fps_x100=7007 display_fps_x100=1716 render_frames=1478 displayed=321 copy_us=2128 spi_hz=50000000 gametic=829 map=1 buttons=000
+KEY 010 10000
+PERF render_fps_x100=6997 display_fps_x100=2771 render_frames=1829 displayed=460 copy_us=2179 spi_hz=50000000 gametic=1004 map=1 buttons=000
+PERF render_fps_x100=6997 display_fps_x100=3398 render_frames=2179 displayed=630 copy_us=1894 spi_hz=50000000 gametic=1179 map=1 buttons=000
+PERF render_fps_x100=7005 display_fps_x100=3433 render_frames=2530 displayed=802 copy_us=1864 spi_hz=50000000 gametic=1355 map=1 buttons=000
+DOOM frames=2601 gametic=1391 state=0 map=1 menu=0
+PLAYER x=87030276 y=-231734895 angle=4123000832 health=101 ammo=25
+
+SMALL VIEWPORT 320x240
+KEY 004 30000
+PERF render_fps_x100=6210 display_fps_x100=1218 render_frames=3543 displayed=878 copy_us=849 spi_hz=50000000 gametic=1878 map=1 buttons=000
+PERF render_fps_x100=6415 display_fps_x100=3347 render_frames=3865 displayed=1046 copy_us=843 spi_hz=50000000 gametic=2053 map=1 buttons=000
+PERF render_fps_x100=6236 display_fps_x100=3327 render_frames=4178 displayed=1213 copy_us=867 spi_hz=50000000 gametic=2229 map=1 buttons=000
+PERF render_fps_x100=6110 display_fps_x100=3314 render_frames=4484 displayed=1379 copy_us=982 spi_hz=50000000 gametic=2405 map=1 buttons=000
+PERF render_fps_x100=6232 display_fps_x100=3335 render_frames=4796 displayed=1546 copy_us=850 spi_hz=50000000 gametic=2580 map=1 buttons=000
+PERF render_fps_x100=6394 display_fps_x100=3337 render_frames=5116 displayed=1713 copy_us=935 spi_hz=50000000 gametic=2755 map=1 buttons=000
+PERF render_fps_x100=5838 display_fps_x100=2471 render_frames=5409 displayed=1837 copy_us=2191 spi_hz=50000000 gametic=2930 map=1 buttons=000
